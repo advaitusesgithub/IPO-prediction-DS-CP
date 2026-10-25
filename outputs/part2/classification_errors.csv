@@ -1,0 +1,21 @@
+candidate_id,task,fold_id,ipo_id,company_name,s0_cutoff_at,fit_cutoff,actual,prediction,absolute_error_inr,predicted_class
+classification_random_forest_core_setting1,classification,2024_Q1,epack-durable-482bdd,EPACK Durable Limited,2024-01-19 09:00:00+05:30,2024-01-09 09:00:00+05:30,0.0,0.8005396863310827,,1.0
+classification_random_forest_core_setting1,classification,2024_Q1,capital-small-finance-bank-ee6b2b,Capital Small Finance Bank Ltd,2024-02-07 09:00:00+05:30,2024-01-09 09:00:00+05:30,0.0,0.7007819841923691,,1.0
+classification_random_forest_core_setting1,classification,2024_Q1,jana-small-finance-bank-357ad6,Jana Small Finance Bank Limited,2024-02-07 09:00:00+05:30,2024-01-09 09:00:00+05:30,0.0,0.8228328588033679,,1.0
+classification_random_forest_core_setting1,classification,2024_Q1,entero-healthcare-solutions-4b54b8,Entero Healthcare Solutions Limited,2024-02-09 09:00:00+05:30,2024-01-09 09:00:00+05:30,0.0,0.8178902716339271,,1.0
+classification_random_forest_core_setting1,classification,2024_Q1,r-k-swamy-021e0c,R K Swamy Limited,2024-03-04 09:00:00+05:30,2024-01-09 09:00:00+05:30,0.0,0.7153916487477381,,1.0
+classification_random_forest_core_setting1,classification,2024_Q1,j-g-chemicals-fde1d8,J.G.Chemicals Limited,2024-03-05 09:00:00+05:30,2024-01-09 09:00:00+05:30,0.0,0.740900748053992,,1.0
+classification_random_forest_core_setting1,classification,2024_Q1,gopal-snacks-db7e86,Gopal Snacks Limited,2024-03-06 09:00:00+05:30,2024-01-09 09:00:00+05:30,0.0,0.7266826656074186,,1.0
+classification_random_forest_core_setting1,classification,2024_Q1,popular-vehicles-services-ede67d,Popular Vehicles and Services Limited,2024-03-12 09:00:00+05:30,2024-01-09 09:00:00+05:30,0.0,0.7895715181395001,,1.0
+classification_random_forest_core_setting1,classification,2024_Q2,aadhar-housing-finance-28b4be,Aadhar Housing Finance Limited,2024-05-08 09:00:00+05:30,2024-04-03 09:00:00+05:30,0.0,0.5579718180141038,,1.0
+classification_random_forest_core_setting1,classification,2024_Q3,ola-electric-mobility-28482e,Ola Electric Mobility Limited,2024-08-02 09:00:00+05:30,2024-07-03 09:00:00+05:30,0.0,0.8156705028249359,,1.0
+classification_random_forest_core_setting1,classification,2024_Q3,baazar-style-retail-b07c2e,Baazar Style Retail Limited,2024-08-30 09:00:00+05:30,2024-07-03 09:00:00+05:30,0.0,0.6930213218131785,,1.0
+classification_random_forest_core_setting1,classification,2024_Q3,kross-f87f7f,Kross Limited,2024-09-09 09:00:00+05:30,2024-07-03 09:00:00+05:30,0.0,0.7291519641773658,,1.0
+classification_random_forest_core_setting1,classification,2024_Q3,western-carriers-india-6a052d,Western Carriers (India) Limited,2024-09-13 09:00:00+05:30,2024-07-03 09:00:00+05:30,0.0,0.8192732546453847,,1.0
+classification_random_forest_core_setting1,classification,2024_Q4,hyundai-motor-india-a501c3,Hyundai Motor India Limited,2024-10-15 09:00:00+05:30,2024-10-08 09:00:00+05:30,0.0,0.8097793356810766,,1.0
+classification_random_forest_core_setting1,classification,2024_Q4,deepak-builders-engineers-india-cdb159,Deepak Builders and Engineers India Limited,2024-10-21 09:00:00+05:30,2024-10-08 09:00:00+05:30,0.0,0.8620590380153449,,1.0
+classification_random_forest_core_setting1,classification,2024_Q4,godavari-biorefineries-ff776e,Godavari Biorefineries Limited,2024-10-23 09:00:00+05:30,2024-10-08 09:00:00+05:30,0.0,0.7213940333635408,,1.0
+classification_random_forest_core_setting1,classification,2024_Q4,afcons-infrastructure-b9dff3,Afcons Infrastructure Limited,2024-10-25 09:00:00+05:30,2024-10-08 09:00:00+05:30,0.0,0.7195890802961816,,1.0
+classification_random_forest_core_setting1,classification,2024_Q4,acme-solar-aa582e,ACME Solar Holdings Limited,2024-11-06 09:00:00+05:30,2024-10-08 09:00:00+05:30,0.0,0.678769648364585,,1.0
+classification_random_forest_core_setting1,classification,2024_Q4,suraksha-diagnostic-06c405,Suraksha Diagnostic Limited,2024-11-29 09:00:00+05:30,2024-10-08 09:00:00+05:30,0.0,0.7104647277480798,,1.0
+classification_random_forest_core_setting1,classification,2024_Q4,carraro-india-1f0c7f,Carraro India Limited,2024-12-20 09:00:00+05:30,2024-10-08 09:00:00+05:30,0.0,0.7256766227757141,,1.0

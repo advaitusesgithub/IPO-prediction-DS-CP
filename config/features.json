@@ -1,0 +1,29 @@
+{
+  "status": "Core fixed for initial comparison; optional extension selected only with development validation",
+  "selection_basis": "meaning, coverage and redundancy; no target-ranking selection",
+  "core_predictors": [
+    "band_high_inr",
+    "band_width_fraction",
+    "lot_application_at_cap_inr",
+    "log1p_planned_offer_upper_cr",
+    "nifty_return_21d",
+    "nifty_volatility_21d",
+    "india_vix_close",
+    "recent_listed_ipo_count_90d",
+    "recent_median_listing_gain_90d",
+    "manager_count_verified",
+    "manager_prior_ipo_count",
+    "manager_prior_median_gain"
+  ],
+  "optional_financial_predictors": [
+    "annual_income_cr",
+    "annual_pat_margin",
+    "annual_income_growth",
+    "is_lossmaking",
+    "income_is_total_income",
+    "pat_is_attributable",
+    "financial_age_days"
+  ],
+  "source_whitelist_preserved": true,
+  "preprocessing_policy": "Training-fold median imputation, training-derived missing indicators; optional training-fold scaling. Preserve target outliers."
+}

@@ -1,0 +1,9 @@
+[project]
+name = "ipo-listing-prediction"
+version = "0.1.0"
+description = "S0 listing-price and positive-listing-gain prediction"
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q --basetemp=.runtime/test-temp --junitxml=outputs/part1/test_results.xml"

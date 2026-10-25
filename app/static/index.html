@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#145c50">
+  <title>IPO Listing Prediction</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='12' fill='%23145c50'/%3E%3Cpath d='M10 27V20M20 27V14M30 27V9' stroke='white' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script src="/assets/app.js" defer></script>
+</head>
+<body>
+  <header class="site-header"><nav class="nav wrap" aria-label="Main navigation">
+    <a class="brand" href="/" aria-label="IPO Listing Prediction home"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 18v-5m7 5V8m7 10V4"/></svg></span><span>IPO<span class="brand-light"> / </span>Listing Prediction</span></a>
+    <div class="nav-right"><span class="mode"><i></i> Historical explorer</span><button id="about-button" class="text-button">About the model <span aria-hidden="true">↗</span></button></div>
+  </nav></header>
+  <main class="wrap">
+    <section class="hero"><div><p class="eyebrow"><span></span> MAKE SENSE OF THE LISTING DAY</p><h1>An IPO name.<br>A clearer <span>listing outlook.</span></h1><p class="intro">Explore a historical IPO’s predicted listing price and Apply / Skip signal.<br class="desktop"> A simple starting point for understanding its listing.</p></div><div class="hero-art" aria-hidden="true"><div class="art-label"><span class="mini-dot"></span> THE LISTING PERSPECTIVE</div><svg viewBox="0 0 300 110"><path class="chart-grid" d="M0 25H300M0 65H300M40 0V110M120 0V110M200 0V110M280 0V110"/><path d="M8 94L48 79L77 87L115 52L149 64L186 33L220 41L269 10" class="chart-line"/><circle cx="269" cy="10" r="5"/></svg><p>Look beyond the name.<br><strong>Understand the estimate.</strong></p></div></section>
+    <div class="workspace">
+      <div class="main-column">
+        <section class="card search-card" aria-labelledby="search-title"><div class="section-heading"><span class="step">01</span><h2 id="search-title">Which IPO are you exploring?</h2></div><p class="muted search-description">Enter a company name or its stock symbol to see the prediction.</p>
+          <form id="prediction-form" novalidate><label for="ipo-name">IPO name</label><div class="search-field"><svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg><input id="ipo-name" name="name" type="text" placeholder="e.g. Hyundai Motor India" autocomplete="off" maxlength="180" aria-describedby="form-message"><button class="primary-button" id="predict-button" type="submit">Predict <span aria-hidden="true">↗</span></button></div></form>
+          <div id="form-message" class="form-message" role="status" aria-live="polite"></div><div id="suggestions" class="suggestions" hidden></div>
+          <div class="examples"><span>Try an example</span><button type="button" data-example="Hyundai Motor India">Hyundai Motor India <span>↗</span></button><button type="button" data-example="Bajaj Housing Finance">Bajaj Housing Finance <span>↗</span></button><button type="button" data-example="NSDL">NSDL <span>↗</span></button></div>
+        </section>
+        <section id="empty-state" class="empty-state"><span class="empty-icon" aria-hidden="true"><svg viewBox="0 0 40 40"><path d="M10 27V18m10 9V10m10 17V15M7 32h26"/></svg></span><h2>Your listing outlook will appear here</h2><p>Search for an IPO above, or pick one from the historical collection.</p><div class="empty-pills"><span>Estimated listing price</span><span>Apply / Skip signal</span></div></section>
+        <section id="result" class="card result-card" aria-labelledby="result-title" hidden>
+          <div class="result-top"><div><p class="eyebrow">YOUR LISTING OUTLOOK</p><h2 id="result-title" tabindex="-1"></h2><p id="result-meta" class="muted"></p></div><span id="source-badge" class="source-badge"></span></div>
+          <div class="table-scroll"><table class="prediction-table"><caption class="sr-only">IPO prediction results</caption><thead><tr><th scope="col">What you’re looking at</th><th scope="col">Prediction</th></tr></thead><tbody>
+            <tr class="price-row"><th scope="row">Estimated listing opening price<small>Price at the start of listing day</small></th><td id="predicted-price"></td></tr>
+            <tr><th scope="row">Apply / Skip signal<small>Based on predicted positive listing gain</small></th><td><span id="predicted-signal" class="signal"></span></td></tr>
+            <tr><th scope="row">Positive-gain probability<small>Model estimate, not calibrated confidence</small></th><td id="predicted-probability" class="probability"></td></tr>
+            <tr><th scope="row">Announced price band<small>Historical offer price range</small></th><td id="price-band"></td></tr>
+          </tbody></table></div>
+          <p id="source-description" class="source-description"></p><p class="result-footnote">An Apply signal estimates a positive listing gain before costs. It does not account for allotment chances.</p>
+          <div class="result-actions"><button id="actual-button" class="text-button">See actual listing outcome <span>↗</span></button><button id="download-result" class="text-button">Download result <span>↓</span></button></div><div id="actual-result" class="actual-result" hidden></div>
+        </section>
+      </div>
+      <aside class="card historical-card" aria-labelledby="historical-title"><div class="historical-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 6h16v14H4zM8 3v6m8-6v6M4 11h16M8 15h2m4 0h2"/></svg></div><p class="eyebrow">THE COLLECTION</p><h2 id="historical-title">See historical<br> IPOs prediction</h2><p class="muted">Prefer to browse? Select a company from the collection.</p><label for="historical-filter" class="sr-only">Filter historical IPOs</label><input id="historical-filter" type="search" class="historical-filter" placeholder="Filter the collection…" maxlength="180"><div id="historical-list" class="historical-list" role="list" aria-label="Historical IPOs"><p class="muted list-loading">Loading the collection…</p></div><p id="historical-count" class="historical-count"></p></aside>
+    </div>
+    <section class="how-it-works" aria-label="How it works"><div><span>01 /</span><h3>Find the company</h3><p>Search a name, a symbol, or the historical list.</p></div><div><span>02 /</span><h3>Explore the prediction</h3><p>See the price estimate and listing-gain signal together.</p></div><div><span>03 /</span><h3>Keep the context</h3><p>Historical estimates help explain the model, not guarantee a return.</p></div></section>
+  </main>
+  <footer class="wrap footer"><span>IPO Listing Prediction <span class="footer-dot">·</span> Historical data, thoughtfully explored.</span><button class="text-button" id="footer-about">Model details &amp; performance <span>↗</span></button></footer>
+  <dialog id="about-dialog" aria-labelledby="about-title"><div class="dialog-header"><span class="eyebrow">BEHIND THE ESTIMATES</span><button id="close-about" class="close-button" aria-label="Close model details">×</button></div><h2 id="about-title">A transparent view of the model.</h2><p>Price estimates use a training-median premium over the announced price cap. A separate Random Forest estimates positive listing gain. Original results use a 0.5 threshold; the labeled 2026 audit uses a class-balanced model and a validation-selected 0.45 threshold.</p><div class="performance-grid"><div><span>Original 2025 price MAE</span><strong id="about-mae">—</strong></div><div><span>Original 2025 accuracy</span><strong id="about-accuracy">—</strong></div></div><p id="model-limitation" class="model-limitation"></p><h3>How to read the labels</h3><ul><li><strong>Held-out prediction:</strong> saved original evaluation result from an IPO not used for fitting.</li><li><strong>Validation prediction:</strong> saved development result from an earlier-data model.</li><li><strong>2026 audit prediction:</strong> saved new-data test result from the documented refinement.</li><li><strong>Training illustration:</strong> retrospective model output for a training IPO, not an independent forecast.</li></ul><p class="muted">This version uses local historical data only. Live IPO research and web lookup are planned for a later version. Probabilities are uncalibrated; allotment and costs are not modeled.</p><a class="text-button" href="/api/download" download>Download original held-out predictions ↓</a></dialog>
+</body></html>

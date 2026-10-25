@@ -1,0 +1,15 @@
+.venv/
+.venv-win/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+.runtime/
+*.pyc
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+# Generated distribution; source files and reports are tracked directly.
+submission/*.zip
+submission/*.zip.sha256

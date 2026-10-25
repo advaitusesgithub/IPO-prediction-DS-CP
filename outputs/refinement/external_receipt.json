@@ -1,0 +1,13 @@
+{
+  "sha256": {
+    "outputs/refinement/external_comparison.csv": "83189c893f7bd7b93363de23253e7773d3c054b745ecf6efdb41a2e2b8357049",
+    "outputs/refinement/external_predictions.parquet": "f5490f1c19791ce76953a8144f9f4502ceea1f5438d7cb12cd5ead88892a0886",
+    "outputs/refinement/external_predictions.csv": "2729477dd17b700ed05cc4bd00d160f79eca50ab15e5dcc46199383cfab94b14",
+    "outputs/refinement/refined_2026_predictions.parquet": "99e3df2e815d1bfa99a8bd7c481d3a016981781c816294c7e6de7e06371c3ad4",
+    "outputs/refinement/refined_2026_predictions.csv": "d5e2a1f9ee0833094efe2c05a0edc7ed6b28132d16cbde05d7038179262dee02",
+    "outputs/refinement/summary.json": "27349ed659a80bc6c52f06f58998c74627aa27c108b8732cb158b09eb53ee771",
+    "config/refined_selection.json": "a28107979a0351e71f75075ea3bc084292286e76845fcb5f81bb8123186b6165",
+    "models/refined/regression.joblib": "b8da2678044a39aa7fb374fcab3c1f5282829d7b7374e8165c91124d9ef41368",
+    "models/refined/classification.joblib": "bc303ec44449fd526bddc2707e7c3a38d5c03fc3527bd2cd812c95ac5ed48cbd"
+  }
+}

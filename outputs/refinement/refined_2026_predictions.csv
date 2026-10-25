@@ -1,0 +1,18 @@
+ipo_id,company_name,symbol,s0_cutoff_at,listing_date,band_low_inr,band_high_inr,predicted_open_inr,positive_gain_probability,predicted_class,signal
+bharat-coking-coal-7060de,Bharat Coking Coal Limited,BHARATCOAL,2026-01-09 09:00:00+05:30,2026-01-19,21.0,23.0,25.457264957264957,0.49118969130391493,1,Apply
+amagi-media-labs-88941f,Amagi Media Labs Limited,AMAGI,2026-01-13 09:00:00+05:30,2026-01-21,343.0,361.0,399.5683760683761,0.5045201511744103,1,Apply
+shadowfax-technologies-79b8d7,Shadowfax Technologies Limited,SHADOWFAX,2026-01-20 09:00:00+05:30,2026-01-28,118.0,124.0,137.24786324786325,0.5341815166122006,1,Apply
+aye-finance-603dea,Aye Finance Limited,AYE,2026-02-09 09:00:00+05:30,2026-02-16,122.0,129.0,142.7820512820513,0.5433457281105879,1,Apply
+fractal-analytics-cd2759,Fractal Analytics Limited,FRACTAL,2026-02-09 09:00:00+05:30,2026-02-16,857.0,900.0,996.1538461538462,0.5381234763235919,1,Apply
+gaudium-ivf-women-health-5519bb,Gaudium IVF and Women Health Limited,GAUDIUMIVF,2026-02-20 09:00:00+05:30,2026-02-27,75.0,79.0,87.44017094017094,0.6154961909613794,1,Apply
+clean-max-enviro-energy-solutions-822e5c,Clean Max Enviro Energy Solutions Limited,CLEANMAX,2026-02-23 09:00:00+05:30,2026-03-02,1000.0,1053.0,1165.5,0.5933002426813223,1,Apply
+shree-ram-twistex-6be8bc,Shree Ram Twistex Limited,SRTL,2026-02-23 09:00:00+05:30,2026-03-02,95.0,104.0,115.11111111111111,0.5685372194307153,1,Apply
+pngs-reva-diamond-jewellery-021096,PNGS Reva Diamond Jewellery Limited,PNGSREVA,2026-02-24 09:00:00+05:30,2026-03-04,367.0,386.0,427.2393162393163,0.5317848729055484,1,Apply
+omnitech-engineering-a26936,Omnitech Engineering Limited,OMNI,2026-02-25 09:00:00+05:30,2026-03-05,216.0,227.0,251.25213675213678,0.5181029387434035,1,Apply
+sedemac-mechatronics-2f5b34,Sedemac Mechatronics Limited,SEDEMAC,2026-03-04 09:00:00+05:30,2026-03-11,1287.0,1352.0,1496.4444444444446,0.6100853651661787,1,Apply
+rajputana-stainless-250ef1,Rajputana Stainless Limited,RSL,2026-03-09 09:00:00+05:30,2026-03-19,116.0,122.0,135.03418803418805,0.5744940191581631,1,Apply
+gsp-crop-science-a201ac,GSP Crop Science Limited,GSPCROP,2026-03-16 09:00:00+05:30,2026-03-24,304.0,320.0,354.1880341880342,0.5252384370939847,1,Apply
+central-mine-planning-design-institute-02e629,Central Mine Planning & Design Institute Limited,CMPDI,2026-03-20 09:00:00+05:30,2026-03-30,163.0,172.0,190.3760683760684,0.5909954294597907,1,Apply
+amir-chand-jagdish-kumar-exports-6dad4b,Amir Chand Jagdish Kumar (Exports) Limited,AMIRCHAND,2026-03-24 09:00:00+05:30,2026-04-02,201.0,212.0,234.64957264957266,0.5575706268015918,1,Apply
+powerica-e58a3e,Powerica Ltd.,POWERICA,2026-03-24 09:00:00+05:30,2026-04-02,375.0,395.0,437.20085470085473,0.5676004002217918,1,Apply
+sai-parenterals-77f5fa,Sai Parenterals Limited,SAIPARENT,2026-03-24 09:00:00+05:30,2026-04-02,372.0,392.0,433.8803418803419,0.5599737625021839,1,Apply

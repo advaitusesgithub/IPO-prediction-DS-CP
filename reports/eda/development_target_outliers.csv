@@ -1,0 +1,10 @@
+ipo_id,company_name,s0_cutoff_at,target_listing_gain_open,gain_pct,decision
+vibhor-steel-tubes-512bc3,Vibhor Steel Tubes Limited,2024-02-13 09:00:00+05:30,1.814569536423841,181.4569536423841,retained; descriptive IQR flag only
+mamata-machinery-cbe7d4,Mamata Machinery Limited,2024-12-19 09:00:00+05:30,1.4691358024691357,146.91358024691357,retained; descriptive IQR flag only
+tata-technologies-3fd5b5,Tata Technologies Limited,2023-11-22 09:00:00+05:30,1.4,140.0,retained; descriptive IQR flag only
+bls-e-services-3eda13,BLS E-Services Limited,2024-01-30 09:00:00+05:30,1.259259259259259,125.92592592592591,retained; descriptive IQR flag only
+premier-energies-384778,Premier Energies Limited,2024-08-27 09:00:00+05:30,1.2000000000000002,120.00000000000001,retained; descriptive IQR flag only
+krn-heat-exchanger-refrigeration-e0b2cd,KRN Heat Exchanger And Refrigeration Limited,2024-09-25 09:00:00+05:30,1.1818181818181817,118.18181818181816,retained; descriptive IQR flag only
+unicommerce-esolutions-fe228f,Unicommerce Esolutions Limited,2024-08-06 09:00:00+05:30,1.175925925925926,117.59259259259261,retained; descriptive IQR flag only
+bajaj-housing-finance-6917c1,Bajaj Housing Finance Limited,2024-09-09 09:00:00+05:30,1.1428571428571428,114.28571428571428,retained; descriptive IQR flag only
+motisons-jewellers-463cbe,Motisons Jewellers Limited,2023-12-18 09:00:00+05:30,0.9818181818181819,98.18181818181819,retained; descriptive IQR flag only

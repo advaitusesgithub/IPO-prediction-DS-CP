@@ -1,0 +1,10 @@
+excluded_field_group,reason
+sub_* / subscription_*,Demand observed during/after bidding; unavailable at S0
+final_issue_price / issue_price,Final pricing is label metadata; use announced band as predictor
+list_* / ret_* / close_*,Listing and later outcomes are unavailable at S0
+total_issue_size_cr / fresh_pct / ofs_pct / equity_dilution_pct,Retrospective size/mix may depend on final pricing and final share counts
+promoter_post_pct / shares_post_issue / eps_post / pe_post,Post-issue quantities need pre-bid reconstruction before use
+aggregator financials / kpi_* / pe_pre,Not treated as as-filed merely because present in CSV; direct RHP facts used instead
+anchor_* reputation or allocation predictors,Notice dates do not establish public availability by S0; supporting reconciled table only
+industry_reference_only,Retrospective classification has no verified historical timestamp
+2026 records / SME records / historical workbook day-wise fields,Outside current cohort / scope or invalid category labels

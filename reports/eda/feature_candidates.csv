@@ -1,0 +1,20 @@
+feature,proposed_set,development_non_missing,development_missing_pct,rationale
+band_high_inr,core_12,149,0.0,One announced price representative; omit near-duplicate band floor
+band_width_fraction,core_12,149,0.0,Relative band width rather than two nearly identical price columns
+lot_application_at_cap_inr,core_12,149,0.0,Retail application amount; omit raw bid-lot count
+log1p_planned_offer_upper_cr,core_12,127,14.76510067114094,One size representative; omit raw total and sparse split amounts
+nifty_return_21d,core_12,149,0.0,One market-return horizon for a small starting model
+nifty_volatility_21d,core_12,149,0.0,Market variability before bidding
+india_vix_close,core_12,149,0.0,Market uncertainty at the last completed session
+recent_listed_ipo_count_90d,core_12,149,0.0,Recent market activity over one window
+recent_median_listing_gain_90d,core_12,147,1.342281879194631,Recent observed outcomes over one window
+manager_count_verified,core_12,130,12.751677852348994,Issuer lead-manager coverage/count
+manager_prior_ipo_count,core_12,130,12.751677852348994,Amount of observed history supporting manager reputation
+manager_prior_median_gain,core_12,112,24.832214765100673,Past observed outcomes for the issuer managers
+annual_income_cr,optional_financial_extension,76,48.99328859060403,Optional financial amount/ratio or necessary reporting-definition control
+annual_pat_margin,optional_financial_extension,76,48.99328859060403,Optional financial amount/ratio or necessary reporting-definition control
+annual_income_growth,optional_financial_extension,76,48.99328859060403,Optional financial amount/ratio or necessary reporting-definition control
+is_lossmaking,optional_financial_extension,76,48.99328859060403,Optional financial amount/ratio or necessary reporting-definition control
+income_is_total_income,optional_financial_extension,76,48.99328859060403,Optional financial amount/ratio or necessary reporting-definition control
+pat_is_attributable,optional_financial_extension,76,48.99328859060403,Optional financial amount/ratio or necessary reporting-definition control
+financial_age_days,optional_financial_extension,76,48.99328859060403,Optional financial amount/ratio or necessary reporting-definition control

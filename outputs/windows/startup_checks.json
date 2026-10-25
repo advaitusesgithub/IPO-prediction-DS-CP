@@ -1,0 +1,9 @@
+{
+  "native_windows": true,
+  "python_version": "3.13.7",
+  "http_server_started": true,
+  "homepage_loaded": true,
+  "api_prediction_matches_recorded_result": true,
+  "refinement_sample_verified": true,
+  "wsl_required": false
+}

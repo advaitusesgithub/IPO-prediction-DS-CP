@@ -1,0 +1,8 @@
+check,passed
+bundled input hashes,True
+"input identities, labels and S0 schema",True
+exact frozen chronological memberships,True
+"finite, aligned, frozen development preprocessing: core_unscaled",True
+"finite, aligned, frozen development preprocessing: core_scaled",True
+"finite, aligned, frozen development preprocessing: extended_unscaled",True
+"finite, aligned, frozen development preprocessing: extended_scaled",True

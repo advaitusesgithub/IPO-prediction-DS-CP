@@ -1,0 +1,26 @@
+check,passed,detail
+253 unique mainboard IPOs,True,
+One master row per ISIN,True,
+ISIN format,True,
+Bidding dates present,True,
+Date order: open <= close < listing,True,
+Only 2023–2025 listings,True,
+Positive valid announced bands,True,
+Positive integer bid lots,True,
+All labels corroborated; evidence tier recorded,True,"{'exchange-row snapshot': 252, 'profile plus separate candle snapshot': 1}"
+Labels exactly recompute,True,
+Labels cannot enter own S0 cutoff,True,
+Master/features/labels referential integrity,True,
+No duplicate feature rows,True,
+Only numeric predictors,True,
+Model file columns match whitelist and declared metadata,True,
+Finite predictors or explicit missing,True,
+nifty closes precede first bidding date,True,
+vix closes precede first bidding date,True,
+Historical outcomes mature before S0,True,
+As-filed periods precede document dates,True,
+As-filed RHP dates precede bidding,True,
+S0 whitelist excludes future/out-of-scope fields,True,[]
+Future-row removal preserves market and reputation features,True,12 cutoffs
+Market transforms independently recompute from raw pre-cutoff closes,True,1012 comparisons across all IPOs
+Reviewed financial header mappings reconcile by period,True,52 comparisons

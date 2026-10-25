@@ -1,0 +1,11 @@
+ipo_id,company_name,s0_cutoff_at,predicted_open_inr,positive_gain_probability,predicted_class,signal,listing_open_inr,final_issue_price_inr,target_positive_listing_gain,target_listing_gain_open,label_verification_tier,absolute_error_inr
+lg-electronics-india-1aa5cb,LG Electronics India Limited,2025-10-07 09:00:00+05:30,1331.1377245508982,0.7066620610320357,1,Apply,1710.1,1140.0,1,0.5000877192982456,exchange-row snapshot,378.96227544910175
+corona-remedies-4770be,Corona Remedies Limited,2025-12-08 09:00:00+05:30,1240.059880239521,0.7417821535493891,1,Apply,1470.0,1062.0,1,0.384180790960452,exchange-row snapshot,229.9401197604791
+aditya-infotech-8ed0aa,Aditya Infotech Limited,2025-07-29 09:00:00+05:30,788.1736526946107,0.8097964336900635,1,Apply,1015.0,675.0,1,0.5037037037037038,exchange-row snapshot,226.82634730538928
+travel-food-services-99035c,Travel Food Services Limited,2025-07-07 09:00:00+05:30,1284.4311377245508,0.8117099978842716,1,Apply,1125.0,1100.0,1,0.022727272727272707,exchange-row snapshot,159.4311377245508
+ajax-engineering-34ccc3,AJAX Engineering Limited,2025-02-10 09:00:00+05:30,734.4610778443114,0.6963600870925704,1,Apply,576.0,629.0,0,-0.0842607313195548,exchange-row snapshot,158.46107784431138
+jaro-institute-of-technology-management-research-1d78ed,Jaro Institute of Technology Management and Research Limited,2025-09-23 09:00:00+05:30,1039.2215568862275,0.7122165479758077,1,Apply,890.0,890.0,0,0.0,exchange-row snapshot,149.22155688622752
+studds-accessories-74db0c,Studds Accessories Limited,2025-10-30 09:00:00+05:30,683.0838323353294,0.7750942727952017,1,Apply,565.0,585.0,0,-0.03418803418803418,exchange-row snapshot,118.08383233532936
+wework-india-management-b8209c,WeWork India Management Limited,2025-10-03 09:00:00+05:30,756.6467065868263,0.7366850579644929,1,Apply,650.0,648.0,1,0.0030864197530864335,exchange-row snapshot,106.64670658682633
+orkla-india-eb04e9,Orkla India Limited,2025-10-29 09:00:00+05:30,852.3952095808384,0.7711544035808909,1,Apply,750.1,730.0,1,0.027534246575342536,exchange-row snapshot,102.29520958083833
+schloss-bangalore-a76781,Schloss Bangalore Limited,2025-05-26 09:00:00+05:30,507.9341317365269,0.7725726222206037,1,Apply,406.0,435.0,0,-0.06666666666666665,exchange-row snapshot,101.93413173652692

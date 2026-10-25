@@ -1,0 +1,11 @@
+candidate_id,task,fold_id,ipo_id,company_name,s0_cutoff_at,fit_cutoff,actual,prediction,absolute_error_inr,predicted_class
+regression_training_median_premium_core_baseline,regression,2024_Q4,waaree-energies-f5c224,Waaree Energies Limited,2024-10-21 09:00:00+05:30,2024-10-08 09:00:00+05:30,2500.0,1755.0,745.0,
+regression_training_median_premium_core_baseline,regression,2024_Q4,unimech-aerospace-manufacturing-dfda33,Unimech Aerospace and Manufacturing Limited,2024-12-23 09:00:00+05:30,2024-10-08 09:00:00+05:30,1460.0,916.6167664670659,543.3832335329341,
+regression_training_median_premium_core_baseline,regression,2024_Q3,premier-energies-384778,Premier Energies Limited,2024-08-27 09:00:00+05:30,2024-07-03 09:00:00+05:30,990.0,519.5611646418099,470.4388353581901,
+regression_training_median_premium_core_baseline,regression,2024_Q2,tbo-tek-97b92c,Tbo Tek Limited,2024-05-08 09:00:00+05:30,2024-04-03 09:00:00+05:30,1426.0,1054.9379509379507,371.06204906204925,
+regression_training_median_premium_core_baseline,regression,2024_Q4,hyundai-motor-india-a501c3,Hyundai Motor India Limited,2024-10-15 09:00:00+05:30,2024-10-08 09:00:00+05:30,1934.0,2288.622754491018,354.622754491018,
+regression_training_median_premium_core_baseline,regression,2024_Q4,inventurus-knowledge-solutions-fecff4,Inventurus Knowledge Solutions Limited,2024-12-12 09:00:00+05:30,2024-10-08 09:00:00+05:30,1900.0,1551.8263473053892,348.17365269461084,
+regression_training_median_premium_core_baseline,regression,2024_Q4,mamata-machinery-cbe7d4,Mamata Machinery Limited,2024-12-19 09:00:00+05:30,2024-10-08 09:00:00+05:30,600.0,283.74251497005986,316.25748502994014,
+regression_training_median_premium_core_baseline,regression,2024_Q3,p-n-gadgil-jewellers-4e5f4a,P N Gadgil Jewellers Limited,2024-09-10 09:00:00+05:30,2024-07-03 09:00:00+05:30,830.0,554.1985756179305,275.8014243820695,
+regression_training_median_premium_core_baseline,regression,2024_Q3,interarch-building-products-161159,Interarch Building Products Limited,2024-08-19 09:00:00+05:30,2024-07-03 09:00:00+05:30,1299.0,1039.1223292836198,259.8776707163802,
+regression_training_median_premium_core_baseline,regression,2024_Q1,vibhor-steel-tubes-512bc3,Vibhor Steel Tubes Limited,2024-02-13 09:00:00+05:30,2024-01-09 09:00:00+05:30,425.0,176.8857142857143,248.1142857142857,

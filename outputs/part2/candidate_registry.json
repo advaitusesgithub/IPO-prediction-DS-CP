@@ -1,0 +1,237 @@
+[
+  {
+    "candidate_id": "regression_announced_cap_core_baseline",
+    "task": "regression",
+    "family": "announced_cap",
+    "feature_set": "core",
+    "params": {},
+    "is_baseline": true,
+    "random_state": 42
+  },
+  {
+    "candidate_id": "regression_training_median_premium_core_baseline",
+    "task": "regression",
+    "family": "training_median_premium",
+    "feature_set": "core",
+    "params": {},
+    "is_baseline": true,
+    "random_state": 42
+  },
+  {
+    "candidate_id": "classification_always_apply_core_baseline",
+    "task": "classification",
+    "family": "always_apply",
+    "feature_set": "core",
+    "params": {},
+    "is_baseline": true,
+    "random_state": 42
+  },
+  {
+    "candidate_id": "regression_ridge_core_alpha1",
+    "task": "regression",
+    "family": "ridge",
+    "feature_set": "core",
+    "params": {
+      "alpha": 1.0
+    },
+    "is_baseline": false,
+    "random_state": 42
+  },
+  {
+    "candidate_id": "regression_ridge_core_alpha100",
+    "task": "regression",
+    "family": "ridge",
+    "feature_set": "core",
+    "params": {
+      "alpha": 100.0
+    },
+    "is_baseline": false,
+    "random_state": 42
+  },
+  {
+    "candidate_id": "regression_random_forest_core_setting1",
+    "task": "regression",
+    "family": "random_forest",
+    "feature_set": "core",
+    "params": {
+      "n_estimators": 200,
+      "max_depth": 3,
+      "min_samples_leaf": 5,
+      "max_features": 1.0
+    },
+    "is_baseline": false,
+    "random_state": 42
+  },
+  {
+    "candidate_id": "regression_random_forest_core_setting2",
+    "task": "regression",
+    "family": "random_forest",
+    "feature_set": "core",
+    "params": {
+      "n_estimators": 200,
+      "max_depth": 5,
+      "min_samples_leaf": 10,
+      "max_features": 1.0
+    },
+    "is_baseline": false,
+    "random_state": 42
+  },
+  {
+    "candidate_id": "classification_logistic_core_setting1",
+    "task": "classification",
+    "family": "logistic",
+    "feature_set": "core",
+    "params": {
+      "C": 1.0,
+      "class_weight": null
+    },
+    "is_baseline": false,
+    "random_state": 42
+  },
+  {
+    "candidate_id": "classification_logistic_core_setting2",
+    "task": "classification",
+    "family": "logistic",
+    "feature_set": "core",
+    "params": {
+      "C": 1.0,
+      "class_weight": "balanced"
+    },
+    "is_baseline": false,
+    "random_state": 42
+  },
+  {
+    "candidate_id": "classification_random_forest_core_setting1",
+    "task": "classification",
+    "family": "random_forest",
+    "feature_set": "core",
+    "params": {
+      "n_estimators": 200,
+      "max_depth": 3,
+      "min_samples_leaf": 5,
+      "max_features": "sqrt",
+      "class_weight": null
+    },
+    "is_baseline": false,
+    "random_state": 42
+  },
+  {
+    "candidate_id": "classification_random_forest_core_setting2",
+    "task": "classification",
+    "family": "random_forest",
+    "feature_set": "core",
+    "params": {
+      "n_estimators": 200,
+      "max_depth": 5,
+      "min_samples_leaf": 10,
+      "max_features": "sqrt",
+      "class_weight": "balanced_subsample"
+    },
+    "is_baseline": false,
+    "random_state": 42
+  },
+  {
+    "candidate_id": "regression_ridge_extended_alpha1",
+    "task": "regression",
+    "family": "ridge",
+    "feature_set": "extended",
+    "params": {
+      "alpha": 1.0
+    },
+    "is_baseline": false,
+    "random_state": 42
+  },
+  {
+    "candidate_id": "regression_ridge_extended_alpha100",
+    "task": "regression",
+    "family": "ridge",
+    "feature_set": "extended",
+    "params": {
+      "alpha": 100.0
+    },
+    "is_baseline": false,
+    "random_state": 42
+  },
+  {
+    "candidate_id": "regression_random_forest_extended_setting1",
+    "task": "regression",
+    "family": "random_forest",
+    "feature_set": "extended",
+    "params": {
+      "n_estimators": 200,
+      "max_depth": 3,
+      "min_samples_leaf": 5,
+      "max_features": 1.0
+    },
+    "is_baseline": false,
+    "random_state": 42
+  },
+  {
+    "candidate_id": "regression_random_forest_extended_setting2",
+    "task": "regression",
+    "family": "random_forest",
+    "feature_set": "extended",
+    "params": {
+      "n_estimators": 200,
+      "max_depth": 5,
+      "min_samples_leaf": 10,
+      "max_features": 1.0
+    },
+    "is_baseline": false,
+    "random_state": 42
+  },
+  {
+    "candidate_id": "classification_logistic_extended_setting1",
+    "task": "classification",
+    "family": "logistic",
+    "feature_set": "extended",
+    "params": {
+      "C": 1.0,
+      "class_weight": null
+    },
+    "is_baseline": false,
+    "random_state": 42
+  },
+  {
+    "candidate_id": "classification_logistic_extended_setting2",
+    "task": "classification",
+    "family": "logistic",
+    "feature_set": "extended",
+    "params": {
+      "C": 1.0,
+      "class_weight": "balanced"
+    },
+    "is_baseline": false,
+    "random_state": 42
+  },
+  {
+    "candidate_id": "classification_random_forest_extended_setting1",
+    "task": "classification",
+    "family": "random_forest",
+    "feature_set": "extended",
+    "params": {
+      "n_estimators": 200,
+      "max_depth": 3,
+      "min_samples_leaf": 5,
+      "max_features": "sqrt",
+      "class_weight": null
+    },
+    "is_baseline": false,
+    "random_state": 42
+  },
+  {
+    "candidate_id": "classification_random_forest_extended_setting2",
+    "task": "classification",
+    "family": "random_forest",
+    "feature_set": "extended",
+    "params": {
+      "n_estimators": 200,
+      "max_depth": 5,
+      "min_samples_leaf": 10,
+      "max_features": "sqrt",
+      "class_weight": "balanced_subsample"
+    },
+    "is_baseline": false,
+    "random_state": 42
+  }
+]

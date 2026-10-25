@@ -1,0 +1,3 @@
+representative,identical_columns,column_count
+annual_income_cr_missing,"[""annual_income_cr_missing"", ""annual_pat_cr_missing"", ""annual_income_growth_missing"", ""annual_pat_growth_missing"", ""annual_pat_margin_missing"", ""is_lossmaking_missing"", ""pat_is_attributable_missing""]",7
+annual_networth_cr_missing,"[""annual_networth_cr_missing"", ""has_nonpositive_networth_missing""]",2

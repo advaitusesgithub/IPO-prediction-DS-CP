@@ -1,0 +1,12 @@
+check,passed
+bundled source data unchanged,True
+only 149 development rows supplied to modeling,True
+same 90 development validation IPOs for every candidate,True
+all 19 prespecified candidates evaluated,True
+all 76 candidate/fold fits audited,True
+training labels mature before fold cutoff,True
+reserved rows not used for fitting or scoring,True
+no training convergence warnings,True
+saved fold models reproduce validation predictions,True
+model choices and threshold frozen,True
+prepared data and splits remain unchanged after modeling,True

@@ -1,0 +1,23 @@
+{
+  "cohort_rows": 253,
+  "eligible_s0_rows": 253,
+  "predictor_count": 52,
+  "annual_financial_rows": 135,
+  "rhp_corroborated_manager_IPOs": 222,
+  "reconciled_anchor_IPOs": 21,
+  "reconciled_anchor_rows": 758,
+  "validation_checks_passed": 25,
+  "validation_checks_total": 25,
+  "selected_source_files": 462,
+  "no_imputation_or_scaling_fitted": true,
+  "versions": {
+    "pandas": "3.0.6",
+    "numpy": "2.5.4",
+    "pyarrow": "26.0.0",
+    "matplotlib": "3.11.2",
+    "pymupdf": "2.0",
+    "nbformat": "5.11.1",
+    "nbclient": "0.11.0",
+    "ipykernel": "7.4.0"
+  }
+}

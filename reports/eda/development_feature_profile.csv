@@ -1,0 +1,53 @@
+feature,dtype,non_missing,missing,unique_non_missing,missing_pct,kind
+borrowings_to_networth,float64,50,99,49,66.44295302013423,numeric
+annual_borrowings_cr,float64,53,96,52,64.42953020134229,numeric
+has_nonpositive_networth,float64,73,76,2,51.006711409395976,binary/low cardinality
+annual_networth_cr,float64,73,76,73,51.006711409395976,numeric
+is_lossmaking,float64,76,73,2,48.993288590604024,binary/low cardinality
+pat_is_attributable,float64,76,73,2,48.993288590604024,binary/low cardinality
+income_is_total_income,float64,76,73,2,48.993288590604024,binary/low cardinality
+financial_age_days,float64,76,73,60,48.993288590604024,numeric
+annual_income_cr,float64,76,73,76,48.993288590604024,numeric
+annual_pat_cr,float64,76,73,76,48.993288590604024,numeric
+annual_income_growth,float64,76,73,76,48.993288590604024,numeric
+annual_pat_growth,float64,76,73,76,48.993288590604024,numeric
+annual_pat_margin,float64,76,73,76,48.993288590604024,numeric
+planned_fresh_issue_upper_cr,float64,102,47,77,31.543624161073826,numeric
+planned_ofs_upper_cr,float64,102,47,98,31.543624161073826,numeric
+manager_prior_positive_rate,float64,112,37,58,24.83221476510067,numeric
+manager_prior_median_gain,float64,112,37,66,24.83221476510067,numeric
+planned_offer_upper_cr,float64,127,22,125,14.765100671140939,numeric
+log1p_planned_offer_upper_cr,float64,127,22,125,14.765100671140939,numeric
+manager_count_verified,float64,130,19,8,12.751677852348994,numeric
+manager_prior_ipo_count,float64,130,19,52,12.751677852348994,numeric
+recent_median_listing_gain_30d,float64,145,4,75,2.684563758389262,numeric
+recent_median_listing_gain_90d,float64,147,2,63,1.342281879194631,numeric
+mandatory_t3_regime,int8,149,0,2,0.0,binary/low cardinality
+t3_voluntary_transition_window,int8,149,0,2,0.0,binary/low cardinality
+annual_income_cr_missing,int8,149,0,2,0.0,missingness indicator
+annual_pat_cr_missing,int8,149,0,2,0.0,missingness indicator
+annual_networth_cr_missing,int8,149,0,2,0.0,missingness indicator
+annual_borrowings_cr_missing,int8,149,0,2,0.0,missingness indicator
+annual_income_growth_missing,int8,149,0,2,0.0,missingness indicator
+annual_pat_growth_missing,int8,149,0,2,0.0,missingness indicator
+annual_pat_margin_missing,int8,149,0,2,0.0,missingness indicator
+borrowings_to_networth_missing,int8,149,0,2,0.0,missingness indicator
+is_lossmaking_missing,int8,149,0,2,0.0,missingness indicator
+has_nonpositive_networth_missing,int8,149,0,2,0.0,missingness indicator
+pat_is_attributable_missing,int8,149,0,2,0.0,missingness indicator
+nifty_source_age_days,int64,149,0,4,0.0,numeric
+vix_source_age_days,int64,149,0,4,0.0,numeric
+recent_listed_ipo_count_30d,int64,149,0,15,0.0,numeric
+recent_listed_ipo_count_90d,int64,149,0,29,0.0,numeric
+history_observed_ipo_count,int64,149,0,74,0.0,numeric
+lot_application_at_cap_inr,float64,149,0,90,0.0,numeric
+bid_lot_shares,float64,149,0,92,0.0,numeric
+band_width_fraction,float64,149,0,100,0.0,numeric
+india_vix_close,float64,149,0,114,0.0,numeric
+nifty_close,float64,149,0,118,0.0,numeric
+nifty_return_5d,float64,149,0,118,0.0,numeric
+nifty_return_21d,float64,149,0,118,0.0,numeric
+nifty_return_63d,float64,149,0,118,0.0,numeric
+nifty_volatility_21d,float64,149,0,118,0.0,numeric
+band_low_inr,float64,149,0,132,0.0,numeric
+band_high_inr,float64,149,0,135,0.0,numeric

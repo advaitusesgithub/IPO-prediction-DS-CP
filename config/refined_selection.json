@@ -1,0 +1,68 @@
+{
+  "revision": "v2",
+  "selection": {
+    "regression": {
+      "spec": {
+        "id": "regression_median_compact_1",
+        "task": "regression",
+        "family": "median",
+        "feature_set": "compact",
+        "params": {}
+      },
+      "threshold": 0.5,
+      "development_metrics": {
+        "threshold": 0.5,
+        "features": 8,
+        "mae_inr": 69.30082546474948,
+        "rmse_inr": 121.01661891293493,
+        "mape_pct": 15.72141150040125,
+        "n": 194
+      }
+    },
+    "classification": {
+      "spec": {
+        "id": "classification_forest_context_2",
+        "task": "classification",
+        "family": "forest",
+        "feature_set": "context",
+        "params": {
+          "max_depth": 3,
+          "min_samples_leaf": 5,
+          "class_weight": "balanced_subsample",
+          "max_features": "sqrt"
+        }
+      },
+      "threshold": 0.45,
+      "development_metrics": {
+        "accuracy": 0.6958762886597938,
+        "balanced_accuracy": 0.514050582095544,
+        "precision_apply": 0.7329545454545454,
+        "recall_apply": 0.9148936170212766,
+        "specificity_skip": 0.11320754716981132,
+        "f1_apply": 0.8138801261829653,
+        "tn": 6.0,
+        "fp": 47.0,
+        "fn": 12.0,
+        "tp": 129.0
+      }
+    }
+  },
+  "selected_without_external_scores": true,
+  "sources_sha256": {
+    "config/refinement_plan.json": "397ce3c09d5a05f55337a00455d9b7cd47ad148d7ac920b1007203f3c338c7f3",
+    "ipo_prediction/refinement_models.py": "b740a614b3374f3a804ecad8a7502d878633d2bd917eb8c7fe293cc30fccf294",
+    "ipo_prediction/refine.py": "88fc98b549215f6d60437b03b164cb6fb0d90ba61cd5bd3025e84d0bef4e6d5c",
+    "data/refinement/external_2026.parquet": "b64beb587265c2a73eaf3760087e85943b4637d406b110fa16cceb6cd17d0a54",
+    "data/prepared/s0_model_ready.parquet": "0367eebb91eff89945f358a865593fdb33205f77dfab03e0f15772cf710ae843",
+    "data/prepared/labels.parquet": "444eb9304ae0b242303792775a883992e59903c622b6ff2fcf073ceee01ad9ac"
+  },
+  "validation_rows": 194,
+  "development_rows": 253,
+  "note": "2025 is now development, not a new test. External 2026 results have not been used in this selection.",
+  "validation_guardrails": {
+    "minimum_accuracy": "development majority accuracy minus 0.05",
+    "minimum_apply_recall": 0.75,
+    "minimum_skip_specificity": 0.1,
+    "reason": "Avoid sacrificing most winning IPOs just to improve balanced accuracy; guardrails applied to development outputs only before new-test scoring"
+  }
+}

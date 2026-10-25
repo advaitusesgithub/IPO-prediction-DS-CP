@@ -1,0 +1,33 @@
+{
+  "stage": "S0",
+  "random_state": 42,
+  "classification_threshold": 0.5,
+  "threshold_policy": "Fixed before comparisons; no threshold search on 90 validation rows",
+  "regression_prediction_policy": "Learned price predictions have a fixed physical floor of INR 0.01",
+  "feature_sets": ["core", "extended"],
+  "regression": {
+    "baselines": ["announced_cap", "training_median_premium"],
+    "ridge_alphas": [1.0, 100.0],
+    "random_forest_settings": [
+      {"n_estimators": 200, "max_depth": 3, "min_samples_leaf": 5, "max_features": 1.0},
+      {"n_estimators": 200, "max_depth": 5, "min_samples_leaf": 10, "max_features": 1.0}
+    ]
+  },
+  "classification": {
+    "baselines": ["always_apply"],
+    "logistic_settings": [
+      {"C": 1.0, "class_weight": null},
+      {"C": 1.0, "class_weight": "balanced"}
+    ],
+    "random_forest_settings": [
+      {"n_estimators": 200, "max_depth": 3, "min_samples_leaf": 5, "max_features": "sqrt", "class_weight": null},
+      {"n_estimators": 200, "max_depth": 5, "min_samples_leaf": 10, "max_features": "sqrt", "class_weight": "balanced_subsample"}
+    ]
+  },
+  "selection": {
+    "regression_sort": ["pooled_MAE_INR_ascending", "pooled_RMSE_INR_ascending", "fewer_inputs", "candidate_id"],
+    "classification_sort": ["pooled_accuracy_descending", "pooled_balanced_accuracy_descending", "pooled_Brier_ascending", "fewer_inputs", "candidate_id"],
+    "baseline_policy": "A baseline remains eligible to win. Also identify the best learned challenger for reporting.",
+    "score_interpretation": "Development validation used for selection; not an unbiased final performance estimate"
+  }
+}

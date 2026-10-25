@@ -1,0 +1,17 @@
+{
+  "final_model_audit_complete": true,
+  "development_rows": 253,
+  "validation_folds": 8,
+  "validation_rows": 194,
+  "model_candidates": 48,
+  "candidate_fold_fits": 384,
+  "new_test_rows": 17,
+  "tests_passed": 38,
+  "notebook_code_cells_executed": 6,
+  "external_retuning": false,
+  "original_evaluation_preserved": true,
+  "windows_runtime_verified": true,
+  "classification_decision_accuracy_improved": false,
+  "price_mae_improved_by_more_history_percent": 26.132,
+  "baseline_still_better_for_price": true
+}

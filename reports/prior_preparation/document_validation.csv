@@ -1,0 +1,507 @@
+ipo_id,kind,source_path,document_date,dated_before_bidding,status,sha256,financial_facts_extracted,managers_confirmed,anchor_valid,announced_anchor_shares,parsed_anchor_shares,publication_timestamp_verified
+radiant-cash-management-services-445bb3,rhp,official_nse/rhp/2023/RADIANTCMS.zip,2022-12-17,True,summary extracted,b4f517cdd9dfd50e551eafedf17ff704ba405881a8cc9d956a09856c004b6a0c,12.0,3.0,False,,,False
+radiant-cash-management-services-445bb3,anchor,official_nse/anchor/2023/RADIANTCMS.zip,,False,native rows could not reconcile announced shares,f5310690c9339d2ff54b7dfdc69637b2671cb77df0f255324d1efd3c56906c5b,0.0,0.0,False,,0.0,False
+sah-polymers-50a05a,rhp,official_nse/rhp/2023/SAH.zip,2022-12-20,True,summary extracted,ed75fae6527c99bf3a6f7dfcccfd146297bdf72a3547e3aceec66fcbf4201620,12.0,1.0,False,,,False
+sah-polymers-50a05a,anchor,official_nse/anchor/2023/SAH.zip,,False,native rows could not reconcile announced shares,f7050a4288fed6ad88497936cbb1029902c389eb6f9aee49446e8b1ef7344372,0.0,0.0,False,,0.0,False
+divgi-torqtransfer-systems-ac5eef,rhp,official_nse/rhp/2023/DIVGIITTS.zip,2023-02-23,True,summary extracted,d0dd788a2df5e82fbc90273c606f79f2a90d48a99cabe7e44f285fbc35b29c17,12.0,2.0,False,,,False
+divgi-torqtransfer-systems-ac5eef,anchor,official_nse/anchor/2023/DIVGIITTS.zip,,False,native rows could not reconcile announced shares,fd56fdb800691ed4f70125e8f92c039d190d4fd47ffe2bf475de3fe2719a6e18,0.0,0.0,False,,0.0,False
+global-surfaces-40d91b,rhp,official_nse/rhp/2023/GSLSU.zip,2023-02-25,True,summary extracted,5af236b4e258507e451b7b3e174cf04e6a6231804faff73cdcb25a2088735643,16.0,1.0,False,,,False
+global-surfaces-40d91b,anchor,official_nse/anchor/2023/GSLSU.zip,,False,native rows could not reconcile announced shares,8cb7f88fc9e2fa3dac7d45fbccc29108a0a1200c312b750213d33e6abbac0371,0.0,0.0,False,,0.0,False
+udayshivakumar-infra-4ddf69,rhp,official_nse/rhp/2023/USK.zip,2023-03-13,True,summary extracted,e695bc48453926bd17617d2271d19342415d460674efa872c89bbb0658fe3e75,12.0,1.0,False,,,False
+udayshivakumar-infra-4ddf69,anchor,,,,document not collected,,,,,,,
+avalon-technologies-e3e158,rhp,official_nse/rhp/2023/AVALON.zip,2023-03-23,True,summary extracted,5b1cf70a5892dda21866226057e2afb35c32e3d862eb280442a15cd564c1e157,20.0,4.0,False,,,False
+avalon-technologies-e3e158,anchor,official_nse/anchor/2023/AVALON.zip,,False,native rows could not reconcile announced shares,c1d3224ded9d343bfd713da28ecf87fd3f27c1c9c3b0fe2b55c8ed88e9b58e63,0.0,0.0,False,,0.0,False
+mankind-pharma-a3dc9e,rhp,official_nse/rhp/2023/MANKIND.zip,2023-04-14,True,summary extracted,995df1562ed55e78d188bf98a00f204fc86105d914d610b5994ff960e9ff1b3a,15.0,5.0,False,,,False
+mankind-pharma-a3dc9e,anchor,official_nse/anchor/2023/MANKIND.zip,,False,native rows could not reconcile announced shares,fa8629c7bf3738af1fe5d8ed5e48088a77786c10d7704f8b22f45cd4cc09820b,0.0,0.0,False,,0.0,False
+ikio-lighting-bfb508,rhp,official_nse/rhp/2023/IKIO.zip,2023-05-29,True,no unambiguous summary in first 45 pages,f9d76b809c0561a87f448bd14192d924496e2f53ee8a36137f7bb6762a456c9e,0.0,1.0,False,,,False
+ikio-lighting-bfb508,anchor,official_nse/anchor/2023/IKIO.zip,,False,native rows could not reconcile announced shares,bd32f759a0a338773d9d799b9f94d2e48148f736843d4af07895f52ff92382e1,0.0,0.0,False,,0.0,False
+hma-agro-b175eb,rhp,,,,document not collected,,,,,,,
+hma-agro-b175eb,anchor,,,,document not collected,,,,,,,
+ideaforge-technology-c5ef21,rhp,official_nse/rhp/2023/IDEAFORGE.zip,2023-06-19,True,summary extracted,15f152a3c11565c34983828c49859d4682b2641e23ae47c8f5af50377fee514d,12.0,2.0,False,,,False
+ideaforge-technology-c5ef21,anchor,official_nse/anchor/2023/IDEAFORGE.zip,,False,native rows could not reconcile announced shares,2c7e0e11f2372e1445611c22cc24897fce7b941ecb1477d30dab2816bd1289d9,0.0,0.0,False,,0.0,False
+cyient-dlm-bc290b,rhp,official_nse/rhp/2023/CYIENTDLM.zip,2023-06-19,True,summary extracted,ea2d72291d122cef5a5d45d319ab4e5813c6e10e3cdf444794333fef3492a6a5,12.0,2.0,False,,,False
+cyient-dlm-bc290b,anchor,official_nse/anchor/2023/CYIENTDLM.zip,2023-06-19,True,native rows could not reconcile announced shares,424352a1462bada90aa1ad12eb0659ee65a1e23bffd0981caa8b1c649fe57da1,0.0,0.0,False,9798113.0,0.0,False
+senco-gold-aabceb,rhp,official_nse/rhp/2023/SENCO.zip,2023-06-27,True,summary extracted,f3e9db16abad720b467267e503551da693b366ba195d0eff8c1ba4dbe2a13ce3,9.0,3.0,False,,,False
+senco-gold-aabceb,anchor,official_nse/anchor/2023/SENCO.zip,1-06-27,True,native rows could not reconcile announced shares,45dfcf4cd0358d8d022ddf09a597f814878af8e808334a0b6b327e99d02aec00,0.0,0.0,False,3832807.0,0.0,False
+utkarsh-small-finance-bank-d86431,rhp,official_nse/rhp/2023/UTKARSHBNK.zip,2023-07-06,True,summary extracted,0eb324cdf624f39245f9bf39c2a30fc44a73752395388e044f06275569838f5e,12.0,2.0,False,,,False
+utkarsh-small-finance-bank-d86431,anchor,official_nse/anchor/2023/UTKARSHBNK.zip,2023-07-11,True,native rows could not reconcile announced shares,6f7e1c52f5960c6fedbc5edeb5b6e77115c4b25de58bf8fff00051f3148c83b2,0.0,0.0,False,89100000.0,0.0,False
+netweb-technologies-india-cff3a3,rhp,official_nse/rhp/2023/NETWEB.zip,2023-07-10,True,summary extracted,751c71a02c3c8ee9166aa3d2b727532ee106d0f459f6e7643a4d25bea504cb51,6.0,2.0,False,,,False
+netweb-technologies-india-cff3a3,anchor,official_nse/anchor/2023/NETWEB.zip,2023-07-10,True,native rows could not reconcile announced shares,f422fd84da33245d19bebee2f4d3a1658e0e864273c7b3380e1994a77cfc217b,0.0,0.0,False,3780300.0,0.0,False
+yatharth-hospital-trauma-care-services-cecfbf,rhp,official_nse/rhp/2023/YATHARTH.zip,2023-07-18,True,no unambiguous summary in first 45 pages,1ec030df6c066fd802b13b8d9837d18df25dec920041a3c771b2180471d63ebd,0.0,3.0,False,,,False
+yatharth-hospital-trauma-care-services-cecfbf,anchor,official_nse/anchor/2023/YATHARTH.zip,2023-07-18,True,reconciled,c8090609a4f7d10223c4f39bfc9d32a6f4b67c4889331ac0f0c57c716dc434b7,0.0,0.0,True,6865506.0,6865506.0,False
+sbfc-finance-66f685,rhp,official_nse/rhp/2023/SBFC.zip,2023-07-26,True,no unambiguous summary in first 45 pages,14c5584a2b96fafde6a3b3728eb00a82b7875b96cd5f13946ce104b90c365403,0.0,3.0,False,,,False
+sbfc-finance-66f685,anchor,,,,document not collected,,,,,,,
+concord-biotech-8a8116,rhp,,,,document not collected,,,,,,,
+concord-biotech-8a8116,anchor,,,,document not collected,,,,,,,
+tvs-supply-chain-solutions-7d7fa1,rhp,,,,document not collected,,,,,,,
+tvs-supply-chain-solutions-7d7fa1,anchor,,,,document not collected,,,,,,,
+pyramid-technoplast-4858fc,rhp,,,,document not collected,,,,,,,
+pyramid-technoplast-4858fc,anchor,,,,document not collected,,,,,,,
+aeroflex-6ae7e1,rhp,official_nse/rhp/2023/AEROFLEX.zip,2023-08-11,True,summary extracted,422c2c1bdbc31f2318c6d419c1af3634595f557775c4b9452fa3b232a0d572d2,12.0,1.0,False,,,False
+aeroflex-6ae7e1,anchor,official_nse/anchor/2023/AEROFLEX.zip,,False,native rows could not reconcile announced shares,8cae7fda5652aa032e86ca788fca1940800380987a76056dcb1c9030c5aefe8e,0.0,0.0,False,,0.0,False
+vishnu-prakash-r-punglia-2e9194,rhp,,,,document not collected,,,,,,,
+vishnu-prakash-r-punglia-2e9194,anchor,official_nse/anchor/2023/VPRPL.zip,,False,native rows could not reconcile announced shares,acf5304f85426516e1e812e214a6d93890c881074ab520dcc89d1e3040bd27cd,0.0,0.0,False,,0.0,False
+ratnaveer-precision-engineering-36fd1c,rhp,official_nse/rhp/2023/RATNAVEER.zip,2023-08-22,True,summary extracted,4ead66b0c420a27d576215f1134279c9ebd76936aad69dd623ac2b01539b8aad,12.0,1.0,False,,,False
+ratnaveer-precision-engineering-36fd1c,anchor,official_nse/anchor/2023/RATNAVEER.zip,2023-09-01,True,native rows could not reconcile announced shares,52482da7aea2272dc570548f163a04a962cbe2c203b27886bfa4f5bf4a5c9ac3,0.0,0.0,False,,0.0,False
+rishabh-instruments-9851fc,rhp,official_nse/rhp/2023/RISHABH.zip,2023-08-23,True,summary extracted,31855a92afcb5aa42873dc479c3ee071af3a44c8789f53859d48106020e5d2b2,12.0,3.0,False,,,False
+rishabh-instruments-9851fc,anchor,official_nse/anchor/2023/RISHABH.zip,,False,native rows could not reconcile announced shares,2d33bb3f3f9e156f6ecd62aad75b64b51dc9b71ae4c9aa34fe1791b315d401f1,0.0,0.0,False,,0.0,False
+jupiter-life-line-hospitals-46bea2,rhp,official_nse/rhp/2023/JLHL.zip,2023-08-30,True,summary extracted,7d63dfe68b00274551c9cb21dc0eec00c794cc788e9e4166a06f9d2fbba684cf,9.0,1.0,False,,,False
+jupiter-life-line-hospitals-46bea2,anchor,official_nse/anchor/2023/JLHL.zip,2023-09-05,True,native rows could not reconcile announced shares,59a9168def28ad3972ff2a3177061dff8f003c67635b15ead452ba27d572303e,0.0,0.0,False,3547247.0,0.0,False
+r-r-kabel-3a8790,rhp,official_nse/rhp/2023/RRKABEL.zip,2023-09-06,True,summary extracted,0e6881aa379edf8736a7fb83d8667824e9416d0d03b017ce4af7b4c08f793f42,15.0,4.0,False,,,False
+r-r-kabel-3a8790,anchor,official_nse/anchor/2023/RRKABEL.zip,,False,native rows could not reconcile announced shares,e6fc646d17167f173600730c940463a7bfa22cb04859036bb889435d9ec2d8a4,0.0,0.0,False,,0.0,False
+ems-0b36be,rhp,,,,document not collected,,,,,,,
+ems-0b36be,anchor,official_nse/anchor/2023/EMSLIMITED.zip,,False,native rows could not reconcile announced shares,e56ebb8f9fb8e7ee15319812abb3bce15f7e88f24df99b9048107a5f63fea63b,0.0,0.0,False,,0.0,False
+samhi-hotels-bdbad7,rhp,official_nse/rhp/2023/SAMHI.zip,2023-09-05,True,summary extracted,4d218308bc0227cc34bfe66a060686ac1ee01dfa297e4dbbfc9b732326999f4d,15.0,2.0,False,,,False
+samhi-hotels-bdbad7,anchor,official_nse/anchor/2023/SAMHI.zip,,False,native rows could not reconcile announced shares,90beb9d0bd3fbf9a6a7836eb79c08103ca15de8dcb0e59a0998c3f0e541cb4af,0.0,0.0,False,,0.0,False
+zaggle-prepaid-ocean-services-9ad7d1,rhp,official_nse/rhp/2023/ZAGGLE.zip,2023-09-08,True,no unambiguous summary in first 45 pages,2bd7fe9a79b7165d9ef68642aed394d9cb28398f41c6c317e7dca1024a6081ea,0.0,4.0,False,,,False
+zaggle-prepaid-ocean-services-9ad7d1,anchor,official_nse/anchor/2023/ZAGGLE.zip,2023-09-08,True,native rows could not reconcile announced shares,034e5097e7dab9a3b61ad584d54e0870721ff378921aaa142f7ac2d4597dad04,0.0,0.0,False,15458515.0,0.0,False
+sai-silks-kalamandir-785f05,rhp,official_nse/rhp/2023/KALAMANDIR.zip,2023-09-13,True,no unambiguous summary in first 45 pages,d82d2f1c8c5d57e65f773d2670ecb1e5054728830302076d9e6de98c9b8698db,0.0,3.0,False,,,False
+sai-silks-kalamandir-785f05,anchor,official_nse/anchor/2023/KALAMANDIR.zip,,False,native rows could not reconcile announced shares,6d617f61e551ae08441cabd5fbb9dbb35e805dd1855fb3a213453ee8f911453b,0.0,0.0,False,,0.0,False
+signatureglobal-india-dcd3a7,rhp,official_nse/rhp/2023/SIGNATURE.zip,2023-09-12,True,summary extracted,fde8a49973757d93fa21e316755b0d74e684aa49056d0531e7792712d06127a4,12.0,3.0,False,,,False
+signatureglobal-india-dcd3a7,anchor,official_nse/anchor/2023/SIGNATURE.zip,,False,native rows could not reconcile announced shares,00259719e645ab7ec905494389106a373c41d6fdb4f2dd7c0a05a5bdc81ec1d3,0.0,0.0,False,,0.0,False
+yatra-online-721b87,rhp,official_nse/rhp/2023/YATRA.zip,2023-09-08,True,no unambiguous summary in first 45 pages,e9f12bc98c37b20b70c41ec952018efe395a1f7b9f28b1ed83cf763315226158,0.0,3.0,False,,,False
+yatra-online-721b87,anchor,official_nse/anchor/2023/YATRA.zip,,False,native rows could not reconcile announced shares,acb0b1296c60b8f7564992e3dd66190d7c1c3a74665fd4d992b72211a1cf75c5,0.0,0.0,False,,0.0,False
+jsw-infrastructure-d190d7,rhp,official_nse/rhp/2023/JSWINFRA.zip,2023-09-13,True,summary extracted,dfbb46a75c57c19a4500c8cfe81106ec9a7960627573d6528448f4d5254b876b,20.0,8.0,False,,,False
+jsw-infrastructure-d190d7,anchor,official_nse/anchor/2023/JSWINFRA.zip,,False,native rows could not reconcile announced shares,7ce5d751e7380c72b3f37d9d61e23ff47671609be9af701d4e8078159d53ca93,0.0,0.0,False,,0.0,False
+manoj-vaibhav-gems-n-jewellers-41325c,rhp,official_nse/rhp/2023/MVGJL.zip,,False,RHP cover not identified,db50a8e012e55a0a11d7c186735abf6e9b8908a36957964b38565ecf10fca24c,0.0,0.0,False,,,False
+manoj-vaibhav-gems-n-jewellers-41325c,anchor,official_nse/anchor/2023/MVGJL.zip,,False,native rows could not reconcile announced shares,92738bd48fe4ba959f03f05afe69b2fe32f763f0bef3a00198622184c963913a,0.0,0.0,False,,0.0,False
+updater-services-92bec4,rhp,official_nse/rhp/2023/UDS.zip,2023-09-18,True,summary extracted,b851f547c57aacd8173964fea809639f83d78a30f3927823e4770f4528725624,6.0,3.0,False,,,False
+updater-services-92bec4,anchor,official_nse/anchor/2023/UDS.zip,,False,native rows could not reconcile announced shares,58e939463fc853f9a573907d28ff569c4d7e1dbc95c0c98de7806b9b39142446,0.0,0.0,False,,0.0,False
+valiant-laboratories-097324,rhp,official_nse/rhp/2023/VALIANTLAB.zip,2023-09-18,True,summary extracted,aed3f531c3af7ec5f7fd1601d61d927a48727b10fb0b3a5e6d0df2a18c5d0273,12.0,1.0,False,,,False
+valiant-laboratories-097324,anchor,official_nse/anchor/2023/VALIANTLAB.zip,,False,native rows could not reconcile announced shares,d279944acf45eee34895dbe5e4891f474f279da106590cbfddb63804d3b8df82,0.0,0.0,False,,0.0,False
+plaza-wires-7ecf26,rhp,official_nse/rhp/2023/PLAZACABLE.zip,2023-09-22,True,summary extracted,4a082e704519f5625ee54b5e452ea1cf091ddc76902508d9d827f27df2883091,9.0,1.0,False,,,False
+plaza-wires-7ecf26,anchor,official_nse/anchor/2023/PLAZACABLE.zip,2023-09-27,True,native rows could not reconcile announced shares,d2c17bd454ebbe47775d41e00b1d2456e3d5c8574bda6c6da53f7b6b1285cc45,0.0,0.0,False,3704044.0,0.0,False
+irm-energy-ffb249,rhp,official_nse/rhp/2023/IRMENERGY.zip,2023-10-09,True,no unambiguous summary in first 45 pages,92ec92fdfe91fca8103d08ead41cfaae6d56c3efc1b7117a8f8b847d3a1c8d14,0.0,2.0,False,,,False
+irm-energy-ffb249,anchor,official_nse/anchor/2023/IRMENERGY.zip,,False,native rows could not reconcile announced shares,0f812f8cd861077b3514f14e5562727ae0fb2b34d08bc78f0d4670e5edb39f9f,0.0,0.0,False,,0.0,False
+blue-jet-healthcare-374d2f,rhp,official_nse/rhp/2023/BLUEJET.zip,2023-10-17,True,no unambiguous summary in first 45 pages,3e060e58ce23964232d773691047fe68d921cd70f2fb5659d5f23d5096180b6a,0.0,3.0,False,,,False
+blue-jet-healthcare-374d2f,anchor,official_nse/anchor/2023/BLUEJET.zip,,False,native rows could not reconcile announced shares,a0fa36c62c19e52ed146a0c467b5441070cd11591ca8bfe754e2d97ac4a628b2,0.0,0.0,False,,0.0,False
+cello-world-a52bf0,rhp,official_nse/rhp/2023/CELLO.zip,2023-10-21,True,summary extracted,c08a222e54794677d951dcf6aa9ef299292832e79200180d03d1a4391957cb62,20.0,5.0,False,,,False
+cello-world-a52bf0,anchor,official_nse/anchor/2023/CELLO.zip,,False,native rows could not reconcile announced shares,c13ed717e4f1d9c5f3146509eb2e066edea328477c53c67a9ef18dcc113084c8,0.0,0.0,False,,0.0,False
+honasa-consumer-7b7ce0,rhp,official_nse/rhp/2023/HONASA.zip,2023-10-23,True,summary extracted,f77a0765e3553fa1a0dc882271c42bfa0bfd9cf1298d8128f238a960234ba4a8,10.0,4.0,False,,,False
+honasa-consumer-7b7ce0,anchor,official_nse/anchor/2023/HONASA.zip,2023-10-30,True,native rows could not reconcile announced shares,4fe814e6cdef06da667fd2b371e53cd15c279f2205552fb4ff707e73ba7aaa35,0.0,0.0,False,23617228.0,0.0,False
+esaf-small-finance-bank-955781,rhp,official_nse/rhp/2023/ESAFSFB.zip,2023-10-28,True,no unambiguous summary in first 45 pages,79c5b48939953b9838d13d5e6f0491d99c8aeeed057dc1eda533b71b9cc925d2,0.0,3.0,False,,,False
+esaf-small-finance-bank-955781,anchor,official_nse/anchor/2023/ESAFSFB.zip,2023-11-02,True,native rows could not reconcile announced shares,d2cd2e026f755d61937e4868c753b826f6342dda90ff583555a6b93a8dd566bd,0.0,0.0,False,22524998.0,0.0,False
+protean-egov-technologies-90162d,rhp,Protean_2023_RHP_Issuer.pdf,2023-10-30,True,summary extracted,eaa2a8bfb20e585bba1a4487f64cdd71da915ea6878c98637741b2496877df2b,20.0,4.0,False,,,False
+protean-egov-technologies-90162d,anchor,,,,document not collected,,,,,,,
+ask-automotive-bf3e80,rhp,,,,document not collected,,,,,,,
+ask-automotive-bf3e80,anchor,,,,document not collected,,,,,,,
+indian-renewable-energy-development-agency-158f65,rhp,IREDA_2023_RHP_SEBI.pdf,2023-11-11,True,summary extracted,cf5127df24aa92001ddee7a0ecf3e96b1a72abbe4674d778689f1272f5f6c800,10.0,3.0,False,,,False
+indian-renewable-energy-development-agency-158f65,anchor,official_nse/anchor/2023/IREDA.zip,1-11-20,True,native rows could not reconcile announced shares,08b0675e0cf38b40943bc674704fd0f83914d59fa4b6a15fa8b313fbe684e255,0.0,0.0,False,,0.0,False
+fedbank-financial-services-97084b,rhp,official_nse/rhp/2023/FEDFINA.zip,2023-11-16,True,summary extracted,1d903af20e27d9a245f29ab00a8d3681a38932e8ea5fbd250f06fa0fc5370d43,15.0,4.0,False,,,False
+fedbank-financial-services-97084b,anchor,official_nse/anchor/2023/FEDFINA.zip,2023-11-21,True,native rows could not reconcile announced shares,5add03061cd2f952033bac36956f7de4126d7db049d85ffe5dd3e916ef44d93c,0.0,0.0,False,23191374.0,0.0,False
+gandhar-oil-refinery-india-40c645,rhp,official_nse/rhp/2023/GANDHAR.zip,2023-11-15,True,no unambiguous summary in first 45 pages,4186a502ce7a04805e922e874f5f6a4e80ced75ec17349dd4fed46c6e16ec28f,0.0,0.0,False,,,False
+gandhar-oil-refinery-india-40c645,anchor,official_nse/anchor/2023/GANDHAR.zip,,False,native rows could not reconcile announced shares,08a30538d4d6457f65c9ad8fae5734e89a20537c1e3adbcd628c340d79f1ce03,0.0,0.0,False,,0.0,False
+tata-technologies-3fd5b5,rhp,official_nse/rhp/2023/TATATECH.zip,2023-11-13,True,summary extracted,b20d683f2fe4787d2f79c76d8ecee71a5e8c009f82afb077a73d88014b3cc417,15.0,2.0,False,,,False
+tata-technologies-3fd5b5,anchor,official_nse/anchor/2023/TATATECH.zip,2023-11-21,True,reconciled,7f6e4f3ffdd91afd52e1dc705106b58d513769bf4c25470da27f65f3147b4003,0.0,0.0,True,15821071.0,15821071.0,False
+flair-writing-225403,rhp,official_nse/rhp/2023/FLAIR.zip,,False,RHP cover not identified,ddbbddd14e7f7c94cab25efca9c21a72a4fb156c4ce0716e73ac22658a194ae6,0.0,0.0,False,,,False
+flair-writing-225403,anchor,official_nse/anchor/2023/FLAIR.zip,2023-11-16,True,reconciled,86473d6e11d8b90e6dac9d114221a8e6136f866cb3d8019f671ee590ebcb3fe2,0.0,0.0,True,5851972.0,5851972.0,False
+doms-ddedb6,rhp,official_nse/rhp/2023/DOMS.zip,2023-12-02,True,summary extracted,4c229d40420e5feca4cda2a48fe83c91fa2212959d0373f2ea9602dc20e3107c,16.0,4.0,False,,,False
+doms-ddedb6,anchor,official_nse/anchor/2023/DOMS.zip,2023-12-12,True,reconciled,289faa3fa01f0bfa4516bc7035c2dc9edc89d02962fdc13110daaa3ffda50bec,0.0,0.0,True,6806961.0,6806961.0,False
+india-shelter-finance-7b13cd,rhp,official_nse/rhp/2023/INDIASHLTR.zip,2023-12-07,True,summary extracted,1839c5b05df2042be5d9dbd0c3fe21ff6e92b9da7e79ed2501ce278d340e4a54,15.0,3.0,False,,,False
+india-shelter-finance-7b13cd,anchor,official_nse/anchor/2023/INDIASHLTR.zip,2023-12-07,True,reconciled,2ad7d6529a0ec21481f625bc693562f38b3290c5088859c97d215344befcad33,0.0,0.0,True,7302229.0,7302229.0,False
+inox-india-3d15b2,rhp,official_nse/rhp/2023/INOXINDIA.zip,2023-12-08,True,summary extracted,a9156b0efa84bbbad8c5805e6ba00e1f29e96a8f544cbbb488c7f2ae12a1bd65,20.0,2.0,False,,,False
+inox-india-3d15b2,anchor,official_nse/anchor/2023/INOXINDIA.zip,,False,native rows could not reconcile announced shares,622e774049b78160234f43cb12768ee76c5fe6266da04e840c4d7cfab07bda1b,0.0,0.0,False,,0.0,False
+motisons-jewellers-463cbe,rhp,official_nse/rhp/2023/MOTISONS.zip,2023-12-08,True,summary extracted,350e39a4f5afea71a2a095ce4ed7b15db88960ce06dbf8fe07741125113522ec,20.0,1.0,False,,,False
+motisons-jewellers-463cbe,anchor,official_nse/anchor/2023/MOTISONS.zip,2023-12-08,True,native rows could not reconcile announced shares,2b3bc9aff000c5e8a8993bfae20aafbf519608444cdf87ed5fbe4b2d331c1972,0.0,0.0,False,6600000.0,0.0,False
+muthoot-microfin-900685,rhp,,,,document not collected,,,,,,,
+muthoot-microfin-900685,anchor,,,,document not collected,,,,,,,
+suraj-estate-developers-9a9046,rhp,official_nse/rhp/2023/SURAJEST.zip,2023-12-06,True,summary extracted,1f1ff7cc12d68440d0d472abd3f3a5e222ad5d789c5c078c335febd0ac392515,16.0,2.0,False,,,False
+suraj-estate-developers-9a9046,anchor,official_nse/anchor/2023/SURAJEST.zip,2023-12-06,True,native rows could not reconcile announced shares,9ded5c860ca09ae3b35f1233f0dfe5c78754b83cf6835bd8ed1ed3fa0e589a53,0.0,0.0,False,3333333.0,0.0,False
+credo-brands-marketing-550aae,rhp,official_nse/rhp/2023/MUFTI.zip,2023-12-12,True,summary extracted,c2005cb880cf2927a013a73e82e0dbdba78cb53137e2430378256201aa7a2efe,12.0,3.0,False,,,False
+credo-brands-marketing-550aae,anchor,official_nse/anchor/2023/MUFTI.zip,2023-12-12,True,native rows could not reconcile announced shares,9a8458be2376b0bd9da4d3a478a722f7655cb40b8d67d5fdc3ae0ea6d25d32d7,0.0,0.0,False,58901488.0,0.0,False
+happy-forgings-60df17,rhp,official_nse/rhp/2023/HAPPYFORGE.zip,2023-12-09,True,summary extracted,d178b49bfa82d2058a82aa9e408e7b121423f28d36bb876955a7e9ca7e44e53d,20.0,3.0,False,,,False
+happy-forgings-60df17,anchor,official_nse/anchor/2023/HAPPYFORGE.zip,,False,native rows could not reconcile announced shares,174bead3fb20d7f0c880da03e7a2f9b59eb56ec47a724b53da07834947d6323b,0.0,0.0,False,,0.0,False
+rbz-jewellers-b14253,rhp,official_nse/rhp/2023/RBZJEWEL.zip,2023-12-12,True,summary extracted,232f94134fd5c56bfc9f49ae05e9ffab5119736e0a8cfff5861af27f92cff300,20.0,1.0,False,,,False
+rbz-jewellers-b14253,anchor,official_nse/anchor/2023/RBZJEWEL.zip,2023-12-12,True,native rows could not reconcile announced shares,df6df4d6bebd5bb7bfcb7cc2092792cd8213bb773f5b390c80a10ad7374e034b,0.0,0.0,False,2100000.0,0.0,False
+azad-engineering-278ab7,rhp,official_nse/rhp/2023/AZAD.zip,2023-12-14,True,no unambiguous summary in first 45 pages,8b8a85cb8ad52ca3dac8833a658b6dec23f278130bd00e98dd274067c37b03a6,0.0,4.0,False,,,False
+azad-engineering-278ab7,anchor,official_nse/anchor/2023/AZAD.zip,,False,native rows could not reconcile announced shares,ed05a629b880ddcf8a3aaa92de62215308cf91d37e04c3222c0b4d77a79143d6,0.0,0.0,False,,0.0,False
+innova-captab-e94cb8,rhp,official_nse/rhp/2023/INNOVACAP.zip,2023-12-14,True,summary extracted,649005d207632fb919bcccac3417e817e446f8c91427cffdec04711df0727948,16.0,2.0,False,,,False
+innova-captab-e94cb8,anchor,official_nse/anchor/2023/INNOVACAP.zip,,False,native rows could not reconcile announced shares,27dc3d15997c396494d83bf260b784b9129ac31d84459d5f437cdefb72c5b0f5,0.0,0.0,False,,0.0,False
+jyoti-cnc-automation-594051,rhp,official_nse/rhp/2024/JYOTICNC.zip,2024-01-02,True,summary extracted,f79243e5df1a609f8ad814b0a40cd80f4d3c8a9e9508e2a7d814dee2f7225694,12.0,3.0,False,,,False
+jyoti-cnc-automation-594051,anchor,official_nse/anchor/2024/JYOTICNC.zip,2024-01-08,True,native rows could not reconcile announced shares,a09344ceb3cc22e1c18d24b4faaa14535ade0af1df88a643b23c9f16a04fbece,0.0,0.0,False,13527190.0,0.0,False
+medi-assist-healthcare-services-f3a108,rhp,official_nse/rhp/2024/MEDIASSIST.zip,2024-01-09,True,summary extracted,adcdc88660fdde77f26601bc38d9a970c486414670241f4d09a3b0e648d1536c,20.0,3.0,False,,,False
+medi-assist-healthcare-services-f3a108,anchor,official_nse/anchor/2024/MEDIASSIST.zip,,False,native rows could not reconcile announced shares,2d093ebf7267dc5b4db10a1791737b46fca9bb609955af39c507a8be5a16801d,0.0,0.0,False,,0.0,False
+epack-durable-482bdd,rhp,official_nse/rhp/2024/EPACK.zip,2024-01-12,True,no unambiguous summary in first 45 pages,507a590375085852a139ccd4730eccf9654b171424ca49e07b57afdc53cc0ce3,0.0,3.0,False,,,False
+epack-durable-482bdd,anchor,official_nse/anchor/2024/EPACK.zip,,False,native rows could not reconcile announced shares,12e46f4ef21a626f7aca0b86d14b763881aa5bfbc1b97915a59661ab01657b86,0.0,0.0,False,,0.0,False
+nova-agritech-5bb841,rhp,official_nse/rhp/2024/NOVAAGRI.zip,2024-01-12,True,summary extracted,5d42a74afc45f5f66f6617ac7b84545f1af8d31438d894146cdf76088533dcc5,16.0,2.0,False,,,False
+nova-agritech-5bb841,anchor,official_nse/anchor/2024/NOVAAGRI.zip,,False,native rows could not reconcile announced shares,91367f50b14f822a8a1c575286497074ae2475d6eb4d79e5b14edd165db0eda1,0.0,0.0,False,,0.0,False
+bls-e-services-3eda13,rhp,official_nse/rhp/2024/BLSE.zip,2024-01-23,True,no unambiguous summary in first 45 pages,e91d762d4f1023ce243d7970d47c05619981d8a3e83b8e58083d2f3076938cfc,0.0,1.0,False,,,False
+bls-e-services-3eda13,anchor,official_nse/anchor/2024/BLSE.zip,2024-01-29,True,reconciled,06475f06cd66333d3e000698b0ff91708ca88745362865cc2f973e36b7dbde02,0.0,0.0,True,9327096.0,9327096.0,False
+apeejay-surrendra-park-hotels-6c1c74,rhp,official_nse/rhp/2024/PARKHOTELS.zip,2024-01-29,True,no unambiguous summary in first 45 pages,d30213bbb60798dd6d7fc830db01e742500c674a5cb60ecd46eeb404998ffdd6,0.0,3.0,False,,,False
+apeejay-surrendra-park-hotels-6c1c74,anchor,official_nse/anchor/2024/PARKHOTELS.zip,,False,native rows could not reconcile announced shares,40a5f680e792260ea581fb97b6c5e11697446e3267a99fd7823c06d81a41d611,0.0,0.0,False,,0.0,False
+capital-small-finance-bank-ee6b2b,rhp,official_nse/rhp/2024/CAPITALSFB.zip,2024-02-01,True,summary extracted,fe4033abde46a2b7f34f4181c274da196cce265d00fc8336b98b509ec0a0978f,15.0,3.0,False,,,False
+capital-small-finance-bank-ee6b2b,anchor,official_nse/anchor/2024/CAPITALSFB.zip,2024-02-01,True,native rows could not reconcile announced shares,b23ba54440638c3c792221ee812141b12a3570cb2a95db088efb6fe5b7e85225,0.0,0.0,False,3353013.0,0.0,False
+jana-small-finance-bank-357ad6,rhp,official_nse/rhp/2024/JSFB.zip,2024-02-01,True,no unambiguous summary in first 45 pages,d287fc9850a0672bdea47454cd0398f026530706984c49d0aca5eb3bc2a6c715,0.0,3.0,False,,,False
+jana-small-finance-bank-357ad6,anchor,official_nse/anchor/2024/JSFB.zip,2024-02-01,True,native rows could not reconcile announced shares,f6383e295f153f1b651ec723277cfe9e5008e644b251f1c491d01dc96b4311de,0.0,0.0,False,4032588.0,0.0,False
+rashi-peripherals-38223f,rhp,official_nse/rhp/2024/RPTECH.zip,2024-01-29,True,no unambiguous summary in first 45 pages,b885572cdacca211684125a77cae5841baa0103320b88811e60e888085f03661,0.0,2.0,False,,,False
+rashi-peripherals-38223f,anchor,official_nse/anchor/2024/RPTECH.zip,,False,native rows could not reconcile announced shares,6601cbb2523cab7c72a5ad61a037724ce6bdb3e36bce88d61e91e0aa94b13e78,0.0,0.0,False,,0.0,False
+entero-healthcare-solutions-4b54b8,rhp,official_nse/rhp/2024/ENTERO.zip,2024-02-05,True,no unambiguous summary in first 45 pages,9508321da7f20569698f051fefe381887157d8bb15ddf99cd225bcbe5edd7184,0.0,4.0,False,,,False
+entero-healthcare-solutions-4b54b8,anchor,official_nse/anchor/2024/ENTERO.zip,,False,native rows could not reconcile announced shares,4a1de529bf49d82a6e59c0a0b38230ebefb1f685764b610269eb22d97a579dba,0.0,0.0,False,,0.0,False
+vibhor-steel-tubes-512bc3,rhp,official_nse/rhp/2024/VSTL.zip,2024-02-05,True,no unambiguous summary in first 45 pages,ec58a8b053f7e065d87fcca9634cfad3d4ed4cbc0cc20f4ae6781bff2bf51c9d,0.0,1.0,False,,,False
+vibhor-steel-tubes-512bc3,anchor,official_nse/anchor/2024/VSTL.zip,,False,native rows could not reconcile announced shares,8661565d97d68a990b79d904aced3bb4b037df2bbe2a1dc0e2ffd42cd398a90f,0.0,0.0,False,,0.0,False
+juniper-hotels-a45421,rhp,official_nse/rhp/2024/JUNIPER.zip,2024-02-13,True,no unambiguous summary in first 45 pages,28b776d822b237f1c71d6029566eea3c66dacc6a258d32b35acc7782e8e40492,0.0,3.0,False,,,False
+juniper-hotels-a45421,anchor,official_nse/anchor/2024/JUNIPER.zip,,False,native rows could not reconcile announced shares,360ffb2a637aec8670502e72afa4509a946ed358a83a4f8398d78ab83abcee7e,0.0,0.0,False,,0.0,False
+gpt-healthcare-9fd3c5,rhp,official_nse/rhp/2024/GPTHEALTH.zip,2024-02-15,True,summary extracted,b6cc0d3e3d9cf698ce0825e9a3de811b6e0461a724864d533216f3718cfe8fd4,15.0,1.0,False,,,False
+gpt-healthcare-9fd3c5,anchor,official_nse/anchor/2024/GPTHEALTH.zip,2024-02-15,True,reconciled,7eb6feacebf24454252fda67fd9ed4bbdd41062111e09588156e60617dbc695f,0.0,0.0,True,8469996.0,8469996.0,False
+exicom-tele-systems-e6a14b,rhp,official_nse/rhp/2024/EXICOM.zip,2024-02-20,True,summary extracted,cfb23f9d4041a07d6a08ac5480eb001ae1999820def29162bb80a9cf6ebbb899,25.0,2.0,False,,,False
+exicom-tele-systems-e6a14b,anchor,official_nse/anchor/2024/EXICOM.zip,,False,native rows could not reconcile announced shares,6afd514e049596bf01803058ef196c44a0bc4d5c041a28232f656eb8390d4a58,0.0,0.0,False,,0.0,False
+platinum-e4d074,rhp,,,,document not collected,,,,,,,
+platinum-e4d074,anchor,,,,document not collected,,,,,,,
+mukka-proteins-ebf947,rhp,official_nse/rhp/2024/MUKKA.zip,2024-02-24,True,summary extracted,46e8d8b326da7c063d0977cf09299576e7259d233cc8c298de6d7bc029c43192,16.0,1.0,False,,,False
+mukka-proteins-ebf947,anchor,official_nse/anchor/2024/MUKKA.zip,,False,native rows could not reconcile announced shares,53f01332cf407dc3e1b18a6a74af54e3f41f5815eadc2db5e98c916aa78b65b3,0.0,0.0,False,,0.0,False
+r-k-swamy-021e0c,rhp,official_nse/rhp/2024/RKSWAMY.zip,2024-02-26,True,summary extracted,7215ba8cdf3bb210b14be3faedc67b68a8d2d21027184b7dac0804bb35033150,20.0,3.0,False,,,False
+r-k-swamy-021e0c,anchor,official_nse/anchor/2024/RKSWAMY.zip,,False,native rows could not reconcile announced shares,0b303e0ae7fa65714962a242ca51a4fc546365c2136c5eda45b7d98283f426b7,0.0,0.0,False,,0.0,False
+j-g-chemicals-fde1d8,rhp,official_nse/rhp/2024/JGCHEM.zip,2024-02-27,True,summary extracted,5529b997f00d1406bcec90ffa920994e0254c767089664a466fb055303f313a3,8.0,3.0,False,,,False
+j-g-chemicals-fde1d8,anchor,official_nse/anchor/2024/JGCHEM.zip,,False,native rows could not reconcile announced shares,38e0d42d752cdf5a78907bc6911def76d186d913729aa1e681a836ed0179aafd,0.0,0.0,False,,0.0,False
+gopal-snacks-db7e86,rhp,,,,document not collected,,,,,,,
+gopal-snacks-db7e86,anchor,,,,document not collected,,,,,,,
+popular-vehicles-services-ede67d,rhp,official_nse/rhp/2024/PVSL.zip,2024-03-04,True,summary extracted,ea51661cb2e2613a5ae2f3271ef768ad78a67c6bb588bdd70e96ca3c4edde68c,16.0,1.0,False,,,False
+popular-vehicles-services-ede67d,anchor,official_nse/anchor/2024/PVSL.zip,,False,native rows could not reconcile announced shares,e086b4509353e22535b923dbc7fb05c426427e4a99011bb66f4de818cf56785d,0.0,0.0,False,,0.0,False
+krystal-integrated-services-a89bcd,rhp,official_nse/rhp/2024/KRYSTAL.zip,2024-03-04,True,no unambiguous summary in first 45 pages,bdbbec8160203791ce65892b2d94e82769c3a093cd70256fd11437088d36d9ac,0.0,1.0,False,,,False
+krystal-integrated-services-a89bcd,anchor,official_nse/anchor/2024/KRYSTAL.zip,,False,native rows could not reconcile announced shares,917153b0584b6e92ab05a6c1b231588484a5793a811a71b21392b410b1389b7c,0.0,0.0,False,,0.0,False
+srm-contractors-246320,rhp,,,,document not collected,,,,,,,
+srm-contractors-246320,anchor,official_nse/anchor/2024/SRM.zip,,False,native rows could not reconcile announced shares,9613e0ad2211931688d01e6fbff04e973293392e090dabd4347d5d48270408d1,0.0,0.0,False,,0.0,False
+bharti-hexacom-11e9ef,rhp,official_nse/rhp/2024/BHARTIHEXA.zip,2024-03-22,True,summary extracted,829056a9162537234725fd9aa6e3cf584a3ae5fde8af358a6bf1956f46ca60d7,20.0,5.0,False,,,False
+bharti-hexacom-11e9ef,anchor,official_nse/anchor/2024/BHARTIHEXA.zip,,False,native rows could not reconcile announced shares,3548298fff8172db7f6a4fcb237d9fd2a02b7bca56a7602f5aae2bdf9af2d3d5,0.0,0.0,False,,0.0,False
+jnk-india-66fb89,rhp,official_nse/rhp/2024/JNKINDIA.zip,2024-04-15,True,summary extracted,93551a10d394fc75adcdce49e3f84bd9277f07a70e946c811d99b58da6ce7713,16.0,2.0,False,,,False
+jnk-india-66fb89,anchor,official_nse/anchor/2024/JNKINDIA.zip,,False,native rows could not reconcile announced shares,6567b9ac71609af3f8824a1aea694b2bec9d4f5fa5961f98bba11fa1d0b11fad,0.0,0.0,False,,0.0,False
+indegene-e58651,rhp,official_nse/rhp/2024/INDGN.zip,2024-04-26,True,no unambiguous summary in first 45 pages,73fbbd7074808c983709f2680519f7ce1b11b56f9a8c73c339d81fc10331f8b6,0.0,4.0,False,,,False
+indegene-e58651,anchor,official_nse/anchor/2024/INDGN.zip,2024-05-03,True,native rows could not reconcile announced shares,be77a07439d9d84080dcdaa3e7dabb6f56dc25fd749018e484f194cf8418d82b,0.0,0.0,False,12141102.0,0.0,False
+aadhar-housing-finance-28b4be,rhp,official_nse/rhp/2024/AADHARHFC.zip,2024-04-30,True,summary extracted,0772332b8fe5b4650c12ee2dd5d200d3d14ea980bd82cc7d7fa6d9ec33900870,20.0,5.0,False,,,False
+aadhar-housing-finance-28b4be,anchor,official_nse/anchor/2024/AADHARHFC.zip,,False,native rows could not reconcile announced shares,d763ddbc7f257f502f3d9dbb59755a0ef4687b1d14670f371c28bf9d06953b25,0.0,0.0,False,,0.0,False
+tbo-tek-97b92c,rhp,official_nse/rhp/2024/TBOTEK.zip,2024-04-28,True,summary extracted,58d1ed0d2bbc5fac123a78fbd9b87b432155ddf07925aabbf1fb30f898bcaccc,10.0,4.0,False,,,False
+tbo-tek-97b92c,anchor,official_nse/anchor/2024/TBOTEK.zip,2024-04-28,True,native rows could not reconcile announced shares,2c2d6f702167234a6a86335574c622f5a72410b3dee9d154a38d1a1269e77f17,0.0,0.0,False,7570807.0,0.0,False
+go-digit-general-insurance-870ea9,rhp,official_nse/rhp/2024/GODIGIT.zip,2024-05-08,True,no unambiguous summary in first 45 pages,22d9398abeb4d852375dde87001f6a9aa66814fb5a4eefce5b1c246519331afd,0.0,6.0,False,,,False
+go-digit-general-insurance-870ea9,anchor,official_nse/anchor/2024/GODIGIT.zip,,False,native rows could not reconcile announced shares,f5a72364f5e4d4d9cffa9095fd57ec30190443a4a664e5e6dcafa344f60576f1,0.0,0.0,False,,0.0,False
+awfis-space-solutions-2efb92,rhp,official_nse/rhp/2024/AWFIS.zip,2024-05-14,True,summary extracted,98cdfd94cdecf9b30cd896a333f79e8d847dceae41ee4b8b221cd5f7d1201dca,12.0,4.0,False,,,False
+awfis-space-solutions-2efb92,anchor,official_nse/anchor/2024/AWFIS.zip,2024-05-21,True,native rows could not reconcile announced shares,3b518b034b31f6aa23ba004c9a71819de8ceaddf9b1e20fa3c4d309e415e2465,0.0,0.0,False,7013483.0,0.0,False
+kronox-lab-sciences-c8accb,rhp,official_nse/rhp/2024/KRONOX.zip,2024-05-28,True,summary extracted,2ae6cd5d70ff10136d54b35a70ce01fd7d2e4e3660186807d2a77e3adf5374bc,15.0,1.0,False,,,False
+kronox-lab-sciences-c8accb,anchor,official_nse/anchor/2024/KRONOX.zip,,False,native rows could not reconcile announced shares,570d7d6b1443482ffd479622897193f8cb260135050a305adac38a135308155b,0.0,0.0,False,,0.0,False
+le-travenues-technology-2ba9a0,rhp,official_nse/rhp/2024/IXIGO.zip,2024-06-04,True,summary extracted,008949d859ed4c89ee3b2ce6774ec7f8fd420fbec35fe9b4372261021364b920,15.0,3.0,False,,,False
+le-travenues-technology-2ba9a0,anchor,official_nse/anchor/2024/IXIGO.zip,2024-06-04,True,native rows could not reconcile announced shares,a1948b02acac5ebf66e505296d92155e87650e4aa34949c60ec1708989372ae4,0.0,0.0,False,35811405.0,0.0,False
+akme-fintrade-india-3fc4b8,rhp,official_nse/rhp/2024/AFIL.zip,2024-06-11,True,summary extracted,cffd2656ab40b9f144e6d7a2407b414c1659284a4a834a22f96c254320104359,16.0,1.0,False,,,False
+akme-fintrade-india-3fc4b8,anchor,official_nse/anchor/2024/AFIL.zip,1-06-18,True,native rows could not reconcile announced shares,faf3eeeb915eb9785c80e6a917f70894bc4a8b87df345a75d93bc56705568a67,0.0,0.0,False,,0.0,False
+dee-development-engineers-8a9ed5,rhp,official_nse/rhp/2024/DEEDEV.zip,2024-06-11,True,no unambiguous summary in first 45 pages,f8b703d3fd72adfa83decfc1f6449e33c44958a618a9b430d2d47dfada842933,0.0,2.0,False,,,False
+dee-development-engineers-8a9ed5,anchor,official_nse/anchor/2024/DEEDEV.zip,2024-06-18,True,reconciled,7850043cca7023dd55204717be8e14d3b177f4ca3a4e67fcc2524df7057cf667,0.0,0.0,True,6162777.0,6162777.0,False
+stanley-lifestyles-2adcf7,rhp,official_nse/rhp/2024/STANLEY.zip,2024-06-13,True,summary extracted,ce16d208af48d3b8016c897f876b4ae72527aa2d3b74467aaa2829f1e68dc468,8.0,4.0,False,,,False
+stanley-lifestyles-2adcf7,anchor,official_nse/anchor/2024/STANLEY.zip,,False,native rows could not reconcile announced shares,283a699cb86e85d82cabb575f09c9eef32397b0c4adf2f87d1bf6142ba3e641a,0.0,0.0,False,,0.0,False
+allied-blenders-distillers-758794,rhp,official_nse/rhp/2024/ABDL.zip,2024-06-18,True,summary extracted,9076f46c8d873685a7aeb8618736815326016275765766d6630f81b014964a7f,20.0,3.0,False,,,False
+allied-blenders-distillers-758794,anchor,official_nse/anchor/2024/ABDL.zip,2024-06-18,True,reconciled,7aebd4d8d6804bc05c40567e81963c9b98947f15e48f7e2779e8f9601acc401e,0.0,0.0,True,15982206.0,15982206.0,False
+vraj-iron-steel-3b8222,rhp,official_nse/rhp/2024/VRAJ.zip,2024-06-18,True,no unambiguous summary in first 45 pages,2027c7affac4719dc407e03e1b1625e3cf6805f49f610ed48dd6713ebba900a7,0.0,1.0,False,,,False
+vraj-iron-steel-3b8222,anchor,official_nse/anchor/2024/VRAJ.zip,1-06-18,True,native rows could not reconcile announced shares,4e46324f2ee07c2142bbd51ee5558cd0be4c877c508c14b0daedccdc1704681a,0.0,0.0,False,2478259.0,0.0,False
+bansal-wire-20eb7e,rhp,official_nse/rhp/2024/BANSALWIRE.zip,2024-06-27,True,no unambiguous summary in first 45 pages,4ac537d235d83ade2744acec2a237cc23a66a24f9fc2fef4f9a35200a63ceda5,0.0,2.0,False,,,False
+bansal-wire-20eb7e,anchor,official_nse/anchor/2024/BANSALWIRE.zip,,False,native rows could not reconcile announced shares,53ee2457a5bd64afd387fbb5cbca7bdc9120f3b0baa6b622ee04d5fba1d4056f,0.0,0.0,False,,0.0,False
+emcure-pharmaceuticals-a37e76,rhp,official_nse/rhp/2024/EMCURE.zip,2024-06-26,True,summary extracted,0319d332d4477b39cfefb5a1bd15139d3ff474e6948f70b8cea39265ff0529b5,12.0,4.0,False,,,False
+emcure-pharmaceuticals-a37e76,anchor,official_nse/anchor/2024/EMCURE.zip,2024-07-02,True,native rows could not reconcile announced shares,57c385fe0ec93dd2c03d6297f4a6b06eb69f870e1ef9b24f10ca4ab0083beb58,0.0,0.0,False,5779850.0,0.0,False
+sanstar-6c0f82,rhp,official_nse/rhp/2024/SANSTAR.zip,2024-07-12,True,summary extracted,a31b448b63494f43a2b518754f06382a31ca09690194911cb6076f779d7fef32,12.0,1.0,False,,,False
+sanstar-6c0f82,anchor,official_nse/anchor/2024/SANSTAR.zip,,False,native rows could not reconcile announced shares,a0fad2d18702acf70a812c0f6804373d53a5f9f7f99a3f3b3124c806c405feb1,0.0,0.0,False,,0.0,False
+akums-drugs-pharmaceuticals-f77e06,rhp,official_nse/rhp/2024/AKUMS.zip,2024-07-24,True,summary extracted,d25d3b62c9b62719c18bb092d8a5e2414207e5732e91032a2e83fc01d723ac24,12.0,4.0,False,,,False
+akums-drugs-pharmaceuticals-f77e06,anchor,official_nse/anchor/2024/AKUMS.zip,,False,native rows could not reconcile announced shares,10708de842319fc5bc6b4d3e92345783fa030779f25403249d5dc399a8979505,0.0,0.0,False,,0.0,False
+ceigall-india-942a4c,rhp,official_nse/rhp/2024/CEIGALL.zip,2024-07-26,True,summary extracted,68dd989bc987cd9529c1acf07212c7a836637ec03ac81f74eab4b8956bd620ed,9.0,3.0,False,,,False
+ceigall-india-942a4c,anchor,official_nse/anchor/2024/CEIGALL.zip,,False,native rows could not reconcile announced shares,6b943dd2e6eba22f9a9109d4e72a6e0204d4689294a8db9a8027bd2545cad0c5,0.0,0.0,False,,0.0,False
+ola-electric-mobility-28482e,rhp,official_nse/rhp/2024/OLAELEC.zip,2024-07-26,True,summary extracted,94dc87d4574179853a53e890e7db2a42d267fe649936d62b0d576392e0984055,12.0,8.0,False,,,False
+ola-electric-mobility-28482e,anchor,official_nse/anchor/2024/OLAELEC.zip,2024-08-01,True,reconciled,c0be8a0b6404d8ccf10633da51693b81ea4807670fbeedf3085b23e6611a27ee,0.0,0.0,True,363556135.0,363556135.0,False
+brainbees-solutions-848fd2,rhp,official_nse/rhp/2024/FIRSTCRY.zip,2024-07-30,True,summary extracted,cfaf1b4fd8c91ef2ddf1008e25b2d2286a45ed57a144b9c1bc18ee3c1fc510a6,9.0,5.0,False,,,False
+brainbees-solutions-848fd2,anchor,official_nse/anchor/2024/FIRSTCRY.zip,2024-08-05,True,native rows could not reconcile announced shares,e6987ba8ffc79a8f0d32f3c26ca31e75fe6caa391c0ff105da652661cef66cc4,0.0,0.0,False,40555428.0,0.0,False
+unicommerce-esolutions-fe228f,rhp,official_nse/rhp/2024/UNIECOM.zip,2024-07-30,True,summary extracted,2d9ed14d6616cb7acd1157b6d6b18b8c87d47c861d3db12fbad7de690a78c413,12.0,2.0,False,,,False
+unicommerce-esolutions-fe228f,anchor,official_nse/anchor/2024/UNIECOM.zip,,False,native rows could not reconcile announced shares,7185c370d96f66239d5fe0493391c5661afa209c6b3e8840053db99df97b9fe6,0.0,0.0,False,,0.0,False
+saraswati-saree-depot-c7bb13,rhp,official_nse/rhp/2024/SSDL.zip,2024-08-06,True,summary extracted,245bd0daa897fda2635b7b16489ae78ef3967231b22895908fdab6b39d36aeba,12.0,1.0,False,,,False
+saraswati-saree-depot-c7bb13,anchor,,,,document not collected,,,,,,,
+interarch-building-products-161159,rhp,official_nse/rhp/2024/INTERARCH.zip,2024-08-12,True,summary extracted,f0d8064871af84bdfab43dd86449484ce040258e3f3206ee0e3ddd752f08f4d9,12.0,2.0,False,,,False
+interarch-building-products-161159,anchor,official_nse/anchor/2024/INTERARCH.zip,,False,native rows could not reconcile announced shares,307670943202b417180d8afd537351825b28c7c384c39d0354b2c4e2640142ce,0.0,0.0,False,,0.0,False
+orient-technologies-a99e4f,rhp,official_nse/rhp/2024/ORIENTTECH.zip,2024-08-09,True,no unambiguous summary in first 45 pages,bf0a76e20cb47807fec15b0052d2ca601001dd2c3619ee2c4bb37e5704222f67,0.0,1.0,False,,,False
+orient-technologies-a99e4f,anchor,official_nse/anchor/2024/ORIENTTECH.zip,,False,native rows could not reconcile announced shares,b8cb867783c222548df35ea73d2c7ba5697803c530b300b4fa5c772ba4d611ee,0.0,0.0,False,,0.0,False
+premier-energies-384778,rhp,official_nse/rhp/2024/PREMIERENE.zip,2024-08-20,True,summary extracted,3137bf37e875fff9efa78d830ca9162570b4bab0b446efce9dbabb0aa26c8565,10.0,3.0,False,,,False
+premier-energies-384778,anchor,official_nse/anchor/2024/PREMIERENE.zip,2024-08-26,True,native rows could not reconcile announced shares,5cc540554fdc78eeb566fb4720d87c91cf2db9b8fc7a061a227ba26631d37f74,0.0,0.0,False,18802666.0,0.0,False
+ecos-india-mobility-hospitality-45dc6c,rhp,official_nse/rhp/2024/ECOSMOBLTY.zip,2024-08-20,True,no unambiguous summary in first 45 pages,b1d3235863956e21ffef975bc17c6ff3c93bd08f920db3cda270bc0dcb2f7864,0.0,2.0,False,,,False
+ecos-india-mobility-hospitality-45dc6c,anchor,official_nse/anchor/2024/ECOSMOBLTY.zip,,False,native rows could not reconcile announced shares,438b1c8ada9f976a8367c423a03be6009c8870b26adf460fb73782078dbaf36b,0.0,0.0,False,,0.0,False
+baazar-style-retail-b07c2e,rhp,,,,document not collected,,,,,,,
+baazar-style-retail-b07c2e,anchor,,,,document not collected,,,,,,,
+gala-precision-engineering-fb9c6e,rhp,official_nse/rhp/2024/GALAPREC.zip,2024-08-23,True,no unambiguous summary in first 45 pages,946598d98611aa674b6892d098005e988dfbe79dc6f280ecab586a20d7e6b6d0,0.0,1.0,False,,,False
+gala-precision-engineering-fb9c6e,anchor,official_nse/anchor/2024/GALAPREC.zip,,False,native rows could not reconcile announced shares,04f9587fc070d282161e9f79488aa42d9ddb8668ff51f7d4850ab917fde56ae9,0.0,0.0,False,,0.0,False
+shree-tirupati-balajee-agro-trading-fb2691,rhp,,,,document not collected,,,,,,,
+shree-tirupati-balajee-agro-trading-fb2691,anchor,,,,document not collected,,,,,,,
+bajaj-housing-finance-6917c1,rhp,official_nse/rhp/2024/BAJAJHFL.zip,2024-08-30,True,summary extracted,db2e23ce22d3130b4aff1263e328a6c06300b0662d3289f9cc4434778f2fb968,20.0,7.0,False,,,False
+bajaj-housing-finance-6917c1,anchor,official_nse/anchor/2024/BAJAJHFL.zip,2024-09-06,True,native rows could not reconcile announced shares,491d7c34c774279f4f319b4e8c38fb47e8202825fc29515b11201f083a1edd51,0.0,0.0,False,251142856.0,0.0,False
+kross-f87f7f,rhp,official_nse/rhp/2024/KROSS.zip,2024-09-02,True,summary extracted,279dab3e96311eb5d2f1598ca11c6827e6abd69b25f0a662a0152c024432a2fa,12.0,1.0,False,,,False
+kross-f87f7f,anchor,official_nse/anchor/2024/KROSS.zip,2024-09-06,True,reconciled,9d13bbc72623a1af0f9428bfea0dac175b0ad5945c6db044169b89a5177946f2,0.0,0.0,True,6249999.0,6249999.0,False
+tolins-tyres-cab7d0,rhp,official_nse/rhp/2024/TOLINS.zip,2024-08-28,True,summary extracted,1c88767d7bc4038593dad1812606d2e1ddb3d741aac016b54ce76a50815895dc,24.0,1.0,False,,,False
+tolins-tyres-cab7d0,anchor,official_nse/anchor/2024/TOLINS.zip,,False,native rows could not reconcile announced shares,c449241095c7ef52c090a8217e04672efc743e050a2e8e6f90238afc42fad14f,0.0,0.0,False,,0.0,False
+p-n-gadgil-jewellers-4e5f4a,rhp,official_nse/rhp/2024/PNGJL.zip,2024-09-04,True,summary extracted,c96358c29d58ab6e2868246c80d8dbde7637e8db28bad065d89065f3fb54ef33,12.0,1.0,False,,,False
+p-n-gadgil-jewellers-4e5f4a,anchor,official_nse/anchor/2024/PNGJL.zip,,False,native rows could not reconcile announced shares,c2e7223e9f9dd48bc7bbfd079a45ad567f5bbfe056d13cafd1d7aac16f8b0abe,0.0,0.0,False,,0.0,False
+arkade-developers-fba06c,rhp,official_nse/rhp/2024/ARKADE.zip,2024-09-05,True,summary extracted,69e980c4a1bb83e73ab9a039b7d5f00136ce9f126f79b60708a93949142234d3,9.0,1.0,False,,,False
+arkade-developers-fba06c,anchor,official_nse/anchor/2024/ARKADE.zip,2024-09-13,True,native rows could not reconcile announced shares,a6799704497e41105690c3061fc6c69231ffdfa77f9fd2a09830295bf2d65304,0.0,0.0,False,9562500.0,0.0,False
+northern-arc-capital-f352cd,rhp,official_nse/rhp/2024/NORTHARC.zip,2024-09-09,True,summary extracted,fa7526e8a632899ff0d90c61d8bdddae7681d95447538878298b5fa5431e5ee4,9.0,3.0,False,,,False
+northern-arc-capital-f352cd,anchor,official_nse/anchor/2024/NORTHARC.zip,,False,native rows could not reconcile announced shares,18456dbfe1ee289fd25a55da2b9dc07a085a3d99499031fec87a62e739591973,0.0,0.0,False,,0.0,False
+western-carriers-india-6a052d,rhp,official_nse/rhp/2024/WCIL.zip,2024-09-07,True,summary extracted,abfe5a41c6ccc245c4d78a81227d386badfd2914c9f6dd327c4842ad8c68a55b,12.0,2.0,False,,,False
+western-carriers-india-6a052d,anchor,official_nse/anchor/2024/WCIL.zip,,False,native rows could not reconcile announced shares,403a21a439936e28c59a0ace831c40236851b709788ff52d843d11f5d96a1b35,0.0,0.0,False,,0.0,False
+manba-finance-e096e0,rhp,official_nse/rhp/2024/MANBA.zip,2024-09-16,True,summary extracted,d20f8e47a13c33afa5afa1226ab7ca1aa1910f696e2aa91d025b119aac907bb5,15.0,1.0,False,,,False
+manba-finance-e096e0,anchor,official_nse/anchor/2024/MANBA.zip,2024-09-20,True,reconciled,d46639009230799d78ca795033899ad549d0e0e7173621eef13acfc12ca1a1a4,0.0,0.0,True,3771000.0,3771000.0,False
+krn-heat-exchanger-refrigeration-e0b2cd,rhp,official_nse/rhp/2024/KRN.zip,2024-09-13,True,summary extracted,d1c00c1ad250da35a0a22881bfa76793939f145a966364dd195e7d542efae587,15.0,1.0,False,,,False
+krn-heat-exchanger-refrigeration-e0b2cd,anchor,official_nse/anchor/2024/KRN.zip,,False,native rows could not reconcile announced shares,c4fa7d3bc3644d27f1a6fccd66703c065e1125785a48d9088469eddf29c8661f,0.0,0.0,False,,0.0,False
+diffusion-engineers-7a1e5b,rhp,official_nse/rhp/2024/DIFFNKG.zip,2024-09-20,True,summary extracted,17010aa9a1b788fa0370cd350f0bc6a9751e1814d8093b5cb97d70efbc436a60,12.0,1.0,False,,,False
+diffusion-engineers-7a1e5b,anchor,official_nse/anchor/2024/DIFFNKG.zip,,False,native rows could not reconcile announced shares,3eaf6c8cf861b15705df9f27b3cc7c998337059356f6079b08ee1a7efa97c6f0,0.0,0.0,False,,0.0,False
+garuda-construction-engineering-33918b,rhp,official_nse/rhp/2024/GARUDA.zip,2024-09-28,True,summary extracted,b85e62df5323bc4ec2b40e02e7d677ee07c8bc68d0601e87add0a6222a68b405,16.0,1.0,False,,,False
+garuda-construction-engineering-33918b,anchor,official_nse/anchor/2024/GARUDA.zip,,False,native rows could not reconcile announced shares,9fbc7d9ca65172a233b840c7dc03e270d8096dd5c54cb3a6bc0ba7a4f72df123,0.0,0.0,False,,0.0,False
+hyundai-motor-india-a501c3,rhp,official_nse/rhp/2024/HYUNDAI.zip,2024-10-08,True,summary extracted,acc704f410fc58b7b1dcc1cb3c00e858207824a5e4f87de41d05927f1e67a606,20.0,5.0,False,,,False
+hyundai-motor-india-a501c3,anchor,official_nse/anchor/2024/HYUNDAI.zip,2024-10-14,True,native rows could not reconcile announced shares,39fe0e511060f546744087ac58a358e881b70be69cc3430907d083b0ab5d7569,0.0,0.0,False,42424890.0,0.0,False
+deepak-builders-engineers-india-cdb159,rhp,official_nse/rhp/2024/DBEIL.zip,2024-10-12,True,no unambiguous summary in first 45 pages,87395c03c6ea3f2249bf893aa77df3673aeadbcf0cc391254f03e0f781f0a022,0.0,1.0,False,,,False
+deepak-builders-engineers-india-cdb159,anchor,official_nse/anchor/2024/DBEIL.zip,,False,native rows could not reconcile announced shares,ca884cdfd0d5ad7aede4f4df726512da910435835a447675e158c1e064765ba2,0.0,0.0,False,,0.0,False
+waaree-energies-f5c224,rhp,official_nse/rhp/2024/WAAREEENER.zip,2024-10-14,True,summary extracted,bf655a17f2b21080317c722864fc7d4119a2e67695be82fca9f49fbe32818e62,25.0,7.0,False,,,False
+waaree-energies-f5c224,anchor,official_nse/anchor/2024/WAAREEENER.zip,2024-10-18,True,native rows could not reconcile announced shares,ad45e21404160e4a8fd0f4604f068591cf6f44e58d2ffa11bb2d5b7c02818440,0.0,0.0,False,8495887.0,0.0,False
+godavari-biorefineries-ff776e,rhp,official_nse/rhp/2024/GODAVARIB.zip,2024-10-17,True,summary extracted,9eb7aa12dda0e50f0d6a3f09a49dd7a7fe94336636cd360acbab7fff0d52a789,20.0,2.0,False,,,False
+godavari-biorefineries-ff776e,anchor,official_nse/anchor/2024/GODAVARIB.zip,,False,native rows could not reconcile announced shares,c833ecc030ced7c998acb7e8140f54c8db385e3e2763e9d70f9b0517b4650069,0.0,0.0,False,,0.0,False
+afcons-infrastructure-b9dff3,rhp,official_nse/rhp/2024/AFCONS.zip,2024-10-18,True,no unambiguous summary in first 45 pages,b3a7aacff77b5b836c87900fe7184cecb89e0ff7d044640312a66ed5d7896831,0.0,4.0,False,,,False
+afcons-infrastructure-b9dff3,anchor,official_nse/anchor/2024/AFCONS.zip,2024-10-24,True,native rows could not reconcile announced shares,c69f02703dada38c1933adb00b26e2145e895298e1e0cd9f80c15b0f17d75996,0.0,0.0,False,35021597.0,0.0,False
+sagility-india-d20a1f,rhp,official_nse/rhp/2024/SAGILITY.zip,2024-10-29,True,no unambiguous summary in first 45 pages,3b372bfe3dd6dd00018f037e95fb20309d9164cd0a3e017e949483250117b17e,0.0,3.0,False,,,False
+sagility-india-d20a1f,anchor,official_nse/anchor/2024/SAGILITY.zip,2024-11-04,True,native rows could not reconcile announced shares,1140960524c96804f1d00a7496e95cb6ef1b69c3d84f5bf65cb16c66da9c8167,0.0,0.0,False,315134668.0,0.0,False
+acme-solar-aa582e,rhp,official_nse/rhp/2024/ACMESOLAR.zip,2024-10-29,True,no unambiguous summary in first 45 pages,c1c1947961d7372919a7a20b8520a021c7b3ca81e4acdbab198688c658967b99,0.0,5.0,False,,,False
+acme-solar-aa582e,anchor,official_nse/anchor/2024/ACMESOLAR.zip,,False,native rows could not reconcile announced shares,4b9faa7cff528c9860e16e68c9e888698ea2ce9413744a128022e72564184c82,0.0,0.0,False,,0.0,False
+swiggy-7fb9dd,rhp,official_nse/rhp/2024/SWIGGY.zip,2024-10-28,True,summary extracted,d9f5c3afbcf756294cf8ee1dae91934aaf14c51b68cdbe18adccf2e8bda28a3e,20.0,3.0,False,,,False
+swiggy-7fb9dd,anchor,official_nse/anchor/2024/SWIGGY.zip,2024-11-05,True,reconciled,7dce271678f8b54359040493c39fc0631c7ef3220ce9395b24d69413804f95cd,0.0,0.0,True,130385211.0,130385211.0,False
+niva-bupa-health-insurance-ef2bb3,rhp,official_nse/rhp/2024/NIVABUPA.zip,2024-10-31,True,summary extracted,7fba0d4f405d253118fbde3ecf269d6c43d33169acbabc9b1ea57993f5166f05,15.0,6.0,False,,,False
+niva-bupa-health-insurance-ef2bb3,anchor,official_nse/anchor/2024/NIVABUPA.zip,,False,native rows could not reconcile announced shares,3159b93a71d9aa9f5f15b1992676c30c462de2d5ca5103adf282fd9c4974cbb5,0.0,0.0,False,,0.0,False
+zinka-logistics-solutions-f6a767,rhp,official_nse/rhp/2024/BLACKBUCK.zip,2024-11-07,True,summary extracted,433dfd52f133e467bd558bdeabb783e001da5955c79fb2a3be037986b2619ea5,20.0,4.0,False,,,False
+zinka-logistics-solutions-f6a767,anchor,official_nse/anchor/2024/BLACKBUCK.zip,2024-11-07,True,native rows could not reconcile announced shares,249aa99c9ec0e8f5ca424b6ac1626d3e09cf0207a07362348f09c4a9bd362b13,0.0,0.0,False,18363915.0,0.0,False
+ntpc-green-energy-9af832,rhp,official_nse/rhp/2024/NTPCGREEN.zip,2024-11-12,True,no unambiguous summary in first 45 pages,5368693281846dbe8cf10a959a13ae1ec4596a7f022e42bfc2e8db7f2aea2e79,0.0,4.0,False,,,False
+ntpc-green-energy-9af832,anchor,official_nse/anchor/2024/NTPCGREEN.zip,,False,native rows could not reconcile announced shares,cc6b28984a913999e8ca82a8c0a4c7d0e33c37c2478b69bc97eed3b719630a6c,0.0,0.0,False,,0.0,False
+enviro-infra-engineers-c8c1dc,rhp,official_nse/rhp/2024/EIEL.zip,2024-11-16,True,summary extracted,6aaef179ba1a69f220f87b79c59d896d99ff934d59e8fdb320a4d98239f35e2b,12.0,1.0,False,,,False
+enviro-infra-engineers-c8c1dc,anchor,official_nse/anchor/2024/EIEL.zip,1-11-16,True,native rows could not reconcile announced shares,293be79bf941d1a20891dacb27364124417de4bdcf69d9ca02aa4577e9e946b5,0.0,0.0,False,13154400.0,0.0,False
+suraksha-diagnostic-06c405,rhp,official_nse/rhp/2024/SURAKSHA.zip,2024-11-25,True,summary extracted,bc539bdb63df6e691ef4945e757d66b2eee539c1d9ca3771c5e7645ce882293a,16.0,3.0,False,,,False
+suraksha-diagnostic-06c405,anchor,official_nse/anchor/2024/SURAKSHA.zip,1-11-28,True,native rows could not reconcile announced shares,c7192c4a934cbf5d8e75ae3af0e6edbd5f2c3e41a3f57ca96e89ff7f20e7c0ce,0.0,0.0,False,5756797.0,0.0,False
+one-mobikwik-systems-d1cbc9,rhp,official_nse/rhp/2024/MOBIKWIK.zip,2024-12-05,True,summary extracted,9d965743e5b01e18ed86f4b4d38a2e98e1d2b7b5b771811015e95c6387cb8c7c,12.0,2.0,False,,,False
+one-mobikwik-systems-d1cbc9,anchor,official_nse/anchor/2024/MOBIKWIK.zip,2024-12-05,True,native rows could not reconcile announced shares,ecac8716e359c3e3a69dc7d64a1dbf099e9de146746271ef69ba097d258a223f,0.0,0.0,False,9225807.0,0.0,False
+sai-life-sciences-95762b,rhp,official_nse/rhp/2024/SAILIFE.zip,2024-12-05,True,summary extracted,345232ad76be3be58b62ecb2ff9521477b947a121c0a5b4ff8e29f406bd71a63,20.0,3.0,False,,,False
+sai-life-sciences-95762b,anchor,official_nse/anchor/2024/SAILIFE.zip,2024-12-10,True,native rows could not reconcile announced shares,f1082838fc1c4c6ceaba066378fe8bcc69271069b1fc7b0aeb8aaec5bd952547,0.0,0.0,False,16626336.0,0.0,False
+vishal-mega-mart-ba8161,rhp,official_nse/rhp/2024/VMM.zip,2024-12-04,True,summary extracted,3f497b3bf6c4656b81155a8cb54d9014ce7a69507be8c88a7454a0f86bf3404d,15.0,6.0,False,,,False
+vishal-mega-mart-ba8161,anchor,official_nse/anchor/2024/VMM.zip,,False,native rows could not reconcile announced shares,c56fe1ed24dfaf6cbcb14f0b3d7708627690e937a8229e9ce341f414d502bbd7,0.0,0.0,False,,0.0,False
+inventurus-knowledge-solutions-fecff4,rhp,official_nse/rhp/2024/IKS.zip,2024-12-05,True,summary extracted,78e90c0a7e12118f807dab023a7051d5ffc55df74c544cc474c26bc5796ca187,20.0,4.0,False,,,False
+inventurus-knowledge-solutions-fecff4,anchor,official_nse/anchor/2024/IKS.zip,2024-12-11,True,native rows could not reconcile announced shares,f3d9d4a54f1c9e0679c508f28acdd4df5ad517ed07f8f535a57aabca21e60be9,0.0,0.0,False,8428730.0,0.0,False
+international-gemmological-institute-india-b415b8,rhp,,,,document not collected,,,,,,,
+international-gemmological-institute-india-b415b8,anchor,,,,document not collected,,,,,,,
+concord-enviro-systems-6db40a,rhp,official_nse/rhp/2024/CEWATER.zip,2024-12-14,True,summary extracted,d1a3bcb674c5a0a9f5732b440dcb579b66b7e1bd8539e5dd20e0d2fc0f77bafe,20.0,2.0,False,,,False
+concord-enviro-systems-6db40a,anchor,official_nse/anchor/2024/CEWATER.zip,2024-12-18,True,native rows could not reconcile announced shares,2e5fe4f4ac066360b3a1b35388480641b2070db7df1e4760accd63039a540faa,0.0,0.0,False,2141195.0,0.0,False
+dam-capital-advisors-d4ff52,rhp,official_nse/rhp/2024/DAMCAPITAL.zip,2024-12-14,True,summary extracted,5c6a0d1516cf13b999d04a45b406efd0a01beb85dd2e266fc06dc54ca3a10e2f,16.0,1.0,False,,,False
+dam-capital-advisors-d4ff52,anchor,official_nse/anchor/2024/DAMCAPITAL.zip,,False,native rows could not reconcile announced shares,6644c0171cfddae409296beb3f2e9db229d6ab71718f597f37abc2503165d714,0.0,0.0,False,,0.0,False
+mamata-machinery-cbe7d4,rhp,official_nse/rhp/2024/MAMATA.zip,2024-12-12,True,summary extracted,73601a117914b59fd1b7e34a8f83d32d605f01c45cd20a1dd861a712ba32abfb,12.0,1.0,False,,,False
+mamata-machinery-cbe7d4,anchor,official_nse/anchor/2024/MAMATA.zip,,False,native rows could not reconcile announced shares,53777b165c6d9ba2f8b8a5fb448ea393da07f15c863604b317b7b82e944b2fa4,0.0,0.0,False,,0.0,False
+sanathan-textiles-58acdc,rhp,official_nse/rhp/2024/SANATHAN.zip,2024-12-13,True,no unambiguous summary in first 45 pages,e0e98fe3ae553b0ed2cbd33da235daa820c2b2159c80e6adb2d285938648c7d4,0.0,2.0,False,,,False
+sanathan-textiles-58acdc,anchor,official_nse/anchor/2024/SANATHAN.zip,,False,native rows could not reconcile announced shares,9cb6cc9c8de849b2ad7fc321c35d0a50b70d90e398528fc3ca45000aeb474166,0.0,0.0,False,,0.0,False
+transrail-lighting-146105,rhp,official_nse/rhp/2024/TRANSRAILL.zip,2024-12-10,True,summary extracted,b3b8317d089d642b63c74c48c24f877dcf64dd02feff66a0e180eda5c9a18c1e,16.0,4.0,False,,,False
+transrail-lighting-146105,anchor,official_nse/anchor/2024/TRANSRAILL.zip,,False,native rows could not reconcile announced shares,7cffadb0e6798781c1ef3652645863541574b4c061fb0d1fcc612dc53df40bf6,0.0,0.0,False,,0.0,False
+carraro-india-1f0c7f,rhp,,,,document not collected,,,,,,,
+carraro-india-1f0c7f,anchor,official_nse/anchor/2024/CARRARO.zip,,False,native rows could not reconcile announced shares,03bd047447f3adb7d3993b0a872345cd10c449e7d8a1447308d6e11cb9eab963,0.0,0.0,False,,0.0,False
+senores-pharmaceuticals-507d3b,rhp,official_nse/rhp/2024/SENORES.zip,2024-12-15,True,summary extracted,d07719bde2ea0910e3949c0850cfb1d381389cfba71fc7f92e8b222a2f6db7fc,16.0,3.0,False,,,False
+senores-pharmaceuticals-507d3b,anchor,official_nse/anchor/2024/SENORES.zip,,False,native rows could not reconcile announced shares,f82736c7d37a8986e50a4b73110ebbd4584e7d1a643bf991f75b3cc2805d6875,0.0,0.0,False,,0.0,False
+ventive-hospitality-31f095,rhp,official_nse/rhp/2024/VENTIVE.zip,2024-12-14,True,summary extracted,1423e63fe564194d920cff1a502a60d0f571c259f6ff7d61a96704685675af9c,20.0,0.0,False,,,False
+ventive-hospitality-31f095,anchor,official_nse/anchor/2024/VENTIVE.zip,,False,native rows could not reconcile announced shares,dc71ec03c695e67274d99392e02d5e933be268c13e025aa08c68932e84aa87af,0.0,0.0,False,,0.0,False
+unimech-aerospace-manufacturing-dfda33,rhp,official_nse/rhp/2024/UNIMECH.zip,2024-12-16,True,summary extracted,7e001590e12db77f50c00f050b2d5e50982357e939212d96624c2bf2d6b7727d,16.0,2.0,False,,,False
+unimech-aerospace-manufacturing-dfda33,anchor,official_nse/anchor/2024/UNIMECH.zip,2024-12-16,True,native rows could not reconcile announced shares,01eb23e1b00a4b35209fb40843153b40a6369963d1f92da30cf2a2e0d21bcede,0.0,0.0,False,1905094.0,0.0,False
+indo-farm-equipment-a88664,rhp,official_nse/rhp/2025/INDOFARM.zip,2024-12-20,True,summary extracted,7c601f647b40b97464166b3469bd84070573c355c68bc029a1fa2f4ed54264de,16.0,1.0,False,,,False
+indo-farm-equipment-a88664,anchor,official_nse/anchor/2025/INDOFARM.zip,,False,native rows could not reconcile announced shares,c4f2de82711e4197f6ce2ceccc31c62ac3211c0ea017c9fe18ce993361ef3a07,0.0,0.0,False,,0.0,False
+standard-glass-lining-technology-7de754,rhp,official_nse/rhp/2025/SGLTL.zip,2024-12-30,True,summary extracted,d7326db7cfcd8bc8094bdf81c02270949a8f6b42dfc3a0b48502809686f4806f,20.0,2.0,False,,,False
+standard-glass-lining-technology-7de754,anchor,official_nse/anchor/2025/SGLTL.zip,2024-12-30,True,native rows could not reconcile announced shares,39dc7ac86880dc7833bc6a941b101f8bf5dd180f8e7a2f3493859792cc785192,0.0,0.0,False,8786809.0,0.0,False
+quadrant-future-tek-0d0c0d,rhp,official_nse/rhp/2025/QUADFUTURE.zip,2024-12-27,True,no unambiguous summary in first 45 pages,771ba2b01cded82f27e79819947b63ae85f21c5909bcbefda024de2479e74b70,0.0,1.0,False,,,False
+quadrant-future-tek-0d0c0d,anchor,official_nse/anchor/2025/QUADFUTURE.zip,,False,native rows could not reconcile announced shares,77f67f175b680c5f5dce64243a4223068fba7a9ae7a9f5038ec6369f9f4d2f23,0.0,0.0,False,,0.0,False
+laxmi-dental-61673f,rhp,official_nse/rhp/2025/LAXMIDENTL.zip,2025-01-07,True,summary extracted,a5f34bcf8944ce840fb8a2c5d892deb04e786e06212472c91a7e69b3788ba0f8,12.0,3.0,False,,,False
+laxmi-dental-61673f,anchor,official_nse/anchor/2025/LAXMIDENTL.zip,2025-01-10,True,native rows could not reconcile announced shares,60fdc616e59057a3f2e5c0d263c94f9a0e823f9e084852ba17537c65769b4f26,0.0,0.0,False,7339395.0,0.0,False
+stallion-india-fluorochemicals-96bec9,rhp,official_nse/rhp/2025/STALLION.zip,2025-01-11,True,summary extracted,9c7a11f6937cf1a8ca674be5a6463f7a882db39c4e79ce2672cf07d0d4463f19,16.0,1.0,False,,,False
+stallion-india-fluorochemicals-96bec9,anchor,official_nse/anchor/2025/STALLION.zip,,False,native rows could not reconcile announced shares,02bea4e10ac932373ea2753833c43f60b88fd14771b2b2ef8d204e4707efcfaa,0.0,0.0,False,,0.0,False
+denta-water-infra-solutions-c512ce,rhp,official_nse/rhp/2025/DENTA.zip,2025-01-16,True,summary extracted,ca13eb73d43814df5ae8bedcbcde5096976df6b536a055963133759f61e0441e,16.0,1.0,False,,,False
+denta-water-infra-solutions-c512ce,anchor,official_nse/anchor/2025/DENTA.zip,,False,native rows could not reconcile announced shares,3298fc55fa7313aa1f34797879cc2c79f17b4b3c11e23a35db8cb16cce2e5aaa,0.0,0.0,False,,0.0,False
+dr-agarwal-s-health-care-5038a8,rhp,official_nse/rhp/2025/AGARWALEYE.zip,2025-01-23,True,summary extracted,2adb6aef99e44e5f67ef8be6da2fd9715de12b392f7d0609d3efa697b599e71c,25.0,4.0,False,,,False
+dr-agarwal-s-health-care-5038a8,anchor,official_nse/anchor/2025/AGARWALEYE.zip,,False,native rows could not reconcile announced shares,8026416e3c370f999064603f5a02d7392f2f8bfd8d1abb78850f62cc03a6808d,0.0,0.0,False,,0.0,False
+ajax-engineering-34ccc3,rhp,official_nse/rhp/2025/AJAXENGG.zip,2025-02-04,True,no unambiguous summary in first 45 pages,0112915c888b50ed52cd1fbb01318b16d9e9843895321a570b690db98862b172,0.0,5.0,False,,,False
+ajax-engineering-34ccc3,anchor,official_nse/anchor/2025/AJAXENGG.zip,,False,native rows could not reconcile announced shares,06a638ac3a6a3d777a1201ae2e3c572a94a5081887bf6d7ac6612d09c1870062,0.0,0.0,False,,0.0,False
+hexaware-technologies-03f09a,rhp,official_nse/rhp/2025/HEXT.zip,2025-02-05,True,no unambiguous summary in first 45 pages,5e564df784c59afbc1cc32724b5dacf2bf13358d427539d34394d08947c55ca1,0.0,3.0,False,,,False
+hexaware-technologies-03f09a,anchor,official_nse/anchor/2025/HEXT.zip,,False,native rows could not reconcile announced shares,684aaeb311064c6420c8b756a4919380ff2f2cd7f1db74e7d9f640056c35cb02,0.0,0.0,False,,0.0,False
+quality-power-electrical-equipments-2187af,rhp,official_nse/rhp/2025/QPOWER.zip,2025-02-06,True,summary extracted,f812d03354aa45ed6a29406a68bdabfc829e4ea14de631ab5350f09033df9ae6,16.0,1.0,False,,,False
+quality-power-electrical-equipments-2187af,anchor,official_nse/anchor/2025/QPOWER.zip,1-02-13,True,native rows could not reconcile announced shares,7d6005e52f318fabf2abba8a267876fed001c7772c72adffb0ccfcf284a0a5b5,0.0,0.0,False,,0.0,False
+ather-energy-2af7ad,rhp,official_nse/rhp/2025/ATHERENERG.zip,2025-04-22,True,no unambiguous summary in first 45 pages,ef0832a3cd02acf4d1f3fec103c8249b3022981f08ee27921fd5a7f6a2b80e2a,0.0,4.0,False,,,False
+ather-energy-2af7ad,anchor,official_nse/anchor/2025/ATHERENERG.zip,,False,native rows could not reconcile announced shares,e2c07fb20fc8746dcabb90ca08dd3d48ed3bc17460f50c4cbf76e62cf0bd2661,0.0,0.0,False,,0.0,False
+borana-weaves-b78b95,rhp,official_nse/rhp/2025/BORANA.zip,2025-05-14,True,summary extracted,251b26793d22fcbdcd6cab63d53765e2ab25a785d56b75a1f45ceb412e390ebc,16.0,1.0,False,,,False
+borana-weaves-b78b95,anchor,,,,document not collected,,,,,,,
+belrise-fb0efd,rhp,,,,document not collected,,,,,,,
+belrise-fb0efd,anchor,official_nse/anchor/2025/BELRISE.zip,,False,native rows could not reconcile announced shares,a39a83ba93a655ee76cf065004c103320f0b1441ac0016ffb40dfb64527369f9,0.0,0.0,False,,0.0,False
+aegis-vopak-terminals-cb8487,rhp,,,,document not collected,,,,,,,
+aegis-vopak-terminals-cb8487,anchor,official_nse/anchor/2025/AEGISVOPAK.zip,2025-05-20,True,native rows could not reconcile announced shares,c14a0ce43e512a942f5a9ae0ede14fe76e9bf8779ab5e73948502af50ef25466,0.0,0.0,False,53617021.0,0.0,False
+schloss-bangalore-a76781,rhp,,,,document not collected,,,,,,,
+schloss-bangalore-a76781,anchor,,,,document not collected,,,,,,,
+prostarm-info-systems-604c9a,rhp,official_nse/rhp/2025/PROSTARM.zip,2025-05-17,True,summary extracted,4c4e43bb079df65a77d203c08bbdfcef9f1776262d90a097458b927636f6c625,12.0,1.0,False,,,False
+prostarm-info-systems-604c9a,anchor,,,,document not collected,,,,,,,
+scoda-tubes-23a5e5,rhp,official_nse/rhp/2025/SCODATUBES.zip,2025-05-22,True,summary extracted,d007d16d802cdc16002411113829dfef66192b25ec8c49e4b63e341c6713ed7e,8.0,1.0,False,,,False
+scoda-tubes-23a5e5,anchor,official_nse/anchor/2025/SCODATUBES.zip,,False,native rows could not reconcile announced shares,d0b8384f85072c35e16827b46f3efd478d73d6dcbc6f6e331859a440d42667d1,0.0,0.0,False,,0.0,False
+oswal-pumps-7e09aa,rhp,,,,document not collected,,,,,,,
+oswal-pumps-7e09aa,anchor,,,,document not collected,,,,,,,
+arisinfra-solutions-1b7f20,rhp,,,,document not collected,,,,,,,
+arisinfra-solutions-1b7f20,anchor,,,,document not collected,,,,,,,
+ellenbarrie-industrial-gases-ae7b6e,rhp,official_nse/rhp/2025/ELLEN.zip,2025-06-18,True,summary extracted,4df7e1a9746e087c582fbde881043082f0509eb2a26dea94c79142419a19aead,12.0,1.0,False,,,False
+ellenbarrie-industrial-gases-ae7b6e,anchor,official_nse/anchor/2025/ELLEN.zip,,False,native rows could not reconcile announced shares,e06c6ac8f1837a273f0f687be915d963a479c79e190482f0c25428f1ecda5e15,0.0,0.0,False,,0.0,False
+globe-civil-projects-756c8c,rhp,official_nse/rhp/2025/GLOBECIVIL.zip,2025-06-14,True,no unambiguous summary in first 45 pages,7dd535428350b6f595d63f58309f268aa4e77310f67456084a8b1b094a69fc1a,0.0,1.0,False,,,False
+globe-civil-projects-756c8c,anchor,official_nse/anchor/2025/GLOBECIVIL.zip,2025-06-14,True,reconciled,f53c5ecb3d610de6ff7cdc283264bbc70cda72fddd23c04f84fa77234760d6b1,0.0,0.0,True,5028168.0,5028168.0,False
+kalpataru-bf5570,rhp,,,,document not collected,,,,,,,
+kalpataru-bf5570,anchor,official_nse/anchor/2025/KALPATARU.zip,,False,native rows could not reconcile announced shares,91ab728c8ccea33d49b65a49731c7a8765c46833fe490deebd3d1ee8cac34411,0.0,0.0,False,,0.0,False
+hdb-financial-services-b330ec,rhp,official_nse/rhp/2025/HDBFS.zip,2025-06-19,True,summary extracted,a41d8deb7e9a37cc680faf9601b6106a77e4307e94c1467fa5dfeca9b477f22e,12.0,12.0,False,,,False
+hdb-financial-services-b330ec,anchor,official_nse/anchor/2025/HDBFS.zip,2025-06-24,True,native rows could not reconcile announced shares,41ba5384becac1fe9a3e1fb4569399e09cc75d1f4a24d6745ee126b3f08b8a23,0.0,0.0,False,45527026.0,0.0,False
+sambhv-steel-tubes-7d8716,rhp,official_nse/rhp/2025/SAMBHV.zip,2025-06-19,True,no unambiguous summary in first 45 pages,1d05dbb1fc629effeb7c7f2ba6758e3c2374d81fcc9478c52296eb7805990248,0.0,2.0,False,,,False
+sambhv-steel-tubes-7d8716,anchor,,,,document not collected,,,,,,,
+indogulf-cropsciences-734e33,rhp,official_nse/rhp/2025/IGCL.zip,2025-06-21,True,summary extracted,bb94f23915b1dae813c5927a395731c2269b5cab5aa8a917daccc11c553efe04,20.0,1.0,False,,,False
+indogulf-cropsciences-734e33,anchor,official_nse/anchor/2025/IGCL.zip,2025-06-21,True,reconciled,38c861e0cc0f67e8c94637eb9b6db26ba992491e69187baf6aead28b6d2c31ac,0.0,0.0,True,5243242.0,5243242.0,False
+crizac-ffd65f,rhp,official_nse/rhp/2025/CRIZAC.zip,2012-05-16,True,summary extracted,05c81ab246c6bf3ae0186f3177cae1d427147eea3d04f0248d968e28b4ca457f,18.0,2.0,False,,,False
+crizac-ffd65f,anchor,official_nse/anchor/2025/CRIZAC.zip,,False,native rows could not reconcile announced shares,822b18ad5b95f564b3d80dfbd2aef87b42bbcb398775665f11ecb2388c52f1f5,0.0,0.0,False,,0.0,False
+travel-food-services-99035c,rhp,,,,document not collected,,,,,,,
+travel-food-services-99035c,anchor,,,,document not collected,,,,,,,
+smartworks-coworking-spaces-70588c,rhp,official_nse/rhp/2025/SMARTWORKS.zip,2025-07-04,True,summary extracted,a1b0e60197b6efcc319fd226ad793e614ff6d1104c5de70e59a08cdeffd50563,12.0,3.0,False,,,False
+smartworks-coworking-spaces-70588c,anchor,official_nse/anchor/2025/SMARTWORKS.zip,2025-07-04,True,native rows could not reconcile announced shares,38b0348717784403aa4441da51cf6ae59c000e1110dc1a25cca6f39516535866,0.0,0.0,False,4266378.0,0.0,False
+anthem-biosciences-c6a0b0,rhp,official_nse/rhp/2025/ANTHEM.zip,2025-07-08,True,summary extracted,ab4fd3f2280c45e8ad2fc9f00c3295d8929159f439b5f1a1526686e19552f1ab,15.0,4.0,False,,,False
+anthem-biosciences-c6a0b0,anchor,,,,document not collected,,,,,,,
+gng-electronics-431f93,rhp,official_nse/rhp/2025/EBGNG.zip,2025-07-17,True,summary extracted,9fa74910949d1fb9abfd73502310c3dd4a4a4f4e4c3fda8ab6562337b56ba713,15.0,3.0,False,,,False
+gng-electronics-431f93,anchor,,,,document not collected,,,,,,,
+indiqube-spaces-40215a,rhp,official_nse/rhp/2025/INDIQUBE.zip,2025-07-17,True,summary extracted,58134a5dcc134729a6900ebff389fce3b82d9bfc1bef0b40f08d5bac1d5530ff,15.0,2.0,False,,,False
+indiqube-spaces-40215a,anchor,,,,document not collected,,,,,,,
+brigade-hotel-ventures-1a78cd,rhp,official_nse/rhp/2025/BRIGHOTEL.zip,2025-07-18,True,summary extracted,094e0437e6f95aa52875055a88cf70ded9f70428b436275efb56b9906a636d25,12.0,2.0,False,,,False
+brigade-hotel-ventures-1a78cd,anchor,official_nse/anchor/2025/BRIGHOTEL.zip,2025-07-18,True,native rows could not reconcile announced shares,9aa17427db9711a6a9000d7a66f0506b8ddb22783846dc0f29f82a44b57e0d33,0.0,0.0,False,36081000.0,0.0,False
+shanti-gold-international-f650c4,rhp,official_nse/rhp/2025/SHANTIGOLD.zip,2025-07-17,True,summary extracted,4137807625c53a05482a6817be320a049efba4c6d255f691ae1009894c581ac0,12.0,1.0,False,,,False
+shanti-gold-international-f650c4,anchor,,,,document not collected,,,,,,,
+aditya-infotech-8ed0aa,rhp,,,,document not collected,,,,,,,
+aditya-infotech-8ed0aa,anchor,official_nse/anchor/2025/CPPLUS.zip,,False,native rows could not reconcile announced shares,7c77170666b96732cc1fb9c1821d09d430650d0808f4b1e420ca14d5c5b1bd79,0.0,0.0,False,,0.0,False
+laxmi-india-finance-275811,rhp,,,,document not collected,,,,,,,
+laxmi-india-finance-275811,anchor,official_nse/anchor/2025/LAXMIINDIA.zip,,False,native rows could not reconcile announced shares,bb99cf2cee6e1acc37be3b729ee868cf13106807745057d9040aacc953b78f40,0.0,0.0,False,,0.0,False
+m-b-engineering-4c93c2,rhp,official_nse/rhp/2025/MBEL.zip,2025-07-24,True,no unambiguous summary in first 45 pages,622af3744cf20cda8a1b8c1097fba6016022c3a30ffb462b9346094b96d07777,0.0,2.0,False,,,False
+m-b-engineering-4c93c2,anchor,official_nse/anchor/2025/MBEL.zip,,False,native rows could not reconcile announced shares,eaf016140f3d9cc59248f610a30ce35aedb1e5a95e00a69be131dbef45c98c46,0.0,0.0,False,,0.0,False
+national-securities-depository-1dabb4,rhp,NSDL_2025_RHP_SEBI.pdf,2025-07-23,True,summary extracted,73f58366e63772ec93c8218aebd81c8580e6f4f80b92ed9c46d41f2fb4f9a794,9.0,6.0,False,,,False
+national-securities-depository-1dabb4,anchor,NSDL_2025_Anchor_Allocation_Issuer.pdf,,False,native rows could not reconcile announced shares,171ea4a7b027de20daacfaa93be7ca6c0186d2b9a022e11374d149b691d2b063,0.0,0.0,False,,0.0,False
+sri-lotus-developers-realty-97c88c,rhp,official_nse/rhp/2025/LOTUSDEV.zip,2025-07-22,True,summary extracted,494f8c8b2804a6361ba3f02687ee32ae395abdaa60dadc205172b57581fff3dc,9.0,2.0,False,,,False
+sri-lotus-developers-realty-97c88c,anchor,,,,document not collected,,,,,,,
+highway-infrastructure-de1f40,rhp,,,,document not collected,,,,,,,
+highway-infrastructure-de1f40,anchor,official_nse/anchor/2025/HILINFRA.zip,,False,native rows could not reconcile announced shares,70ce15119bdd99b46df9317fb282a6b60b3f6d0209f252b3f819ac36ce7bd402,0.0,0.0,False,,0.0,False
+all-time-plastics-01e731,rhp,official_nse/rhp/2025/ALLTIME.zip,2025-08-01,True,summary extracted,676e3ce659badb1195d828d8cc05bcde4e55859e95b04625502818e225edf33f,6.0,2.0,False,,,False
+all-time-plastics-01e731,anchor,official_nse/anchor/2025/ALLTIME.zip,2025-08-01,True,native rows could not reconcile announced shares,e512e9247af37aef957a18481c0108a0fc5ee9a5078e718b4071c266137bec71,0.0,0.0,False,4360502.0,0.0,False
+jsw-cement-975419,rhp,official_nse/rhp/2025/JSWCEMENT.zip,2025-08-01,True,summary extracted,c461c680170ddf0801411cd61280bcfc864219ecb60a33b55902b03f6226870a,15.0,8.0,False,,,False
+jsw-cement-975419,anchor,official_nse/anchor/2025/JSWCEMENT.zip,,False,native rows could not reconcile announced shares,10e6ecc29c7587d1b49bb3f328d2f1f08bf17932dbf6277bdbca8f6ffdb93eec,0.0,0.0,False,,0.0,False
+bluestone-jewellery-lifestyle-3a5abd,rhp,official_nse/rhp/2025/BLUESTONE.zip,2025-08-04,True,summary extracted,6614f3a3e85beadf1df3a617777b55fb83f9504c8857ea5d574a46650a60ee92,9.0,1.0,False,,,False
+bluestone-jewellery-lifestyle-3a5abd,anchor,official_nse/anchor/2025/BLUESTONE.zip,2025-08-04,True,reconciled,9dc1f2e1c4509100c15981e493e3a2ec7304b8cba3d44ea96d89880db9d02eaf,0.0,0.0,True,13409910.0,13409910.0,False
+regaal-resources-c46f3b,rhp,official_nse/rhp/2025/REGAAL.zip,2015-10-26,True,summary extracted,7d1035694d5d920acafc8cf8830a97469dd8301740aee251b3e057d353264a45,12.0,2.0,False,,,False
+regaal-resources-c46f3b,anchor,official_nse/anchor/2025/REGAAL.zip,,False,native rows could not reconcile announced shares,7efd2ac2abf85bbf56dc536f73aa14aee76009e08170b4744ae974188eff6d53,0.0,0.0,False,,0.0,False
+gem-aromatics-5ba178,rhp,official_nse/rhp/2025/GEMAROMA.zip,2025-08-12,True,summary extracted,118e05f9a42edb26d66af8a2dee93bd9ada3cab09659c5864349ea56c62460dc,15.0,1.0,False,,,False
+gem-aromatics-5ba178,anchor,official_nse/anchor/2025/GEMAROMA.zip,,False,native rows could not reconcile announced shares,a225f989e6787e3d61d876d87276c277b4192c44ef5680a0e655a70acd9b8f3b,0.0,0.0,False,,0.0,False
+patel-retail-3ce6e2,rhp,official_nse/rhp/2025/PATELRMART.zip,2025-08-07,True,no unambiguous summary in first 45 pages,059334fc70b42322ced1f69f6f36454dfb71e8b14ea54fc06143a1e09330157d,0.0,1.0,False,,,False
+patel-retail-3ce6e2,anchor,official_nse/anchor/2025/PATELRMART.zip,,False,native rows could not reconcile announced shares,37a1d4b2dc6feca5f321ef6e39e7eb6c123fdfd6fca13111e2917ca35e7e21f8,0.0,0.0,False,,0.0,False
+shreeji-shipping-global-524d58,rhp,official_nse/rhp/2025/SHREEJISPG.zip,2025-08-05,True,summary extracted,6a336cdeeb86d4fc52e9a61dfb826216921eb54db4af5a090f4b315017a117b5,12.0,2.0,False,,,False
+shreeji-shipping-global-524d58,anchor,official_nse/anchor/2025/SHREEJISPG.zip,,False,native rows could not reconcile announced shares,558f47ae621b176405e2064b064c356991bb6997ee55a4d48789b326ba8673b5,0.0,0.0,False,,0.0,False
+vikram-solar-f7c4d9,rhp,official_nse/rhp/2025/VIKRAMSOLR.zip,2025-08-12,True,no unambiguous summary in first 45 pages,d0c662ae3ebdeac4a4f40f4bf768c1678fae3a20923ba50a330a07f5f29fd77e,0.0,5.0,False,,,False
+vikram-solar-f7c4d9,anchor,official_nse/anchor/2025/VIKRAMSOLR.zip,2025-08-18,True,native rows could not reconcile announced shares,97120d75bf42347c586d27656ad5aa71ac7cd1ad53c615fda25ac2ffb6acf380,0.0,0.0,False,,0.0,False
+mangal-electrical-47908d,rhp,official_nse/rhp/2025/MEIL.zip,2025-08-13,True,summary extracted,3c6ede8c8b411a333e8e28afaa5ee7cd05bc4072e7fc3ed7ba6371c540921097,9.0,1.0,False,,,False
+mangal-electrical-47908d,anchor,official_nse/anchor/2025/MEIL.zip,2025-08-13,True,native rows could not reconcile announced shares,47a88b6abbe352b616d224d7cd996070bf02d27fc09b68e6e3514859bb3b327e,0.0,0.0,False,,0.0,False
+anlon-healthcare-12cf21,rhp,official_nse/rhp/2025/AHCL.zip,2025-08-20,True,summary extracted,9b3ca0dbc6037185eeef4e99ba990c77a3059e6ec1c2d80e2229ed0b72d8a2ce,12.0,1.0,False,,,False
+anlon-healthcare-12cf21,anchor,,,,document not collected,,,,,,,
+vikran-engineering-5f2e69,rhp,official_nse/rhp/2025/VIKRAN.zip,2025-08-18,True,no unambiguous summary in first 45 pages,df706ad38696924dc97cfa14e490d2f6c0c8dfa3e3b8f924a4a960ddf2dca559,0.0,2.0,False,,,False
+vikran-engineering-5f2e69,anchor,official_nse/anchor/2025/VIKRAN.zip,2025-08-25,True,native rows could not reconcile announced shares,295dd07dce4d28f998cdce00152ddec578f3cf5d35fbe505091d0a1cd6d061af,0.0,0.0,False,23876287.0,0.0,False
+amanta-healthcare-228780,rhp,official_nse/rhp/2025/AMANTA.zip,2025-08-22,True,summary extracted,74a79805269a7cc4a99bb5404bc2d534fe97f64d0c083562d0c5dc3213003620,12.0,1.0,False,,,False
+amanta-healthcare-228780,anchor,official_nse/anchor/2025/AMANTA.zip,2025-08-22,True,reconciled,b82b55b9bec7bcf3d06a17946885ea49fa744a7f017f0537602382aecfc9594b,0.0,0.0,True,3000000.0,3000000.0,False
+dev-accelerator-114447,rhp,official_nse/rhp/2025/DEVX.zip,2025-09-02,True,summary extracted,00e926f370cc1b050a1e29e71b42f77723e6aad7f9125ab613605c6b871f0b09,12.0,1.0,False,,,False
+dev-accelerator-114447,anchor,official_nse/anchor/2025/DEVX.zip,2025-09-09,True,reconciled,85b9b8acca5873b13e8c228b2e384e50dbddd4b5498c8cbaac8a3617d67a0d69,0.0,0.0,True,10352925.0,10352925.0,False
+shringar-house-of-mangalsutra-cde434,rhp,official_nse/rhp/2025/SHRINGARMS.zip,2025-09-01,True,summary extracted,ddfc82b7e006e59dd8830072b8673060109a33ac133b3857b01c1134290dfcd0,12.0,1.0,False,,,False
+shringar-house-of-mangalsutra-cde434,anchor,official_nse/anchor/2025/SHRINGARMS.zip,2025-09-09,True,native rows could not reconcile announced shares,ae4f80232da2d7f24eeb0126f6799484d195a5ecd8281c66653c736ca2afb927,0.0,0.0,False,7284000.0,0.0,False
+urban-8b2b23,rhp,official_nse/rhp/2025/URBANCO.zip,2025-09-02,True,no unambiguous summary in first 45 pages,3ff665debef666575c588609112e7ef812cdbe405e8afdf63cfedb75a3711243,0.0,4.0,False,,,False
+urban-8b2b23,anchor,official_nse/anchor/2025/URBANCO.zip,2025-09-09,True,reconciled,c4eddafab72811e9b0de136e1e8bfec4e5689dbf88d0934c2e7467762a66f8a8,0.0,0.0,True,82900485.0,82900485.0,False
+euro-pratik-sales-f89506,rhp,official_nse/rhp/2025/EUROPRATIK.zip,2025-09-05,True,summary extracted,37befc0b7d7cf396a2755871c4cccd4c79a81087ad27745bcf57e244831358b5,9.0,2.0,False,,,False
+euro-pratik-sales-f89506,anchor,official_nse/anchor/2025/EUROPRATIK.zip,2025-09-05,True,native rows could not reconcile announced shares,5898685f1b32483407627b0142eaa8f15dda371626401f922c2e593490d7aa6b,0.0,0.0,False,5464554.0,0.0,False
+vms-tmt-c7f278,rhp,official_nse/rhp/2025/VMSTMT.zip,2025-09-10,True,summary extracted,adbc680ab4575121e22918f7ce02bb04d32ed7aeb13eacf9a9f0c66919787f92,8.0,1.0,False,,,False
+vms-tmt-c7f278,anchor,official_nse/anchor/2025/VMSTMT.zip,,False,native rows could not reconcile announced shares,991efb86302a5e0b723d67fc143132b827867b159f3aaa1f00e8781f8956dbb0,0.0,0.0,False,,0.0,False
+ivalue-infosolutions-c89b2f,rhp,official_nse/rhp/2025/IVALUE.zip,2025-09-13,True,summary extracted,57db2e75484b9daddd58c4cfd642b6112709e8c4f8e84fe3abcfb93702ea154b,12.0,0.0,False,,,False
+ivalue-infosolutions-c89b2f,anchor,official_nse/anchor/2025/IVALUE.zip,1-09-17,True,native rows could not reconcile announced shares,4c276faecda2fa674bee1e221aa4e393be02d2ee7d7d9e80dccd29d937185b8d,0.0,0.0,False,,0.0,False
+gk-energy-eecbd5,rhp,official_nse/rhp/2025/GKENERGY.zip,2025-09-15,True,no unambiguous summary in first 45 pages,208677268d66234350ff9d977467a8a76e162a73f4ddde9d206fd3fdb97f0316,0.0,2.0,False,,,False
+gk-energy-eecbd5,anchor,official_nse/anchor/2025/GKENERGY.zip,,False,native rows could not reconcile announced shares,bf085dad375eaaec17ab458cd42faf42957d4ed4e9069a2cecff1314f37a0a80,0.0,0.0,False,,0.0,False
+saatvik-green-energy-e10681,rhp,official_nse/rhp/2025/SAATVIK.zip,2025-09-15,True,summary extracted,6f22812aa7e302340d3ec096549ef7ece43ecf4621343eedfc0b9f255441797d,12.0,3.0,False,,,False
+saatvik-green-energy-e10681,anchor,official_nse/anchor/2025/SAATVIK.zip,,False,native rows could not reconcile announced shares,2cebd44b9a70fd67ee5cfd41b5271a2b1c60618c6dcd4db469c5e4bfc4554b54,0.0,0.0,False,,0.0,False
+atlanta-electricals-d5388e,rhp,official_nse/rhp/2025/ATLANTAELE.zip,2025-09-16,True,summary extracted,5bf9bd5bde281d04865fb9cfb335e83435cf6fbe6959ec66fb25938e41479488,12.0,2.0,False,,,False
+atlanta-electricals-d5388e,anchor,official_nse/anchor/2025/ATLANTAELE.zip,,False,native rows could not reconcile announced shares,b4129e6ba3f6a6c583233d3c5f231b108200b18b03095e3df31b3ffb816c6fca,0.0,0.0,False,,0.0,False
+ganesh-consumer-products-ed2820,rhp,official_nse/rhp/2025/GANESHCP.zip,2025-09-16,True,summary extracted,67d9ea65b1ac3ad8d406251908710ce8d6f874428667d9ef12bc5bfd5c4e70cb,9.0,3.0,False,,,False
+ganesh-consumer-products-ed2820,anchor,official_nse/anchor/2025/GANESHCP.zip,,False,native rows could not reconcile announced shares,aaf93b44cc73e89ab088b8aea28f3b99c67c2aec51538eb961bf5723cb59ce7c,0.0,0.0,False,,0.0,False
+anand-rathi-share-stock-brokers-7d93bc,rhp,official_nse/rhp/2025/ARSSBL.zip,2025-09-17,True,summary extracted,f68694f19033aa2e35521dbf745104c177f426ef17dbe136fe0baa13202b2e38,9.0,3.0,False,,,False
+anand-rathi-share-stock-brokers-7d93bc,anchor,official_nse/anchor/2025/ARSSBL.zip,,False,native rows could not reconcile announced shares,8035101c17a3246b3644f4ae20c988dd9e9968294480ff07381e7d7cee4a22ea,0.0,0.0,False,,0.0,False
+jaro-institute-of-technology-management-research-1d78ed,rhp,official_nse/rhp/2025/JARO.zip,2025-09-17,True,summary extracted,717e451dd0dd88fcac234aeb147296cad4f005bab04f7ea79bca5d9b5d956933,9.0,3.0,False,,,False
+jaro-institute-of-technology-management-research-1d78ed,anchor,official_nse/anchor/2025/JARO.zip,,False,native rows could not reconcile announced shares,c96d194b37a47398ce55c2bfd7ec6bc5d458a81f62fc13d29d6962069af126c5,0.0,0.0,False,,0.0,False
+seshaasai-technologies-aa4474,rhp,official_nse/rhp/2025/STYL.zip,2025-09-16,True,summary extracted,c9ac27609c32fd7c0a776420cf9411bd188810eafe73031ea2aaa1aae4c82573,15.0,1.0,False,,,False
+seshaasai-technologies-aa4474,anchor,official_nse/anchor/2025/STYL.zip,,False,native rows could not reconcile announced shares,6d6a73c5f170a33d8db4b9f899b5ccab9952e3bbe4551a20851c81b44639c886,0.0,0.0,False,,0.0,False
+solarworld-energy-solutions-9aecd7,rhp,official_nse/rhp/2025/SOLARWORLD.zip,2025-09-17,True,summary extracted,c149e12d1e5a5f8e5337746da960a09469491425c0386995e511215773429977,12.0,2.0,False,,,False
+solarworld-energy-solutions-9aecd7,anchor,official_nse/anchor/2025/SOLARWORLD.zip,,False,native rows could not reconcile announced shares,5e82edbc19420b9abbb04ed8d061e2cad3160c521fa6ad886418898967e443ad,0.0,0.0,False,,0.0,False
+bmw-ventures-f5b14a,rhp,official_nse/rhp/2025/BMWVENTLTD.zip,2025-09-18,True,summary extracted,d06f91d49f1975a4d9283747318eac3407bd1e31bfca269baecff092d4c546b3,9.0,1.0,False,,,False
+bmw-ventures-f5b14a,anchor,,,,document not collected,,,,,,,
+epack-prefab-technologies-271657,rhp,official_nse/rhp/2025/EPACKPEB.zip,2025-09-18,True,summary extracted,0d240c401e896b2b2fae199c00e18eb367b124db38e716c5a4e14ebbf880d379,12.0,2.0,False,,,False
+epack-prefab-technologies-271657,anchor,official_nse/anchor/2025/EPACKPEB.zip,2025-09-23,True,native rows could not reconcile announced shares,be9608335453e33b7d36164b4a613a95576d1c03b13e56031c7425fe059da2dd,0.0,0.0,False,7411764.0,0.0,False
+jain-resource-recycling-d4fd3f,rhp,official_nse/rhp/2025/JAINREC.zip,2025-09-18,True,no unambiguous summary in first 45 pages,0a9aaa73bc0bed2152debe26fdcb5d789e75e70ee54f11f1530afe74e0e2f20d,0.0,4.0,False,,,False
+jain-resource-recycling-d4fd3f,anchor,official_nse/anchor/2025/JAINREC.zip,,False,native rows could not reconcile announced shares,0b60ae73361f9b5cd1a0242b7e9b54dd2ac4f571ac5853d97b5767e27661a960,0.0,0.0,False,,0.0,False
+jinkushal-36b8b6,rhp,official_nse/rhp/2025/JKIPL.zip,2025-09-15,True,summary extracted,e55a6abdfefee9d856ad6a5a35d2630701c078e8f382e18df76e8342085bd944,6.0,1.0,False,,,False
+jinkushal-36b8b6,anchor,official_nse/anchor/2025/JKIPL.zip,,False,native rows could not reconcile announced shares,da1de05ec435928ac27352fb30f3e4b620c890de8a503914baad4c08f7f82cdc,0.0,0.0,False,,0.0,False
+trualt-bioenergy-cef02e,rhp,official_nse/rhp/2025/TRUALT.zip,2025-09-19,True,summary extracted,e36722d12eee9b254691da3ad7b2c592a7498e5048875cec543cf6ec79d53049,27.0,2.0,False,,,False
+trualt-bioenergy-cef02e,anchor,official_nse/anchor/2025/TRUALT.zip,,False,native rows could not reconcile announced shares,7e10d9faba70cfb92c0942af8b402888d24f5f6377e4212454276d94224d97ce,0.0,0.0,False,,0.0,False
+pace-digitek-8a9806,rhp,official_nse/rhp/2025/PACEDIGITK.zip,2025-09-19,True,summary extracted,acc27dc4bbc00ea9b6b4eb2a841798d7c9e1ddace2bfebddb977ae2dc3a2d8a3,24.0,1.0,False,,,False
+pace-digitek-8a9806,anchor,official_nse/anchor/2025/PACEDIGITK.zip,2025-09-25,True,native rows could not reconcile announced shares,3b7de1f5aff37cd6ca722c3cdb02deb571ae24b14cc2592d9570d03d4697476f,0.0,0.0,False,,0.0,False
+fabtech-technologies-89e60b,rhp,official_nse/rhp/2025/FABTECH.zip,2025-09-22,True,summary extracted,eecd5094836c48a9f4055a39d95f457b2d916ed9a54371d4c27734c561aef0b0,6.0,1.0,False,,,False
+fabtech-technologies-89e60b,anchor,,,,document not collected,,,,,,,
+glottis-7290ab,rhp,official_nse/rhp/2025/GLOTTIS.zip,2025-09-22,True,summary extracted,d3edb43e2c24a2fe2e3bdaf16300ffbe5b75df82aca6482188d4361060b82e55,12.0,1.0,False,,,False
+glottis-7290ab,anchor,official_nse/anchor/2025/GLOTTIS.zip,,False,native rows could not reconcile announced shares,48e3a53ab3f3c415a7727a843591338e6462e467bcc8aeb993eb65bc843a2685,0.0,0.0,False,,0.0,False
+advance-agrolife-13f5e9,rhp,official_nse/rhp/2025/ADVANCE.zip,2025-09-18,True,summary extracted,fa1c2ed53f3e8d1e23070feed69286bcd476f3703bd105a27a861c2a5f1c7ca2,12.0,1.0,False,,,False
+advance-agrolife-13f5e9,anchor,official_nse/anchor/2025/ADVANCE.zip,,False,native rows could not reconcile announced shares,284044d3bec8b8ec7ac855dd4d0418660790b855045b903be44dfa8b2433ddd2,0.0,0.0,False,,0.0,False
+om-freight-forwarders-ba6bcb,rhp,official_nse/rhp/2025/OMFREIGHT.zip,2025-09-22,True,summary extracted,a7f98047d56840efca0ac9264c2c5fb1d0b1b397cd81db74a98d11dd056490ef,15.0,1.0,False,,,False
+om-freight-forwarders-ba6bcb,anchor,official_nse/anchor/2025/OMFREIGHT.zip,,False,native rows could not reconcile announced shares,ab00db091d1131b5facb01951bfdfc74dae7886daa7309fb2ee25e21c38f0882,0.0,0.0,False,,0.0,False
+wework-india-management-b8209c,rhp,official_nse/rhp/2025/WEWORK.zip,2025-09-27,True,summary extracted,0f0e9c2ee4987ec10ac1386163904cc61ae0d2fa21a411451ec3c89a21192d71,15.0,5.0,False,,,False
+wework-india-management-b8209c,anchor,official_nse/anchor/2025/WEWORK.zip,2025-10-01,True,native rows could not reconcile announced shares,ca197cb5e6c976bea564f519ad4e1a0c144c87cab404fb96c41120ad6a86591d,0.0,0.0,False,20806548.0,0.0,False
+tata-capital-fc3602,rhp,official_nse/rhp/2025/TATACAP.zip,2025-09-26,True,summary extracted,42884998829ebb5b19f2f89a289575f5e0eba706fa36e25294c3c9462c15c65a,25.0,8.0,False,,,False
+tata-capital-fc3602,anchor,official_nse/anchor/2025/TATACAP.zip,2025-10-03,True,native rows could not reconcile announced shares,00704723106b667448f9fcedba43cd7d10b60015e4792bfc1d04534501add4c6,0.0,0.0,False,142387284.0,0.0,False
+lg-electronics-india-1aa5cb,rhp,official_nse/rhp/2025/LGEINDIA.zip,2025-09-30,True,no unambiguous summary in first 45 pages,a315ab7062b248bc92fb4f3b7f5fe38a7c4c485c80334cd0e66a36f3849fb480,0.0,5.0,False,,,False
+lg-electronics-india-1aa5cb,anchor,official_nse/anchor/2025/LGEINDIA.zip,,False,native rows could not reconcile announced shares,95dc7188f4608a6cb6b2bc52bdced274327811b93d1bfb0368eba4478a8e11e8,0.0,0.0,False,,0.0,False
+canara-robeco-asset-management-5b8eb6,rhp,official_nse/rhp/2025/CRAMC.zip,2025-10-03,True,summary extracted,12eb79c9695ab6a3a4386aefa401860e5bae6478024a7b82355b2cf00984c616,20.0,3.0,False,,,False
+canara-robeco-asset-management-5b8eb6,anchor,official_nse/anchor/2025/CRAMC.zip,2025-10-03,True,reconciled,80ffe0a907adde76179ec485ae37110fd5e9dfec4ab100b577e093033b8823d1,0.0,0.0,True,14956306.0,14956306.0,False
+rubicon-research-81a94a,rhp,official_nse/rhp/2025/RUBICON.zip,2025-10-01,True,summary extracted,c2fa746ac4dcd2b14b3eaca45cc4c3253883ec8083623f9ea0fff6a72f99fcdd,20.0,4.0,False,,,False
+rubicon-research-81a94a,anchor,official_nse/anchor/2025/RUBICON.zip,,False,native rows could not reconcile announced shares,76b4c143cd087ffb4fa27078aafcf706fcc5f06757df5066f87e51b2209dea23,0.0,0.0,False,,0.0,False
+canara-hsbc-life-insurance-2ca04b,rhp,official_nse/rhp/2025/CANHLIFE.zip,2025-10-04,True,summary extracted,0133162d7498d404a37d7acbc36ac8ed18535d6374b81b1f9855ed20be6b6e64,10.0,5.0,False,,,False
+canara-hsbc-life-insurance-2ca04b,anchor,official_nse/anchor/2025/CANHLIFE.zip,2025-10-09,True,native rows could not reconcile announced shares,04df9a12cfa357d383a23edaa6ecdf0454b3b60a1a29bacf4f67a9e9bff1cde1,0.0,0.0,False,70785000.0,0.0,False
+midwest-4ba090,rhp,official_nse/rhp/2025/MIDWESTLTD.zip,2025-10-09,True,summary extracted,b00e207a77e495d852c3bc5d00b69a6d1ff33cbd08008177fc651b7cb80134c4,8.0,3.0,False,,,False
+midwest-4ba090,anchor,official_nse/anchor/2025/MIDWESTLTD.zip,,False,native rows could not reconcile announced shares,41269d5c21f8508274ee3cd582f8534c84b2e72b15f37cfa6bf1f60265c21bc1,0.0,0.0,False,,0.0,False
+orkla-india-eb04e9,rhp,official_nse/rhp/2025/ORKLAINDIA.zip,2025-10-23,True,summary extracted,747d00923f2d05972731d112ba723d8427248753c01a247cce771899757d1b73,15.0,4.0,False,,,False
+orkla-india-eb04e9,anchor,official_nse/anchor/2025/ORKLAINDIA.zip,,False,native rows could not reconcile announced shares,a3f28306734b32c49d9a5b2287ea3e64fed660dab34452e6a98302f719ecde7b,0.0,0.0,False,,0.0,False
+studds-accessories-74db0c,rhp,official_nse/rhp/2025/STUDDS.zip,2025-10-25,True,summary extracted,623c0f5330cfe5042d3f993047341965eacbf23af3065a1778bcfe458b62591a,20.0,2.0,False,,,False
+studds-accessories-74db0c,anchor,official_nse/anchor/2025/STUDDS.zip,,False,native rows could not reconcile announced shares,4f9962511381b2f1f847b89da2e70886c65ebec0d208d8fc310fcdd54b6495d9,0.0,0.0,False,,0.0,False
+lenskart-solutions-95756e,rhp,official_nse/rhp/2025/LENSKART.zip,2025-10-25,True,summary extracted,217bf6ae545d6a467d6f3ce779ab16c388a4813c92577aafca7350f37a1b9f59,25.0,6.0,False,,,False
+lenskart-solutions-95756e,anchor,official_nse/anchor/2025/LENSKART.zip,2025-10-30,True,native rows could not reconcile announced shares,fab6c88c3eb4eadb6be24a2c7b566085b1dd9689aebe603b0b3e6dd35ac05035,0.0,0.0,False,81302412.0,0.0,False
+billionbrains-garage-ventures-6ce46c,rhp,official_nse/rhp/2025/GROWW.zip,2025-10-29,True,summary extracted,fe276f26f80f1c244dbf6fce87acd45c0dacbe57180cb877476b56d1b92dc81f,15.0,5.0,False,,,False
+billionbrains-garage-ventures-6ce46c,anchor,official_nse/anchor/2025/GROWW.zip,2025-11-03,True,reconciled,755b73c568e0c3d7890ebd90b6921a5c5b45f61aced2b5e3347908abb0e388ba,0.0,0.0,True,298453523.0,298453523.0,False
+pine-labs-eb3a50,rhp,official_nse/rhp/2025/PINELABS.zip,2025-10-31,True,summary extracted,e34b735080d3937e4181b67e6d96fe9ff6bb49651e414ecdc95f46b091d6f2de,15.0,5.0,False,,,False
+pine-labs-eb3a50,anchor,official_nse/anchor/2025/PINELABS.zip,,False,native rows could not reconcile announced shares,5e8e41cce7e8fe23cd2f741383b5983ac016a31f7c2b5dfa27f002925d3e687e,0.0,0.0,False,,0.0,False
+emmvee-photovoltaic-power-845b31,rhp,official_nse/rhp/2025/EMMVEE.zip,2025-11-05,True,summary extracted,39ae5cd99fff850469bfac4e5d78cf8299434c9a73610319ab19470f74694672,20.0,4.0,False,,,False
+emmvee-photovoltaic-power-845b31,anchor,official_nse/anchor/2025/EMMVEE.zip,2025-11-10,True,native rows could not reconcile announced shares,549dc4dacd00ad8a2496c582f168d77bea2c20969d00a76d48e9ecf8be0619ff,0.0,0.0,False,60138249.0,0.0,False
+physicswallah-5d83a0,rhp,official_nse/rhp/2025/PWL.zip,2025-11-04,True,summary extracted,7f02bf8b4e7054e3d0327cb3b693f7a609e1892e26ebc903fde48f8b34bbbb49,20.0,4.0,False,,,False
+physicswallah-5d83a0,anchor,official_nse/anchor/2025/PWL.zip,2025-11-10,True,native rows could not reconcile announced shares,46443af438fafa794acd20a77137896f1869f2091318c1f89e608b986ee5fdc0,0.0,0.0,False,143380733.0,0.0,False
+tenneco-clean-air-india-02bff4,rhp,official_nse/rhp/2025/TENNIND.zip,2025-11-05,True,summary extracted,5860a1b7ceebf5854e3a67933305cb85215cea2d47e848d09035ef21b3e5f374,15.0,4.0,False,,,False
+tenneco-clean-air-india-02bff4,anchor,official_nse/anchor/2025/TENNIND.zip,,False,native rows could not reconcile announced shares,96c232ba4252b9ee229c8f92ce0e2c20dd060b9ba4226906cc694d8e808cb086,0.0,0.0,False,,0.0,False
+fujiyama-power-systems-eafd71,rhp,official_nse/rhp/2025/UTLSOLAR.zip,,False,RHP cover not identified,31f710882a9302bfee40764ad9957459330eaa7c4c3c57529af13dd32cd8106c,0.0,0.0,False,,,False
+fujiyama-power-systems-eafd71,anchor,official_nse/anchor/2025/UTLSOLAR.zip,,False,native rows could not reconcile announced shares,994c39dc556270efe1de8addaf5b781f8f425473c9a7ef53773626b37796e046,0.0,0.0,False,,0.0,False
+capillary-technologies-india-b5f6ec,rhp,official_nse/rhp/2025/CAPILLARY.zip,2025-11-07,True,summary extracted,7eaeba862074eaaa74eb1a403a9f0509f8590ec16e9fb27cf68b3cc451dff214,20.0,3.0,False,,,False
+capillary-technologies-india-b5f6ec,anchor,official_nse/anchor/2025/CAPILLARY.zip,2025-11-07,True,native rows could not reconcile announced shares,7ec2207ec7e5b3d7b8621a63f7dc08313fe654b1da1273d6cd16865b893a0900,0.0,0.0,False,6828001.0,0.0,False
+excelsoft-technologies-b2d070,rhp,official_nse/rhp/2025/EXCELSOFT.zip,2025-11-11,True,summary extracted,7280d9653b762779441f1f1fe8cb1f250c9a4bcf8be20c02120d3d5362ae96a9,16.0,1.0,False,,,False
+excelsoft-technologies-b2d070,anchor,official_nse/anchor/2025/EXCELSOFT.zip,,False,native rows could not reconcile announced shares,9e313ab8664f0b0083ddb9f83c24f1fa54df33a76006100398a38d5cbd7da4bb,0.0,0.0,False,,0.0,False
+sudeep-pharma-0b7089,rhp,official_nse/rhp/2025/SUDEEPPHRM.zip,2025-11-17,True,summary extracted,1b55ed59997ebf437f1fd29137ce0aadc8c0047ab5f8f4523d068d3ba6d4c53d,24.0,2.0,False,,,False
+sudeep-pharma-0b7089,anchor,official_nse/anchor/2025/SUDEEPPHRM.zip,2025-11-17,True,native rows could not reconcile announced shares,da5234b786998e377274982fd54490f46b2aef6588ef9aca046782d84951aa0f,0.0,0.0,False,4527823.0,0.0,False
+aequs-99ea09,rhp,official_nse/rhp/2025/AEQUS.zip,2025-11-26,True,summary extracted,bed18824b635cd319d2a957dc1663f3f2d3a6527569d7ccb97c64599ee565f18,15.0,3.0,False,,,False
+aequs-99ea09,anchor,official_nse/anchor/2025/AEQUS.zip,,False,native rows could not reconcile announced shares,319d1dfccf34f2488c6d0398ead9891495d9162891651f96f6c4d76c655d3231,0.0,0.0,False,,0.0,False
+meesho-517d11,rhp,official_nse/rhp/2025/MEESHO.zip,2025-11-27,True,no unambiguous summary in first 45 pages,ebe590361b684bf5797f1dc7548d491ed71a3677618a2c4a5204ba8b732ecb00,0.0,5.0,False,,,False
+meesho-517d11,anchor,official_nse/anchor/2025/MEESHO.zip,,False,native rows could not reconcile announced shares,a1eeeb44e41d9388ec8544744d66ed052f51307e75b9b559e6796b7e495ca91b,0.0,0.0,False,,0.0,False
+vidya-wires-b2b3b9,rhp,official_nse/rhp/2025/VIDYAWIRES.zip,2025-11-27,True,summary extracted,e4320b3d11fdb5ca0a96ef3157e6fc1100a66642c4b979d7308d554a404949df,12.0,2.0,False,,,False
+vidya-wires-b2b3b9,anchor,official_nse/anchor/2025/VIDYAWIRES.zip,,False,native rows could not reconcile announced shares,823f1c6d32d41f2fe5404110ff589c9cf22aa8ecc03f4cb4645812e75f04b7e3,0.0,0.0,False,,0.0,False
+corona-remedies-4770be,rhp,official_nse/rhp/2025/CORONA.zip,2025-12-02,True,summary extracted,2299cd9f072e8b285fbd020467bdc6cdaec9f89ca5f1f3cf4d98d4675c1efc40,8.0,3.0,False,,,False
+corona-remedies-4770be,anchor,official_nse/anchor/2025/CORONA.zip,,False,native rows could not reconcile announced shares,6d099af847f48cbc74480a1adc373d35ecf071be4e8a904f7cfcd5894a8a8b5b,0.0,0.0,False,,0.0,False
+wakefit-innovations-79804a,rhp,official_nse/rhp/2025/WAKEFIT.zip,2025-11-29,True,summary extracted,bddd848b529b2123a4c91fe7a7cd98776b0e32d5879f12e2e9cb50fceb511b0a,12.0,3.0,False,,,False
+wakefit-innovations-79804a,anchor,official_nse/anchor/2025/WAKEFIT.zip,2025-12-05,True,native rows could not reconcile announced shares,c820ae1d7e899e606d40f7b3821db10ec1c2d9c09b362e340a5c72e0a2daa325,0.0,0.0,False,29743590.0,0.0,False
+nephrocare-health-services-1a5680,rhp,official_nse/rhp/2025/NEPHROPLUS.zip,2025-12-02,True,summary extracted,9e0ac13eb9a3205d383318a5cf1dfae68c0810a46626c995d872985c3efd5cf7,16.0,4.0,False,,,False
+nephrocare-health-services-1a5680,anchor,official_nse/anchor/2025/NEPHROPLUS.zip,2025-12-02,True,native rows could not reconcile announced shares,6f9800e32a28ca0b0386a298276394da945c8cfba2fcad8ad0c0ab13738dc479,0.0,0.0,False,5657919.0,0.0,False
+park-medi-world-de5fdb,rhp,official_nse/rhp/2025/PARKHOSPS.zip,2025-12-04,True,summary extracted,4f195fe90e4d9ca6d46cb760c30e43bea1ef5c9644ccfb0ccde36cdacdfa9f31,20.0,4.0,False,,,False
+park-medi-world-de5fdb,anchor,official_nse/anchor/2025/PARKHOSPS.zip,,False,native rows could not reconcile announced shares,a0d652fb2bd592ed344576c906d6676e0d7609ac1e31fe326f7edf1decc62229,0.0,0.0,False,,0.0,False
+icici-prudential-asset-management-35c231,rhp,official_nse/rhp/2025/ICICIAMC.zip,2025-12-05,True,summary extracted,f46799dd0aa3be2f5759aaaccbebf101bd5080e5cff5945b19c4c119f3864f38,20.0,18.0,False,,,False
+icici-prudential-asset-management-35c231,anchor,official_nse/anchor/2025/ICICIAMC.zip,,False,native rows could not reconcile announced shares,d870e138ee17c41956f9342103c5fb2cbd8b924283b4d96db05ac7d4f6b1aa3e,0.0,0.0,False,,0.0,False
+ksh-international-3fc1b4,rhp,official_nse/rhp/2025/KSHINTL.zip,2025-12-10,True,summary extracted,d5c34c0d5f8e56f1a5c6e37af66e5919489f3aedb1c4b452c07f75db26f4b4f1,16.0,2.0,False,,,False
+ksh-international-3fc1b4,anchor,official_nse/anchor/2025/KSHINTL.zip,2025-12-10,True,native rows could not reconcile announced shares,3136042d647832e2b03594b68cc4af24bc2a1b05d56d0052ceea10966c4c885c,0.0,0.0,False,5546874.0,0.0,False
+gujarat-kidney-super-speciality-750c60,rhp,official_nse/rhp/2025/GKSL.zip,2025-12-12,True,summary extracted,2320c7633aeb75c5605c152f15a9f9189e9ff1234ba246b97889fddb799897c8,20.0,1.0,False,,,False
+gujarat-kidney-super-speciality-750c60,anchor,official_nse/anchor/2025/GKSL.zip,,False,native rows could not reconcile announced shares,39bc5ef951a44954c0d2e83579d0475214e06bca06a3f3cab463ca31a4d70041,0.0,0.0,False,,0.0,False

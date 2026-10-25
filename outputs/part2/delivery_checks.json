@@ -1,0 +1,18 @@
+{
+  "part": 2,
+  "status": "complete",
+  "tests_passed": 21,
+  "tests_failed": 0,
+  "readiness_checks_passed": 11,
+  "notebook_code_cells_executed": 8,
+  "notebook_errors": 0,
+  "embedded_figures": 5,
+  "saved_development_models_verified": 12,
+  "frozen_input_and_code_hashes_valid": true,
+  "project_name_used_in_maintained_files": false,
+  "reserved_predictions_or_metrics_computed": false,
+  "final_149_row_models_fitted": false,
+  "classification_decisions_improve_on_always_apply": false,
+  "classification_validation_accuracy": 0.7777777777777778,
+  "price_validation_mae_inr": 94.45002293960916
+}

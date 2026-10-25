@@ -1,0 +1,13 @@
+{
+  "part": 1,
+  "status": "complete",
+  "readiness_checks_passed": 7,
+  "tests_passed": 12,
+  "tests_failed": 0,
+  "notebook_code_cells_executed": 6,
+  "notebook_errors": 0,
+  "reserved_outcome_metrics_computed": false,
+  "rename_independent_code_verified": true,
+  "bundled_file_count_excluding_environment_and_runtime": 113,
+  "bundled_size_bytes_excluding_environment_and_runtime": 2878151
+}

@@ -1,0 +1,197 @@
+table,column,dtype,role,unit,description,availability_rule,missing_count
+ipo_master,ipo_id,str,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+ipo_master,company_name,str,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+ipo_master,isin,str,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+ipo_master,nse_symbol,str,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,2
+ipo_master,profile_symbol,str,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,2
+ipo_master,bse_symbol,str,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+ipo_master,venue,str,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+ipo_master,open_date,datetime64[us],metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+ipo_master,close_date,datetime64[us],metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+ipo_master,listing_date,datetime64[us],metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+ipo_master,listing_year,int64,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+ipo_master,s0_cutoff_at,"datetime64[us, Asia/Kolkata]",metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+ipo_master,price_band_low_inr,float64,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+ipo_master,price_band_high_inr,float64,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+ipo_master,bid_lot_shares,float64,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+ipo_master,industry_reference_only,str,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,14
+ipo_master,lead_managers_raw,str,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,8
+ipo_master,issue_terms_text_reference_only,str,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,10
+ipo_master,terms_source,str,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+ipo_master,terms_availability_basis,str,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+ipo_master,profile_match_method,str,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+ipo_master,planned_fresh_issue_upper_cr,float64,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,71
+ipo_master,planned_ofs_upper_cr,float64,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,78
+ipo_master,planned_offer_upper_cr,float64,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,26
+labels,ipo_id,str,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+labels,final_issue_price_inr,float64,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+labels,listing_open_inr,float64,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+labels,listing_close_inr,float64,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+labels,price_exchange,str,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+labels,listing_date,datetime64[us],metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+labels,target_listing_gain_open,float64,target,decimal return,Listing opening price / final issue price - 1,label only; never an S0 input,0
+labels,target_listing_gain_close,float64,target,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+labels,target_positive_listing_gain,Int64,target,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+labels,label_available_at,"datetime64[us, Asia/Kolkata]",metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+labels,label_source,str,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+labels,label_verified,bool,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+labels,label_verification_tier,str,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+s0_features,ipo_id,str,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+s0_features,s0_cutoff_at,"datetime64[us, Asia/Kolkata]",metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+s0_features,band_low_inr,float64,predictor,INR,Announced pre-bid price band or (cap - floor) / cap,pre-bid announced terms assumption,0
+s0_features,band_high_inr,float64,predictor,INR,Announced pre-bid price band or (cap - floor) / cap,pre-bid announced terms assumption,0
+s0_features,band_width_fraction,float64,predictor,decimal fraction,Announced pre-bid price band or (cap - floor) / cap,pre-bid announced terms assumption,0
+s0_features,bid_lot_shares,float64,predictor,shares,Announced minimum application lot,pre-bid announced terms assumption,0
+s0_features,lot_application_at_cap_inr,float64,predictor,INR,Bid lot × announced band cap,pre-bid announced terms assumption,0
+s0_features,mandatory_t3_regime,int8,predictor,boolean,Policy applicability at bidding open; voluntary adoption is not inferred,"SEBI circular dated 2023-08-09, applicability page 2",0
+s0_features,t3_voluntary_transition_window,int8,predictor,boolean,Policy applicability at bidding open; voluntary adoption is not inferred,"SEBI circular dated 2023-08-09, applicability page 2",0
+s0_features,planned_fresh_issue_upper_cr,float64,predictor,INR crore or log1p(crore),"Announced offer size at band cap, parsed from pre-bid terms; not final size",official archived pre-bid issue terms / dated RHP for reviewed overrides,71
+s0_features,planned_ofs_upper_cr,float64,predictor,INR crore or log1p(crore),"Announced offer size at band cap, parsed from pre-bid terms; not final size",official archived pre-bid issue terms / dated RHP for reviewed overrides,78
+s0_features,planned_offer_upper_cr,float64,predictor,INR crore or log1p(crore),"Announced offer size at band cap, parsed from pre-bid terms; not final size",official archived pre-bid issue terms / dated RHP for reviewed overrides,26
+s0_features,log1p_planned_offer_upper_cr,float64,predictor,INR crore or log1p(crore),"Announced offer size at band cap, parsed from pre-bid terms; not final size",official archived pre-bid issue terms / dated RHP for reviewed overrides,26
+s0_features,nifty_close,float64,predictor,index points,Last completed Nifty close,dated prior completed session,0
+s0_features,nifty_source_age_days,int64,predictor,calendar days,Age of the observation or fiscal period at S0,source observation before S0,0
+s0_features,nifty_return_5d,float64,predictor,decimal return,Nifty trailing completed-session return,dated prior completed session,0
+s0_features,nifty_return_21d,float64,predictor,decimal return,Nifty trailing completed-session return,dated prior completed session,0
+s0_features,nifty_return_63d,float64,predictor,decimal return,Nifty trailing completed-session return,dated prior completed session,0
+s0_features,nifty_volatility_21d,float64,predictor,annualised decimal volatility,"21 log returns, sample std × sqrt(252)",dated prior completed session,0
+s0_features,india_vix_close,float64,predictor,VIX index points,Last completed India VIX close,dated prior completed session,0
+s0_features,vix_source_age_days,int64,predictor,calendar days,Age of the observation or fiscal period at S0,source observation before S0,0
+s0_features,manager_count_verified,float64,predictor,count,Number of distinct lead managers corroborated in pre-bid RHP,dated pre-bid official RHP,31
+s0_features,manager_prior_ipo_count,float64,predictor,count,Prior IPO count within the declared window/manager association; earlier career history unavailable,only prior mature labels; dated pre-bid manager identity,31
+s0_features,manager_prior_median_gain,float64,predictor,decimal return or fraction,Median prior gain or prior positive-gain fraction,only labels mature before S0,59
+s0_features,manager_prior_positive_rate,float64,predictor,decimal return or fraction,Median prior gain or prior positive-gain fraction,only labels mature before S0,59
+s0_features,history_observed_ipo_count,int64,predictor,count,Prior IPO count within the declared window/manager association; earlier career history unavailable,only prior mature labels; dated pre-bid manager identity,0
+s0_features,recent_listed_ipo_count_30d,int64,predictor,count,Prior IPO count within the declared window/manager association; earlier career history unavailable,only prior mature labels; dated pre-bid manager identity,0
+s0_features,recent_median_listing_gain_30d,float64,predictor,decimal return or fraction,Median prior gain or prior positive-gain fraction,only labels mature before S0,5
+s0_features,recent_listed_ipo_count_90d,int64,predictor,count,Prior IPO count within the declared window/manager association; earlier career history unavailable,only prior mature labels; dated pre-bid manager identity,0
+s0_features,recent_median_listing_gain_90d,float64,predictor,decimal return or fraction,Median prior gain or prior positive-gain fraction,only labels mature before S0,2
+s0_features,annual_income_cr,float64,predictor,INR crore,Annual financial amount extracted from dated RHP,dated pre-bid official RHP; public offer document assumption,118
+s0_features,annual_pat_cr,float64,predictor,INR crore,Annual financial amount extracted from dated RHP,dated pre-bid official RHP; public offer document assumption,118
+s0_features,annual_networth_cr,float64,predictor,INR crore,Annual financial amount extracted from dated RHP,dated pre-bid official RHP; public offer document assumption,130
+s0_features,annual_borrowings_cr,float64,predictor,INR crore,Annual financial amount extracted from dated RHP,dated pre-bid official RHP; public offer document assumption,159
+s0_features,annual_income_growth,float64,predictor,decimal ratio,As-filed annual ratio or growth,dated pre-bid official RHP,118
+s0_features,annual_pat_growth,float64,predictor,decimal ratio,As-filed annual ratio or growth,dated pre-bid official RHP,118
+s0_features,annual_pat_margin,float64,predictor,decimal ratio,As-filed annual ratio or growth,dated pre-bid official RHP,118
+s0_features,borrowings_to_networth,float64,predictor,decimal ratio,As-filed annual ratio or growth,dated pre-bid official RHP,171
+s0_features,is_lossmaking,float64,predictor,boolean,Financial condition / income or PAT definition flag,dated pre-bid official RHP,118
+s0_features,pat_is_attributable,float64,predictor,boolean,Financial condition / income or PAT definition flag,dated pre-bid official RHP,118
+s0_features,has_nonpositive_networth,float64,predictor,boolean,Financial condition / income or PAT definition flag,dated pre-bid official RHP,130
+s0_features,annual_income_cr_missing,int8,predictor,boolean,1 when the related financial input is missing,same as related dated RHP feature,0
+s0_features,annual_pat_cr_missing,int8,predictor,boolean,1 when the related financial input is missing,same as related dated RHP feature,0
+s0_features,annual_networth_cr_missing,int8,predictor,boolean,1 when the related financial input is missing,same as related dated RHP feature,0
+s0_features,annual_borrowings_cr_missing,int8,predictor,boolean,1 when the related financial input is missing,same as related dated RHP feature,0
+s0_features,annual_income_growth_missing,int8,predictor,boolean,1 when the related financial input is missing,same as related dated RHP feature,0
+s0_features,annual_pat_growth_missing,int8,predictor,boolean,1 when the related financial input is missing,same as related dated RHP feature,0
+s0_features,annual_pat_margin_missing,int8,predictor,boolean,1 when the related financial input is missing,same as related dated RHP feature,0
+s0_features,borrowings_to_networth_missing,int8,predictor,boolean,1 when the related financial input is missing,same as related dated RHP feature,0
+s0_features,is_lossmaking_missing,int8,predictor,boolean,1 when the related financial input is missing,same as related dated RHP feature,0
+s0_features,has_nonpositive_networth_missing,int8,predictor,boolean,1 when the related financial input is missing,same as related dated RHP feature,0
+s0_features,pat_is_attributable_missing,int8,predictor,boolean,1 when the related financial input is missing,same as related dated RHP feature,0
+s0_features,income_is_total_income,float64,predictor,boolean,Financial condition / income or PAT definition flag,dated pre-bid official RHP,118
+s0_features,financial_age_days,float64,predictor,calendar days,Age of the observation or fiscal period at S0,source observation before S0,118
+s0_model_ready,ipo_id,str,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+s0_model_ready,s0_cutoff_at,"datetime64[us, Asia/Kolkata]",metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+s0_model_ready,band_low_inr,float64,predictor,INR,Announced pre-bid price band or (cap - floor) / cap,pre-bid announced terms assumption,0
+s0_model_ready,band_high_inr,float64,predictor,INR,Announced pre-bid price band or (cap - floor) / cap,pre-bid announced terms assumption,0
+s0_model_ready,band_width_fraction,float64,predictor,decimal fraction,Announced pre-bid price band or (cap - floor) / cap,pre-bid announced terms assumption,0
+s0_model_ready,bid_lot_shares,float64,predictor,shares,Announced minimum application lot,pre-bid announced terms assumption,0
+s0_model_ready,lot_application_at_cap_inr,float64,predictor,INR,Bid lot × announced band cap,pre-bid announced terms assumption,0
+s0_model_ready,mandatory_t3_regime,int8,predictor,boolean,Policy applicability at bidding open; voluntary adoption is not inferred,"SEBI circular dated 2023-08-09, applicability page 2",0
+s0_model_ready,t3_voluntary_transition_window,int8,predictor,boolean,Policy applicability at bidding open; voluntary adoption is not inferred,"SEBI circular dated 2023-08-09, applicability page 2",0
+s0_model_ready,planned_fresh_issue_upper_cr,float64,predictor,INR crore or log1p(crore),"Announced offer size at band cap, parsed from pre-bid terms; not final size",official archived pre-bid issue terms / dated RHP for reviewed overrides,71
+s0_model_ready,planned_ofs_upper_cr,float64,predictor,INR crore or log1p(crore),"Announced offer size at band cap, parsed from pre-bid terms; not final size",official archived pre-bid issue terms / dated RHP for reviewed overrides,78
+s0_model_ready,planned_offer_upper_cr,float64,predictor,INR crore or log1p(crore),"Announced offer size at band cap, parsed from pre-bid terms; not final size",official archived pre-bid issue terms / dated RHP for reviewed overrides,26
+s0_model_ready,log1p_planned_offer_upper_cr,float64,predictor,INR crore or log1p(crore),"Announced offer size at band cap, parsed from pre-bid terms; not final size",official archived pre-bid issue terms / dated RHP for reviewed overrides,26
+s0_model_ready,nifty_close,float64,predictor,index points,Last completed Nifty close,dated prior completed session,0
+s0_model_ready,nifty_source_age_days,int64,predictor,calendar days,Age of the observation or fiscal period at S0,source observation before S0,0
+s0_model_ready,nifty_return_5d,float64,predictor,decimal return,Nifty trailing completed-session return,dated prior completed session,0
+s0_model_ready,nifty_return_21d,float64,predictor,decimal return,Nifty trailing completed-session return,dated prior completed session,0
+s0_model_ready,nifty_return_63d,float64,predictor,decimal return,Nifty trailing completed-session return,dated prior completed session,0
+s0_model_ready,nifty_volatility_21d,float64,predictor,annualised decimal volatility,"21 log returns, sample std × sqrt(252)",dated prior completed session,0
+s0_model_ready,india_vix_close,float64,predictor,VIX index points,Last completed India VIX close,dated prior completed session,0
+s0_model_ready,vix_source_age_days,int64,predictor,calendar days,Age of the observation or fiscal period at S0,source observation before S0,0
+s0_model_ready,manager_count_verified,float64,predictor,count,Number of distinct lead managers corroborated in pre-bid RHP,dated pre-bid official RHP,31
+s0_model_ready,manager_prior_ipo_count,float64,predictor,count,Prior IPO count within the declared window/manager association; earlier career history unavailable,only prior mature labels; dated pre-bid manager identity,31
+s0_model_ready,manager_prior_median_gain,float64,predictor,decimal return or fraction,Median prior gain or prior positive-gain fraction,only labels mature before S0,59
+s0_model_ready,manager_prior_positive_rate,float64,predictor,decimal return or fraction,Median prior gain or prior positive-gain fraction,only labels mature before S0,59
+s0_model_ready,history_observed_ipo_count,int64,predictor,count,Prior IPO count within the declared window/manager association; earlier career history unavailable,only prior mature labels; dated pre-bid manager identity,0
+s0_model_ready,recent_listed_ipo_count_30d,int64,predictor,count,Prior IPO count within the declared window/manager association; earlier career history unavailable,only prior mature labels; dated pre-bid manager identity,0
+s0_model_ready,recent_median_listing_gain_30d,float64,predictor,decimal return or fraction,Median prior gain or prior positive-gain fraction,only labels mature before S0,5
+s0_model_ready,recent_listed_ipo_count_90d,int64,predictor,count,Prior IPO count within the declared window/manager association; earlier career history unavailable,only prior mature labels; dated pre-bid manager identity,0
+s0_model_ready,recent_median_listing_gain_90d,float64,predictor,decimal return or fraction,Median prior gain or prior positive-gain fraction,only labels mature before S0,2
+s0_model_ready,annual_income_cr,float64,predictor,INR crore,Annual financial amount extracted from dated RHP,dated pre-bid official RHP; public offer document assumption,118
+s0_model_ready,annual_pat_cr,float64,predictor,INR crore,Annual financial amount extracted from dated RHP,dated pre-bid official RHP; public offer document assumption,118
+s0_model_ready,annual_networth_cr,float64,predictor,INR crore,Annual financial amount extracted from dated RHP,dated pre-bid official RHP; public offer document assumption,130
+s0_model_ready,annual_borrowings_cr,float64,predictor,INR crore,Annual financial amount extracted from dated RHP,dated pre-bid official RHP; public offer document assumption,159
+s0_model_ready,annual_income_growth,float64,predictor,decimal ratio,As-filed annual ratio or growth,dated pre-bid official RHP,118
+s0_model_ready,annual_pat_growth,float64,predictor,decimal ratio,As-filed annual ratio or growth,dated pre-bid official RHP,118
+s0_model_ready,annual_pat_margin,float64,predictor,decimal ratio,As-filed annual ratio or growth,dated pre-bid official RHP,118
+s0_model_ready,borrowings_to_networth,float64,predictor,decimal ratio,As-filed annual ratio or growth,dated pre-bid official RHP,171
+s0_model_ready,is_lossmaking,float64,predictor,boolean,Financial condition / income or PAT definition flag,dated pre-bid official RHP,118
+s0_model_ready,pat_is_attributable,float64,predictor,boolean,Financial condition / income or PAT definition flag,dated pre-bid official RHP,118
+s0_model_ready,has_nonpositive_networth,float64,predictor,boolean,Financial condition / income or PAT definition flag,dated pre-bid official RHP,130
+s0_model_ready,annual_income_cr_missing,int8,predictor,boolean,1 when the related financial input is missing,same as related dated RHP feature,0
+s0_model_ready,annual_pat_cr_missing,int8,predictor,boolean,1 when the related financial input is missing,same as related dated RHP feature,0
+s0_model_ready,annual_networth_cr_missing,int8,predictor,boolean,1 when the related financial input is missing,same as related dated RHP feature,0
+s0_model_ready,annual_borrowings_cr_missing,int8,predictor,boolean,1 when the related financial input is missing,same as related dated RHP feature,0
+s0_model_ready,annual_income_growth_missing,int8,predictor,boolean,1 when the related financial input is missing,same as related dated RHP feature,0
+s0_model_ready,annual_pat_growth_missing,int8,predictor,boolean,1 when the related financial input is missing,same as related dated RHP feature,0
+s0_model_ready,annual_pat_margin_missing,int8,predictor,boolean,1 when the related financial input is missing,same as related dated RHP feature,0
+s0_model_ready,borrowings_to_networth_missing,int8,predictor,boolean,1 when the related financial input is missing,same as related dated RHP feature,0
+s0_model_ready,is_lossmaking_missing,int8,predictor,boolean,1 when the related financial input is missing,same as related dated RHP feature,0
+s0_model_ready,has_nonpositive_networth_missing,int8,predictor,boolean,1 when the related financial input is missing,same as related dated RHP feature,0
+s0_model_ready,pat_is_attributable_missing,int8,predictor,boolean,1 when the related financial input is missing,same as related dated RHP feature,0
+s0_model_ready,income_is_total_income,float64,predictor,boolean,Financial condition / income or PAT definition flag,dated pre-bid official RHP,118
+s0_model_ready,financial_age_days,float64,predictor,calendar days,Age of the observation or fiscal period at S0,source observation before S0,118
+s0_model_ready,target_listing_gain_open,float64,target,decimal return,Listing opening price / final issue price - 1,label only; never an S0 input,0
+s0_model_ready,target_positive_listing_gain,Int64,target,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+s0_model_ready,label_available_at,"datetime64[us, Asia/Kolkata]",metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+s0_model_ready,label_verified,bool,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+s0_model_ready,s0_eligible,bool,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+financials_asfiled,metric,str,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+financials_asfiled,period_end,datetime64[us],metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+financials_asfiled,period_kind,str,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+financials_asfiled,value_cr,float64,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+financials_asfiled,raw_value,str,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+financials_asfiled,unit_to_crore_factor,float64,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+financials_asfiled,document_date,datetime64[us],metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+financials_asfiled,source_document,str,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+financials_asfiled,source_page,int64,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+financials_asfiled,column_header,str,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+financials_asfiled,statement_basis,str,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+financials_asfiled,period_mapping,str,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+financials_asfiled,extraction_method,str,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+financials_asfiled,ipo_id,str,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+financials_asfiled,rhp_before_bidding,bool,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+financials_asfiled,s0_usable,bool,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+financials_asfiled,availability_basis,str,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+financials_asfiled,period_end_before_review,str,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+financials_asfiled,conflicting_fact,bool,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+lead_managers,ipo_id,str,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+lead_managers,manager_raw_name,str,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+lead_managers,manager_id,str,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+lead_managers,rhp_corroborated,bool,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+lead_managers,document_date,datetime64[us],metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,5
+lead_managers,source_document,str,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+anchor_allocations_supporting,serial,int64,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+anchor_allocations_supporting,anchor_raw_name,str,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+anchor_allocations_supporting,shares,float64,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+anchor_allocations_supporting,allocation_price_inr,float64,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,758
+anchor_allocations_supporting,amount_inr,float64,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,758
+anchor_allocations_supporting,source_page,int64,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+anchor_allocations_supporting,ipo_id,str,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+anchor_allocations_supporting,anchor_id,str,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+anchor_allocations_supporting,document_date,datetime64[us],metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+anchor_allocations_supporting,source_document,str,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+anchor_allocations_supporting,allocation_reconciled,bool,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+anchor_allocations_supporting,s0_publication_verified,bool,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+anchor_allocations_supporting,strict_s0_usable,bool,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+market_context,date,datetime64[us],metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+market_context,nifty_close,float64,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+market_context,nifty_return_5d,float64,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+market_context,nifty_return_21d,float64,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+market_context,nifty_return_63d,float64,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+market_context,nifty_volatility_21d,float64,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0
+market_context,india_vix_close,float64,metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,1
+market_context,available_at,"datetime64[us, Asia/Kolkata]",metadata_or_supporting,see column name,"Identifier, metadata, direct source fact or label",see notebook and source/page fields,0

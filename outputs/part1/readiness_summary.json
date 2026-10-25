@@ -1,0 +1,18 @@
+{
+  "part": 1,
+  "status": "complete",
+  "cohort": 253,
+  "source_predictors_preserved": 52,
+  "active_core_features": 12,
+  "optional_financial_features": 7,
+  "final_memberships": {
+    "final_train": 149,
+    "reserved_test": 103,
+    "purged_label_unavailable": 1
+  },
+  "validation_folds": 4,
+  "checks_passed": 7,
+  "predictive_models_trained": false,
+  "reserved_outcome_metrics_computed": false,
+  "preprocessing_demo": "2024 Q1 development training only; not a saved final pipeline"
+}

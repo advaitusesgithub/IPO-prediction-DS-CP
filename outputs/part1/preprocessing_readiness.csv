@@ -1,0 +1,5 @@
+feature_set,scaled,training_rows,validation_rows,input_features,output_features
+core,False,59,22,12,17
+core,True,59,22,12,17
+extended,False,59,22,19,31
+extended,True,59,22,19,31

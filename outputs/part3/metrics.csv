@@ -1,0 +1,5 @@
+task,model,mae_inr,rmse_inr,mape_pct,n,accuracy,balanced_accuracy,precision_apply,recall_apply,f1_apply,specificity_skip,brier,tn,fp,fn,tp,predicted_apply,predicted_skip
+regression,selected_price,49.856974013138775,73.49445838528004,14.96865955494936,103,,,,,,,,,,,,,
+regression,announced_cap_baseline,44.951747572815535,98.21709918259987,11.136290301668751,103,,,,,,,,,,,,,
+classification,selected_classifier,,,,103,0.6796116504854369,0.5,0.6796116504854369,1.0,0.8092485549132948,0.0,0.22629440540777082,0.0,33.0,0.0,70.0,103.0,0.0
+classification,always_apply_baseline,,,,103,0.6796116504854369,0.5,0.6796116504854369,1.0,0.8092485549132948,0.0,0.32038834951456313,0.0,33.0,0.0,70.0,103.0,0.0

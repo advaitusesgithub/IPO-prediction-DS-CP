@@ -1,0 +1,5 @@
+development_period,financial_data,size,median_gain_pct,mean_gain_pct
+2024 validation period,Income/PAT missing,43,15.591397849462375,31.718520279815305
+2024 validation period,Income/PAT observed,47,18.39708561020037,26.129683379707057
+Initial history (before 2024),Income/PAT missing,30,8.689890542368717,20.252943746560305
+Initial history (before 2024),Income/PAT observed,29,20.168067226890752,32.706868567865534

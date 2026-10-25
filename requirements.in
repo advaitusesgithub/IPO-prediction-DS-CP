@@ -1,0 +1,17 @@
+pandas
+numpy
+pyarrow
+matplotlib
+scikit-learn
+joblib
+nbformat
+nbclient
+ipykernel
+pytest
+python-docx
+python-pptx
+reportlab
+starlette
+uvicorn
+httpx
+playwright

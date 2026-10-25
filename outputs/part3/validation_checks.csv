@@ -1,0 +1,8 @@
+check,passed
+Frozen inputs/code and versions verified,True
+149 mature training labels before first test cutoff,True
+103 disjoint reserved IPO predictions,True
+Both saved pipelines reproduce held-out predictions,True
+Only frozen settings used; threshold remains 0.5,True
+Positive finite price predictions,True
+"Probability values in [0,1]",True

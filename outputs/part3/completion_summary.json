@@ -1,0 +1,69 @@
+{
+  "part": 3,
+  "evaluation_status": "complete",
+  "training_IPOs": 149,
+  "reserved_IPOs": 103,
+  "fit_cutoff": "2025-01-06 09:00:00+05:30",
+  "classification_threshold": 0.5,
+  "regression": {
+    "task": "regression",
+    "model": "selected_price",
+    "mae_inr": 49.856974013138775,
+    "rmse_inr": 73.49445838528004,
+    "mape_pct": 14.96865955494936,
+    "n": 103
+  },
+  "cap_baseline": {
+    "task": "regression",
+    "model": "announced_cap_baseline",
+    "mae_inr": 44.951747572815535,
+    "rmse_inr": 98.21709918259987,
+    "mape_pct": 11.136290301668751,
+    "n": 103
+  },
+  "classification": {
+    "task": "classification",
+    "model": "selected_classifier",
+    "accuracy": 0.6796116504854369,
+    "balanced_accuracy": 0.5,
+    "precision_apply": 0.6796116504854369,
+    "recall_apply": 1.0,
+    "f1_apply": 0.8092485549132948,
+    "specificity_skip": 0.0,
+    "brier": 0.22629440540777082,
+    "tn": 0,
+    "fp": 33,
+    "fn": 0,
+    "tp": 70,
+    "predicted_apply": 103,
+    "predicted_skip": 0,
+    "n": 103
+  },
+  "always_apply_baseline": {
+    "task": "classification",
+    "model": "always_apply_baseline",
+    "accuracy": 0.6796116504854369,
+    "balanced_accuracy": 0.5,
+    "precision_apply": 0.6796116504854369,
+    "recall_apply": 1.0,
+    "f1_apply": 0.8092485549132948,
+    "specificity_skip": 0.0,
+    "brier": 0.32038834951456313,
+    "tn": 0,
+    "fp": 33,
+    "fn": 0,
+    "tp": 70,
+    "predicted_apply": 103,
+    "predicted_skip": 0,
+    "n": 103
+  },
+  "classification_beats_always_apply": false,
+  "accuracy_90_percent_reached": false,
+  "validation_checks_passed": 7,
+  "models": [
+    "models/final/regression.joblib",
+    "models/final/classification.joblib"
+  ],
+  "probability_note": "Raw, uncalibrated classifier probabilities",
+  "test_note": "Reserved chronological evaluation; prior preparation exposed full-cohort aggregate outcomes"
+}

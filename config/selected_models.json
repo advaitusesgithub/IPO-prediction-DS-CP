@@ -1,0 +1,90 @@
+{
+  "stage": "S0",
+  "status": "choices frozen after development validation; final fitting/evaluation deferred",
+  "classification_threshold": 0.5,
+  "regression_target": "listing_open_inr",
+  "classification_target": "target_positive_listing_gain",
+  "selection": {
+    "regression": {
+      "candidate_id": "regression_training_median_premium_core_baseline",
+      "task": "regression",
+      "family": "training_median_premium",
+      "feature_set": "core",
+      "params": {},
+      "is_baseline": true,
+      "random_state": 42,
+      "best_learned_candidate_id": "regression_random_forest_core_setting1",
+      "validation_metrics": {
+        "predictors_used": "1",
+        "mae_inr": 94.45002293960916,
+        "rmse_inr": 158.01980915423525,
+        "mape_pct": 17.9740221619189,
+        "n": "90"
+      }
+    },
+    "classification": {
+      "candidate_id": "classification_random_forest_core_setting1",
+      "task": "classification",
+      "family": "random_forest",
+      "feature_set": "core",
+      "params": {
+        "n_estimators": 200,
+        "max_depth": 3,
+        "min_samples_leaf": 5,
+        "max_features": "sqrt",
+        "class_weight": null
+      },
+      "is_baseline": false,
+      "random_state": 42,
+      "best_learned_candidate_id": "classification_random_forest_core_setting1",
+      "validation_metrics": {
+        "predictors_used": "12",
+        "n": "90",
+        "accuracy": 0.7777777777777778,
+        "balanced_accuracy": 0.5,
+        "precision_apply": 0.7777777777777778,
+        "recall_apply": 1.0,
+        "f1_apply": 0.875,
+        "specificity_skip": 0.0,
+        "brier": 0.1835500719986451,
+        "tn": 0.0,
+        "fp": 20.0,
+        "fn": 0.0,
+        "tp": 70.0,
+        "predicted_apply": 90.0,
+        "predicted_skip": 0.0
+      }
+    }
+  },
+  "development_IPOs": 149,
+  "validation_IPOs": 90,
+  "reserved_IPOs": 103,
+  "input_and_code_sha256": {
+    "data/prepared/s0_model_ready.parquet": "0367eebb91eff89945f358a865593fdb33205f77dfab03e0f15772cf710ae843",
+    "data/prepared/ipo_master.parquet": "3fb8ecf857be1ba2b3dc99505acfde22a2e0e7bc2e597dfcf44eeae3ad55c775",
+    "data/prepared/labels.parquet": "444eb9304ae0b242303792775a883992e59903c622b6ff2fcf073ceee01ad9ac",
+    "data/supporting/financials_asfiled.parquet": "f371e9a93cc4f6b2b763f818dd87395749993d3a318118544c62a78509be8c26",
+    "data/supporting/lead_managers.parquet": "38730a306772a27456b17662d629fd2ebfc4ba59ae3e40a084fc5339b1a88f71",
+    "data/supporting/market_context.parquet": "0f2feb41409c2c3fa07f7825c6ffe45a79d1f18ec1688e02bd04bc80b6cd05ef",
+    "config/source_schema.json": "680f296ccea2274f17aa1ce497b702bec05cecbd3cb2273bdd9181c164de58f9",
+    "data/splits/final_membership.csv": "a64db2a954dddf77cb26483a1ef0be0a5c6dcc52a6d147e4b01c1dd8f1cb766d",
+    "data/splits/walk_forward_membership.csv": "8f0c2f3cb1914b2272137761e022ab317eadac121b02e84df070ab22d9aa4ff4",
+    "config/features.json": "fd1e26aff6faf0b8acaf49d4a670f12b917f180bc2baf9397a3dd29b4de96e4f",
+    "config/evaluation.json": "024be31b5205337c53d1a165746d2789cf8abdf035f64a4995fa31624d2234ec",
+    "config/model_search.json": "d410fa58d11e466f2adc82644db979c7e4fa984fd34455e17853972b3c44db1b",
+    "ipo_prediction/models.py": "3a288b371a5a3efb274e5536b617aebed41ae5183e8bfd236e38b914ba363924",
+    "ipo_prediction/metrics.py": "fcb175ace0b29e7b7644174e14955bc536d71b6740e4625648a5dbc86e295374",
+    "ipo_prediction/train.py": "3c4cd223a7bf9b0a24ba4bb1b0d5996186aa778967bc77f43e438f9565ee58e1",
+    "ipo_prediction/preprocessing.py": "d356f5ebf29ba29d59dd85116635b68d0a7162f9c17b11dfe729ef91e2eb97d1",
+    "ipo_prediction/data.py": "ed333e01ad56e3ac97b2341e9c50bd3708d696258aaccc18c00c2a3f47694d27",
+    "ipo_prediction/splits.py": "d85b19c2ebe2e1e3e141e19ca94bf4f386b0ea7e2b9ddad5d490a8a8181a5d96"
+  },
+  "versions": {
+    "scikit-learn": "1.9.1",
+    "pandas": "3.1.0",
+    "numpy": "2.5.4",
+    "joblib": "1.6.0"
+  },
+  "metric_interpretation": "Pooled development validation used for selection; not independent final-test performance",
+  "probability_note": "Raw classifier probabilities; no calibration or guaranteed investment confidence"
+}

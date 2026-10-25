@@ -1,0 +1,102 @@
+{
+  "status": "Part 1 frozen input and evaluation contract; predictive models not yet fitted",
+  "stage": "S0",
+  "timezone": "Asia/Kolkata",
+  "development_cutoff_exclusive": "2025-01-01T00:00:00+05:30",
+  "development_rule": "S0 before 2025-01-01 and label available before 2025-01-01",
+  "reserved_test_rule": "S0 on/after 2025-01-01; membership fixed before modelling",
+  "reserved_test_IPOs": 103,
+  "development_IPOs": 149,
+  "boundary_pending_IPOs": 1,
+  "final_fit_cutoff": "2025-01-06T09:00:00+05:30",
+  "final_train_IPOs": 149,
+  "final_train_purged_IPOs": 1,
+  "validation_folds": [
+    {
+      "fold_id": "2024_Q1",
+      "training_IPOs": "59",
+      "validation_IPOs": "22",
+      "purged_unmatured_labels": "0",
+      "fit_cutoff": "2024-01-09 09:00:00+05:30",
+      "train_first_S0": "2022-12-23 09:00:00+05:30",
+      "train_last_S0": "2023-12-21 09:00:00+05:30",
+      "train_latest_label": "2023-12-29 23:59:59+05:30",
+      "validation_first_S0": "2024-01-09 09:00:00+05:30",
+      "validation_last_S0": "2024-03-26 09:00:00+05:30"
+    },
+    {
+      "fold_id": "2024_Q2",
+      "training_IPOs": "80",
+      "validation_IPOs": "14",
+      "purged_unmatured_labels": "1",
+      "fit_cutoff": "2024-04-03 09:00:00+05:30",
+      "train_first_S0": "2022-12-23 09:00:00+05:30",
+      "train_last_S0": "2024-03-14 09:00:00+05:30",
+      "train_latest_label": "2024-03-21 23:59:59+05:30",
+      "validation_first_S0": "2024-04-03 09:00:00+05:30",
+      "validation_last_S0": "2024-06-26 09:00:00+05:30"
+    },
+    {
+      "fold_id": "2024_Q3",
+      "training_IPOs": "94",
+      "validation_IPOs": "26",
+      "purged_unmatured_labels": "1",
+      "fit_cutoff": "2024-07-03 09:00:00+05:30",
+      "train_first_S0": "2022-12-23 09:00:00+05:30",
+      "train_last_S0": "2024-06-25 09:00:00+05:30",
+      "train_latest_label": "2024-07-02 23:59:59+05:30",
+      "validation_first_S0": "2024-07-03 09:00:00+05:30",
+      "validation_last_S0": "2024-09-26 09:00:00+05:30"
+    },
+    {
+      "fold_id": "2024_Q4",
+      "training_IPOs": "121",
+      "validation_IPOs": "28",
+      "purged_unmatured_labels": "0",
+      "fit_cutoff": "2024-10-08 09:00:00+05:30",
+      "train_first_S0": "2022-12-23 09:00:00+05:30",
+      "train_last_S0": "2024-09-26 09:00:00+05:30",
+      "train_latest_label": "2024-10-04 23:59:59+05:30",
+      "validation_first_S0": "2024-10-08 09:00:00+05:30",
+      "validation_last_S0": "2024-12-23 09:00:00+05:30"
+    }
+  ],
+  "label_maturity_rule": "training label_available_at < earliest validation S0 cutoff; S0 dates must also precede validation",
+  "within_fold_policy": "Freeze fitted model and preprocessing during each quarter",
+  "preprocessing_policy": "Training-fold numeric imputation and missing indicators; training-fold scaling for Ridge; no full-data feature selection or label clipping",
+  "primary_metric": {
+    "name": "MAE_INR",
+    "formula": "mean(abs(predicted_open_inr - listing_open_inr))"
+  },
+  "secondary_metrics": [
+    "RMSE_INR",
+    "MAPE_percent",
+    "accuracy",
+    "precision",
+    "recall",
+    "F1",
+    "confusion_matrix"
+  ],
+  "holdout_policy": "Freeze feature choice, model settings and preprocessing policy before evaluating 2025; no tuning on reserved outcomes",
+  "online_features_policy": "Past already-observable outcomes may update as-of reputation/context during test; no test-target fitting or tuning",
+  "honesty_note": "All-cohort outcome summaries were viewed during original data preparation; reserved 2025 is not claimed to be unseen external data",
+  "scope_note": "S0 only. Direct opening-price regression and a separate positive-gain classifier. No guaranteed accuracy or net-profit claims.",
+  "candidate_models": {
+    "regression": [
+      "announced cap baseline",
+      "training-median premium baseline",
+      "Ridge",
+      "RandomForestRegressor"
+    ],
+    "classification": [
+      "always Apply baseline",
+      "LogisticRegression",
+      "RandomForestClassifier"
+    ]
+  },
+  "regression_target": "listing_open_inr",
+  "classification_target": "target_positive_listing_gain",
+  "random_state": 42,
+  "classification_rule": "Apply if predicted positive-gain probability >= development-selected threshold; initial candidate threshold 0.5",
+  "boundary_policy": "Keep the original fixed 149 development rows; exclude the single boundary row whose outcome was unavailable at the final cutoff."
+}

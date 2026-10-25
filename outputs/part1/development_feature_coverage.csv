@@ -1,0 +1,13 @@
+feature,non_missing,missing
+band_high_inr,149,0
+band_width_fraction,149,0
+lot_application_at_cap_inr,149,0
+log1p_planned_offer_upper_cr,127,22
+nifty_return_21d,149,0
+nifty_volatility_21d,149,0
+india_vix_close,149,0
+recent_listed_ipo_count_90d,149,0
+recent_median_listing_gain_90d,147,2
+manager_count_verified,130,19
+manager_prior_ipo_count,130,19
+manager_prior_median_gain,112,37

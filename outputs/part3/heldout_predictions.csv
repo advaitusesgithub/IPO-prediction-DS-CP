@@ -1,0 +1,104 @@
+ipo_id,company_name,s0_cutoff_at,predicted_open_inr,positive_gain_probability,predicted_class,signal
+standard-glass-lining-technology-7de754,Standard Glass Lining Technology Limited,2025-01-06 09:00:00+05:30,163.47305389221557,0.739283879591843,1,Apply
+quadrant-future-tek-0d0c0d,Quadrant Future Tek Limited,2025-01-07 09:00:00+05:30,338.622754491018,0.7382664008939349,1,Apply
+laxmi-dental-61673f,Laxmi Dental Limited,2025-01-13 09:00:00+05:30,499.76047904191614,0.6831533576055279,1,Apply
+stallion-india-fluorochemicals-96bec9,Stallion India Fluorochemicals Limited,2025-01-16 09:00:00+05:30,105.08982035928143,0.8175676332949275,1,Apply
+denta-water-infra-solutions-c512ce,Denta Water and Infra Solutions Limited,2025-01-22 09:00:00+05:30,343.2934131736527,0.7511401376249587,1,Apply
+dr-agarwal-s-health-care-5038a8,Dr. Agarwal's Health Care Limited,2025-01-29 09:00:00+05:30,469.4011976047904,0.6779305387944465,1,Apply
+ajax-engineering-34ccc3,AJAX Engineering Limited,2025-02-10 09:00:00+05:30,734.4610778443114,0.6963600870925704,1,Apply
+hexaware-technologies-03f09a,Hexaware Technologies Limited,2025-02-12 09:00:00+05:30,826.7065868263473,0.6771136912924653,1,Apply
+quality-power-electrical-equipments-2187af,Quality Power Electrical Equipments Limited,2025-02-14 09:00:00+05:30,496.25748502994014,0.777322381888093,1,Apply
+ather-energy-2af7ad,Ather Energy Limited,2025-04-28 09:00:00+05:30,374.8203592814371,0.8043859539397037,1,Apply
+borana-weaves-b78b95,Borana Weaves Limited,2025-05-20 09:00:00+05:30,252.21556886227546,0.8598214563179621,1,Apply
+belrise-fb0efd,Belrise Industries Limited,2025-05-21 09:00:00+05:30,105.08982035928143,0.8319184597556842,1,Apply
+aegis-vopak-terminals-cb8487,Aegis Vopak Terminals Limited,2025-05-26 09:00:00+05:30,274.4011976047904,0.7594468702110804,1,Apply
+schloss-bangalore-a76781,Schloss Bangalore Limited,2025-05-26 09:00:00+05:30,507.9341317365269,0.7725726222206037,1,Apply
+prostarm-info-systems-604c9a,Prostarm Info Systems Limited,2025-05-27 09:00:00+05:30,122.60479041916167,0.8816808403480729,1,Apply
+scoda-tubes-23a5e5,Scoda Tubes Limited,2025-05-28 09:00:00+05:30,163.47305389221557,0.8889146455495396,1,Apply
+oswal-pumps-7e09aa,Oswal Pumps Limited,2025-06-13 09:00:00+05:30,716.9461077844311,0.7827779853220862,1,Apply
+arisinfra-solutions-1b7f20,ArisInfra Solutions Limited,2025-06-18 09:00:00+05:30,259.2215568862275,0.8103837182146221,1,Apply
+ellenbarrie-industrial-gases-ae7b6e,Ellenbarrie Industrial Gases Limited,2025-06-24 09:00:00+05:30,467.065868263473,0.7993291771123624,1,Apply
+globe-civil-projects-756c8c,Globe Civil Projects Limited,2025-06-24 09:00:00+05:30,82.90419161676647,0.8552613232840268,1,Apply
+kalpataru-bf5570,Kalpataru Limited,2025-06-24 09:00:00+05:30,483.4131736526946,0.8191529931867788,1,Apply
+hdb-financial-services-b330ec,HDB Financial Services Limited,2025-06-25 09:00:00+05:30,864.0718562874251,0.7813754051357755,1,Apply
+sambhv-steel-tubes-7d8716,Sambhv Steel Tubes Limited,2025-06-25 09:00:00+05:30,95.74850299401197,0.8455855185006061,1,Apply
+indogulf-cropsciences-734e33,Indogulf Cropsciences Limited,2025-06-26 09:00:00+05:30,129.61077844311376,0.8672191925028758,1,Apply
+crizac-ffd65f,Crizac Limited,2025-07-02 09:00:00+05:30,286.07784431137725,0.8712370501614436,1,Apply
+travel-food-services-99035c,Travel Food Services Limited,2025-07-07 09:00:00+05:30,1284.4311377245508,0.8117099978842716,1,Apply
+smartworks-coworking-spaces-70588c,Smartworks Coworking Spaces Limited,2025-07-10 09:00:00+05:30,475.2395209580838,0.8136414268874617,1,Apply
+anthem-biosciences-c6a0b0,Anthem Biosciences Limited,2025-07-14 09:00:00+05:30,665.5688622754491,0.7674710676258673,1,Apply
+gng-electronics-431f93,GNG Electronics Limited,2025-07-23 09:00:00+05:30,276.7365269461078,0.7104867279039234,1,Apply
+indiqube-spaces-40215a,Indiqube Spaces Limited,2025-07-23 09:00:00+05:30,276.7365269461078,0.743751026335377,1,Apply
+brigade-hotel-ventures-1a78cd,Brigade Hotel Ventures Limited,2025-07-24 09:00:00+05:30,105.08982035928143,0.7857684383075487,1,Apply
+shanti-gold-international-f650c4,Shanti Gold International Limited,2025-07-25 09:00:00+05:30,232.36526946107784,0.7834101949404431,1,Apply
+aditya-infotech-8ed0aa,Aditya Infotech Limited,2025-07-29 09:00:00+05:30,788.1736526946107,0.8097964336900635,1,Apply
+laxmi-india-finance-275811,Laxmi India Finance Limited,2025-07-29 09:00:00+05:30,184.49101796407186,0.7639384948988176,1,Apply
+m-b-engineering-4c93c2,M & B Engineering Limited,2025-07-30 09:00:00+05:30,449.5508982035928,0.7834422914619645,1,Apply
+national-securities-depository-1dabb4,National Securities Depository Limited,2025-07-30 09:00:00+05:30,934.131736526946,0.7488071891395933,1,Apply
+sri-lotus-developers-realty-97c88c,Sri Lotus Developers and Realty Limited,2025-07-30 09:00:00+05:30,175.14970059880238,0.7902539516511348,1,Apply
+highway-infrastructure-de1f40,Highway Infrastructure Limited,2025-08-05 09:00:00+05:30,81.73652694610779,0.767849349007713,1,Apply
+all-time-plastics-01e731,All Time Plastics Limited,2025-08-07 09:00:00+05:30,321.1077844311377,0.7779245206312541,1,Apply
+jsw-cement-975419,JSW Cement Limited,2025-08-07 09:00:00+05:30,171.64670658682635,0.7587405362826799,1,Apply
+bluestone-jewellery-lifestyle-3a5abd,BlueStone Jewellery and Lifestyle Limited,2025-08-11 09:00:00+05:30,603.6826347305389,0.7773834919201954,1,Apply
+regaal-resources-c46f3b,Regaal Resources Limited,2025-08-12 09:00:00+05:30,119.10179640718563,0.8557296512923412,1,Apply
+gem-aromatics-5ba178,Gem Aromatics Limited,2025-08-19 09:00:00+05:30,379.49101796407183,0.754075070104643,1,Apply
+patel-retail-3ce6e2,Patel Retail Limited,2025-08-19 09:00:00+05:30,297.7544910179641,0.8030490091657491,1,Apply
+shreeji-shipping-global-524d58,Shreeji Shipping Global Limited,2025-08-19 09:00:00+05:30,294.251497005988,0.7980675744413445,1,Apply
+vikram-solar-f7c4d9,Vikram Solar Limited,2025-08-19 09:00:00+05:30,387.6646706586826,0.7549205738599077,1,Apply
+mangal-electrical-47908d,Mangal Electrical Industries Limited,2025-08-20 09:00:00+05:30,655.0598802395209,0.7949226915337357,1,Apply
+anlon-healthcare-12cf21,Anlon Healthcare Limited,2025-08-26 09:00:00+05:30,106.25748502994011,0.8445682981095041,1,Apply
+vikran-engineering-5f2e69,Vikran Engineering Limited,2025-08-26 09:00:00+05:30,113.26347305389221,0.8658696359436061,1,Apply
+amanta-healthcare-228780,Amanta Healthcare Limited,2025-09-01 09:00:00+05:30,147.125748502994,0.7990633766409639,1,Apply
+dev-accelerator-114447,Dev Accelerator Limited,2025-09-10 09:00:00+05:30,71.22754491017965,0.8181677923295007,1,Apply
+shringar-house-of-mangalsutra-cde434,Shringar House Of Mangalsutra Limited,2025-09-10 09:00:00+05:30,192.66467065868264,0.7880920822218173,1,Apply
+urban-8b2b23,Urban Company Limited,2025-09-10 09:00:00+05:30,120.26946107784431,0.7597222779484977,1,Apply
+euro-pratik-sales-f89506,Euro Pratik Sales Limited,2025-09-16 09:00:00+05:30,288.4131736526946,0.6947948758662115,1,Apply
+vms-tmt-c7f278,VMS TMT Limited,2025-09-17 09:00:00+05:30,115.59880239520957,0.7974380801467172,1,Apply
+ivalue-infosolutions-c89b2f,Ivalue Infosolutions Limited,2025-09-18 09:00:00+05:30,349.1317365269461,0.6949307280352822,1,Apply
+gk-energy-eecbd5,GK Energy Limited,2025-09-19 09:00:00+05:30,178.65269461077844,0.7331579577330107,1,Apply
+saatvik-green-energy-e10681,Saatvik Green Energy Limited,2025-09-19 09:00:00+05:30,542.9640718562874,0.7457588313269562,1,Apply
+atlanta-electricals-d5388e,Atlanta Electricals Limited,2025-09-22 09:00:00+05:30,880.4191616766467,0.7288809361069414,1,Apply
+ganesh-consumer-products-ed2820,Ganesh Consumer Products Limited,2025-09-22 09:00:00+05:30,375.98802395209583,0.6865161872975121,1,Apply
+anand-rathi-share-stock-brokers-7d93bc,Anand Rathi Share And Stock Brokers Limited,2025-09-23 09:00:00+05:30,483.4131736526946,0.7356557870247543,1,Apply
+jaro-institute-of-technology-management-research-1d78ed,Jaro Institute of Technology Management and Research Limited,2025-09-23 09:00:00+05:30,1039.2215568862275,0.7122165479758077,1,Apply
+seshaasai-technologies-aa4474,Seshaasai Technologies Limited,2025-09-23 09:00:00+05:30,493.92215568862275,0.743198716905836,1,Apply
+solarworld-energy-solutions-9aecd7,Solarworld Energy Solutions Limited,2025-09-23 09:00:00+05:30,409.8502994011976,0.7133330494393324,1,Apply
+bmw-ventures-f5b14a,BMW Ventures Limited,2025-09-24 09:00:00+05:30,115.59880239520957,0.8124350408595052,1,Apply
+epack-prefab-technologies-271657,Epack Prefab Technologies Limited,2025-09-24 09:00:00+05:30,238.20359281437126,0.7053170026642122,1,Apply
+jain-resource-recycling-d4fd3f,Jain Resource Recycling Limited,2025-09-24 09:00:00+05:30,270.89820359281435,0.7367812501947596,1,Apply
+jinkushal-36b8b6,Jinkushal Industries Limited,2025-09-25 09:00:00+05:30,141.2874251497006,0.8012334707859503,1,Apply
+trualt-bioenergy-cef02e,Trualt Bioenergy Limited,2025-09-25 09:00:00+05:30,579.1616766467066,0.7532078039401273,1,Apply
+pace-digitek-8a9806,Pace Digitek Limited,2025-09-26 09:00:00+05:30,255.7185628742515,0.7915786903574812,1,Apply
+fabtech-technologies-89e60b,Fabtech Technologies Limited,2025-09-29 09:00:00+05:30,223.02395209580837,0.8331206507074839,1,Apply
+glottis-7290ab,Glottis Limited,2025-09-29 09:00:00+05:30,150.62874251497007,0.8462232002560238,1,Apply
+om-freight-forwarders-ba6bcb,Om Freight Forwarders Limited,2025-09-29 09:00:00+05:30,157.63473053892216,0.8191313058102442,1,Apply
+advance-agrolife-13f5e9,Advance Agrolife Limited,2025-09-30 09:00:00+05:30,116.76646706586826,0.8156803097918944,1,Apply
+wework-india-management-b8209c,WeWork India Management Limited,2025-10-03 09:00:00+05:30,756.6467065868263,0.7366850579644929,1,Apply
+tata-capital-fc3602,Tata Capital Limited,2025-10-06 09:00:00+05:30,380.65868263473055,0.6879509226584077,1,Apply
+lg-electronics-india-1aa5cb,LG Electronics India Limited,2025-10-07 09:00:00+05:30,1331.1377245508982,0.7066620610320357,1,Apply
+canara-robeco-asset-management-5b8eb6,Canara Robeco Asset Management Company Limited,2025-10-09 09:00:00+05:30,310.5988023952096,0.7359646830702977,1,Apply
+rubicon-research-81a94a,Rubicon Research Limited,2025-10-09 09:00:00+05:30,566.3173652694611,0.7270926336724414,1,Apply
+canara-hsbc-life-insurance-2ca04b,Canara HSBC Life Insurance Company Limited,2025-10-10 09:00:00+05:30,123.77245508982035,0.7558842811661118,1,Apply
+midwest-4ba090,Midwest Limited,2025-10-15 09:00:00+05:30,1243.562874251497,0.7433002129801547,1,Apply
+orkla-india-eb04e9,Orkla India Limited,2025-10-29 09:00:00+05:30,852.3952095808384,0.7711544035808909,1,Apply
+studds-accessories-74db0c,Studds Accessories Limited,2025-10-30 09:00:00+05:30,683.0838323353294,0.7750942727952017,1,Apply
+lenskart-solutions-95756e,Lenskart Solutions Limited,2025-10-31 09:00:00+05:30,469.4011976047904,0.7472730518220244,1,Apply
+billionbrains-garage-ventures-6ce46c,Billionbrains Garage Ventures Limited,2025-11-04 09:00:00+05:30,116.76646706586826,0.73198214016388,1,Apply
+pine-labs-eb3a50,Pine Labs Limited,2025-11-07 09:00:00+05:30,258.05389221556885,0.7023387572661512,1,Apply
+emmvee-photovoltaic-power-845b31,Emmvee Photovoltaic Power Limited,2025-11-11 09:00:00+05:30,253.38323353293413,0.7471834391312973,1,Apply
+physicswallah-5d83a0,Physicswallah Limited,2025-11-11 09:00:00+05:30,127.27544910179641,0.7835337054593975,1,Apply
+tenneco-clean-air-india-02bff4,Tenneco Clean Air India Limited,2025-11-12 09:00:00+05:30,463.562874251497,0.7340525371624116,1,Apply
+fujiyama-power-systems-eafd71,Fujiyama Power Systems Limited,2025-11-13 09:00:00+05:30,266.22754491017963,0.7572670501811313,1,Apply
+capillary-technologies-india-b5f6ec,Capillary Technologies India Limited,2025-11-14 09:00:00+05:30,673.7425149700599,0.7691112025032122,1,Apply
+excelsoft-technologies-b2d070,Excelsoft Technologies Limited,2025-11-19 09:00:00+05:30,140.11976047904193,0.7992989107959808,1,Apply
+sudeep-pharma-0b7089,Sudeep Pharma Limited,2025-11-21 09:00:00+05:30,692.4251497005988,0.7800832293974321,1,Apply
+aequs-99ea09,Aequs Limited,2025-12-03 09:00:00+05:30,144.79041916167665,0.7840428029937471,1,Apply
+meesho-517d11,Meesho Limited,2025-12-03 09:00:00+05:30,129.61077844311376,0.7574319349283758,1,Apply
+vidya-wires-b2b3b9,Vidya Wires Limited,2025-12-03 09:00:00+05:30,60.7185628742515,0.7863214829706179,1,Apply
+corona-remedies-4770be,Corona Remedies Limited,2025-12-08 09:00:00+05:30,1240.059880239521,0.7417821535493891,1,Apply
+wakefit-innovations-79804a,Wakefit Innovations Limited,2025-12-08 09:00:00+05:30,227.69461077844312,0.7219713998625957,1,Apply
+nephrocare-health-services-1a5680,Nephrocare Health Services Limited,2025-12-10 09:00:00+05:30,537.125748502994,0.7327622978287737,1,Apply
+park-medi-world-de5fdb,Park Medi World Limited,2025-12-10 09:00:00+05:30,189.16167664670658,0.763308759695942,1,Apply
+icici-prudential-asset-management-35c231,ICICI Prudential Asset Management Company Limited,2025-12-12 09:00:00+05:30,2527.9940119760477,0.6773360764997025,1,Apply
+ksh-international-3fc1b4,KSH International Limited,2025-12-16 09:00:00+05:30,448.3832335329341,0.7254417165559106,1,Apply
+gujarat-kidney-super-speciality-750c60,Gujarat Kidney And Super Speciality Limited,2025-12-22 09:00:00+05:30,133.11377245508982,0.8204912730106995,1,Apply

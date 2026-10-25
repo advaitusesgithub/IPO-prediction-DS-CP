@@ -1,0 +1,9 @@
+feature,period,complete_pairs,spearman_rho
+log1p_planned_offer_upper_cr,Initial history (before 2024),49,0.036744068560331605
+log1p_planned_offer_upper_cr,2024 validation period,78,-0.09771550335928074
+nifty_return_21d,Initial history (before 2024),59,0.02181350332813605
+nifty_return_21d,2024 validation period,90,0.19721632362323246
+manager_prior_median_gain,Initial history (before 2024),39,0.012692337646620349
+manager_prior_median_gain,2024 validation period,73,-0.029475765062748197
+annual_pat_margin,Initial history (before 2024),29,0.0680138081618664
+annual_pat_margin,2024 validation period,47,0.25985891234254166

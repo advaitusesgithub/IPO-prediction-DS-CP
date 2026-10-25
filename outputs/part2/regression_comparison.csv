@@ -1,0 +1,11 @@
+rank,candidate_id,task,family,feature_set,is_baseline,predictors_used,mae_inr,rmse_inr,mape_pct,n
+1,regression_training_median_premium_core_baseline,regression,training_median_premium,core,True,1,94.45002293960916,158.01980915423525,17.9740221619189,90
+2,regression_announced_cap_core_baseline,regression,announced_cap,core,True,1,108.47944444444444,197.25867100220347,19.52689431479723,90
+3,regression_random_forest_core_setting1,regression,random_forest,core,False,12,122.81104643381687,225.8621639469931,25.003939736832493,90
+4,regression_random_forest_extended_setting1,regression,random_forest,extended,False,19,122.8237089450195,225.7531746370752,25.012694708542977,90
+5,regression_ridge_core_alpha1,regression,ridge,core,False,12,126.00177745515812,177.40761686015733,35.29832219203438,90
+6,regression_random_forest_extended_setting2,regression,random_forest,extended,False,19,142.49438604723593,265.3156250495938,29.314454883327706,90
+7,regression_random_forest_core_setting2,regression,random_forest,core,False,12,142.49694357993445,265.31494391549035,29.309790788663847,90
+8,regression_ridge_extended_alpha1,regression,ridge,extended,False,19,150.9905029175117,233.93814659303345,45.562392203275145,90
+9,regression_ridge_core_alpha100,regression,ridge,core,False,12,168.03528595932954,249.1303358896204,64.44826014203521,90
+10,regression_ridge_extended_alpha100,regression,ridge,extended,False,19,174.69569922134164,252.73566076264518,69.983611468383,90

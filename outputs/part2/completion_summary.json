@@ -1,0 +1,25 @@
+{
+  "part": 2,
+  "status": "complete",
+  "development_IPOs": 149,
+  "validation_IPOs": 90,
+  "regression_candidates": 10,
+  "classification_candidates": 9,
+  "fold_fits": 76,
+  "selected_regression": "regression_training_median_premium_core_baseline",
+  "selected_classification": "classification_random_forest_core_setting1",
+  "validation_regression_mae_inr": 94.45002293960916,
+  "validation_classification_accuracy": 0.7777777777777778,
+  "saved_development_models": 12,
+  "figures": [
+    "01_regression_comparison.png",
+    "02_classification_comparison.png",
+    "03_fold_stability.png",
+    "04_selected_price_diagnostics.png",
+    "05_selected_classification_diagnostics.png"
+  ],
+  "checks_passed": 11,
+  "reserved_outcome_metrics_computed": false,
+  "final_models_fitted": false,
+  "selection_scores_are_final_performance": false
+}

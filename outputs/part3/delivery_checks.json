@@ -1,0 +1,16 @@
+{
+  "part": 3,
+  "status": "complete",
+  "tests_passed": 26,
+  "tests_failed": 0,
+  "app_selection_and_outcome_toggle_verified": true,
+  "saved_prediction_display_matches": true,
+  "notebook_code_cells_executed": 4,
+  "embedded_figures": 2,
+  "frozen_evaluation_receipt_verified": true,
+  "training_IPOs": 149,
+  "reserved_IPOs": 103,
+  "models_saved": 2,
+  "retuning_on_reserved_results": false,
+  "delivery_remaining": "Part 4: report, presentation and submission packaging"
+}

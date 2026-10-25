@@ -1,0 +1,10 @@
+rank,candidate_id,task,family,feature_set,is_baseline,predictors_used,n,accuracy,balanced_accuracy,precision_apply,recall_apply,f1_apply,specificity_skip,brier,tn,fp,fn,tp,predicted_apply,predicted_skip
+1,classification_random_forest_core_setting1,classification,random_forest,core,False,12,90,0.7777777777777778,0.5,0.7777777777777778,1.0,0.875,0.0,0.1835500719986451,0.0,20.0,0.0,70.0,90.0,0.0
+2,classification_random_forest_extended_setting1,classification,random_forest,extended,False,19,90,0.7777777777777778,0.5,0.7777777777777778,1.0,0.875,0.0,0.18490245646349363,0.0,20.0,0.0,70.0,90.0,0.0
+3,classification_always_apply_core_baseline,classification,always_apply,core,True,0,90,0.7777777777777778,0.5,0.7777777777777778,1.0,0.875,0.0,0.2222222222222222,0.0,20.0,0.0,70.0,90.0,0.0
+4,classification_logistic_core_setting1,classification,logistic,core,False,12,90,0.7111111111111111,0.4928571428571428,0.775,0.8857142857142857,0.8266666666666667,0.1,0.21885468242526543,2.0,18.0,8.0,62.0,80.0,10.0
+5,classification_logistic_extended_setting1,classification,logistic,extended,False,19,90,0.6666666666666666,0.5,0.7777777777777778,0.8,0.7887323943661971,0.2,0.2523844531202172,4.0,16.0,14.0,56.0,72.0,18.0
+6,classification_random_forest_core_setting2,classification,random_forest,core,False,12,90,0.6444444444444445,0.6107142857142858,0.8392857142857143,0.6714285714285714,0.746031746031746,0.55,0.2387481203558022,11.0,9.0,23.0,47.0,56.0,34.0
+7,classification_random_forest_extended_setting2,classification,random_forest,extended,False,19,90,0.5555555555555556,0.44642857142857145,0.75,0.6428571428571429,0.6923076923076923,0.25,0.2359031092182488,5.0,15.0,25.0,45.0,60.0,30.0
+8,classification_logistic_extended_setting2,classification,logistic,extended,False,19,90,0.5222222222222223,0.5142857142857142,0.7872340425531915,0.5285714285714286,0.6324786324786325,0.5,0.3281799640077751,10.0,10.0,33.0,37.0,47.0,43.0
+9,classification_logistic_core_setting2,classification,logistic,core,False,12,90,0.4222222222222222,0.46785714285714286,0.75,0.38571428571428573,0.5094339622641509,0.55,0.3181404774984449,11.0,9.0,43.0,27.0,36.0,54.0

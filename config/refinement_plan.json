@@ -1,0 +1,46 @@
+{
+  "revision": "v2",
+  "development": "All 253 original 2023-2025 IPOs; the previously inspected 2025 period is now development data, not an unseen test",
+  "validation": "Eight expanding 2024-2025 quarterly folds; training labels strictly mature before each cutoff",
+  "external_test": "Unused 2026 original-cohort IPOs with exact profile/date joins, explicit original bands/lots, and previous-session Nifty inputs no older than 7 days",
+  "market_limit": "Local Nifty source ends 2026-03-30; later IPOs are excluded without stale backfill",
+  "feature_policy": "8 compact / 12 context predictors available under the same definitions in development and new data; no unverified managers, financials, VIX, subscriptions or final issue price",
+  "price_target": "Opening price / announced band cap - 1; training weights proportional to cap make absolute-error fitting reflect rupee loss",
+  "regression_selection": [
+    "pooled validation MAE ascending",
+    "RMSE ascending",
+    "fewer predictors",
+    "candidate id"
+  ],
+  "classification_selection": [
+    "pooled validation balanced accuracy descending",
+    "accuracy descending",
+    "Brier ascending",
+    "fewer predictors",
+    "candidate id"
+  ],
+  "classification_reason": "Correct the all-Apply degeneracy by evaluating both classes, while disclosing any accuracy trade-off",
+  "thresholds": [
+    0.35,
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6,
+    0.65,
+    0.7,
+    0.75,
+    0.8
+  ],
+  "threshold_policy": "Threshold and candidate chosen only from development out-of-fold predictions; scores used for selection are optimistic",
+  "external_policy": "Freeze choices before external metrics; no retuning or feature changes after viewing new-data scores",
+  "baseline_policy": "Compare frozen v1 149-row models, unchanged v1 architectures refitted on 253 rows, and announced-cap / always-Apply baselines on the SAME new IPOs",
+  "availability_assumptions": "Archived announced issue terms carry the same pre-bid-publication assumption as the original dataset. Exact publication timestamps remain unavailable.",
+  "random_state": 42,
+  "classification_guardrails": {
+    "minimum_accuracy": "development majority accuracy minus 0.05",
+    "minimum_apply_recall": 0.75,
+    "minimum_skip_specificity": 0.1,
+    "reason": "Avoid sacrificing most winning IPOs just to improve balanced accuracy; guardrails applied to development outputs only before new-test scoring"
+  }
+}

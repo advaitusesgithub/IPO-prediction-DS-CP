@@ -1,0 +1,506 @@
+[
+  {
+    "id": "regression_cap_compact_1",
+    "task": "regression",
+    "family": "cap",
+    "feature_set": "compact",
+    "params": {}
+  },
+  {
+    "id": "regression_median_compact_1",
+    "task": "regression",
+    "family": "median",
+    "feature_set": "compact",
+    "params": {}
+  },
+  {
+    "id": "regression_weighted_median_compact_1",
+    "task": "regression",
+    "family": "weighted_median",
+    "feature_set": "compact",
+    "params": {}
+  },
+  {
+    "id": "classification_prior_compact_1",
+    "task": "classification",
+    "family": "prior",
+    "feature_set": "compact",
+    "params": {}
+  },
+  {
+    "id": "regression_ridge_compact_1",
+    "task": "regression",
+    "family": "ridge",
+    "feature_set": "compact",
+    "params": {
+      "alpha": 1.0
+    }
+  },
+  {
+    "id": "regression_ridge_compact_2",
+    "task": "regression",
+    "family": "ridge",
+    "feature_set": "compact",
+    "params": {
+      "alpha": 10.0
+    }
+  },
+  {
+    "id": "regression_ridge_compact_3",
+    "task": "regression",
+    "family": "ridge",
+    "feature_set": "compact",
+    "params": {
+      "alpha": 100.0
+    }
+  },
+  {
+    "id": "regression_huber_compact_1",
+    "task": "regression",
+    "family": "huber",
+    "feature_set": "compact",
+    "params": {
+      "alpha": 0.1,
+      "epsilon": 1.35
+    }
+  },
+  {
+    "id": "regression_forest_compact_1",
+    "task": "regression",
+    "family": "forest",
+    "feature_set": "compact",
+    "params": {
+      "max_depth": 3,
+      "min_samples_leaf": 5,
+      "criterion": "absolute_error"
+    }
+  },
+  {
+    "id": "regression_forest_compact_2",
+    "task": "regression",
+    "family": "forest",
+    "feature_set": "compact",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 10,
+      "criterion": "absolute_error"
+    }
+  },
+  {
+    "id": "regression_extra_compact_1",
+    "task": "regression",
+    "family": "extra",
+    "feature_set": "compact",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 5,
+      "criterion": "absolute_error"
+    }
+  },
+  {
+    "id": "regression_hist_compact_1",
+    "task": "regression",
+    "family": "hist",
+    "feature_set": "compact",
+    "params": {
+      "loss": "absolute_error",
+      "max_leaf_nodes": 3,
+      "min_samples_leaf": 10,
+      "l2_regularization": 1.0
+    }
+  },
+  {
+    "id": "regression_hist_compact_2",
+    "task": "regression",
+    "family": "hist",
+    "feature_set": "compact",
+    "params": {
+      "loss": "absolute_error",
+      "max_leaf_nodes": 7,
+      "min_samples_leaf": 15,
+      "l2_regularization": 1.0
+    }
+  },
+  {
+    "id": "classification_logistic_compact_1",
+    "task": "classification",
+    "family": "logistic",
+    "feature_set": "compact",
+    "params": {
+      "C": 0.1,
+      "class_weight": null
+    }
+  },
+  {
+    "id": "classification_logistic_compact_2",
+    "task": "classification",
+    "family": "logistic",
+    "feature_set": "compact",
+    "params": {
+      "C": 0.1,
+      "class_weight": "balanced"
+    }
+  },
+  {
+    "id": "classification_logistic_compact_3",
+    "task": "classification",
+    "family": "logistic",
+    "feature_set": "compact",
+    "params": {
+      "C": 1.0,
+      "class_weight": null
+    }
+  },
+  {
+    "id": "classification_logistic_compact_4",
+    "task": "classification",
+    "family": "logistic",
+    "feature_set": "compact",
+    "params": {
+      "C": 1.0,
+      "class_weight": "balanced"
+    }
+  },
+  {
+    "id": "classification_logistic_compact_5",
+    "task": "classification",
+    "family": "logistic",
+    "feature_set": "compact",
+    "params": {
+      "C": 10.0,
+      "class_weight": null
+    }
+  },
+  {
+    "id": "classification_logistic_compact_6",
+    "task": "classification",
+    "family": "logistic",
+    "feature_set": "compact",
+    "params": {
+      "C": 10.0,
+      "class_weight": "balanced"
+    }
+  },
+  {
+    "id": "classification_forest_compact_1",
+    "task": "classification",
+    "family": "forest",
+    "feature_set": "compact",
+    "params": {
+      "max_depth": 3,
+      "min_samples_leaf": 5,
+      "class_weight": null,
+      "max_features": "sqrt"
+    }
+  },
+  {
+    "id": "classification_forest_compact_2",
+    "task": "classification",
+    "family": "forest",
+    "feature_set": "compact",
+    "params": {
+      "max_depth": 3,
+      "min_samples_leaf": 5,
+      "class_weight": "balanced_subsample",
+      "max_features": "sqrt"
+    }
+  },
+  {
+    "id": "classification_forest_compact_3",
+    "task": "classification",
+    "family": "forest",
+    "feature_set": "compact",
+    "params": {
+      "max_depth": 6,
+      "min_samples_leaf": 10,
+      "class_weight": null,
+      "max_features": "sqrt"
+    }
+  },
+  {
+    "id": "classification_forest_compact_4",
+    "task": "classification",
+    "family": "forest",
+    "feature_set": "compact",
+    "params": {
+      "max_depth": 6,
+      "min_samples_leaf": 10,
+      "class_weight": "balanced_subsample",
+      "max_features": "sqrt"
+    }
+  },
+  {
+    "id": "classification_extra_compact_1",
+    "task": "classification",
+    "family": "extra",
+    "feature_set": "compact",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 5,
+      "class_weight": "balanced",
+      "max_features": "sqrt"
+    }
+  },
+  {
+    "id": "classification_hist_compact_1",
+    "task": "classification",
+    "family": "hist",
+    "feature_set": "compact",
+    "params": {
+      "max_leaf_nodes": 3,
+      "min_samples_leaf": 10,
+      "class_weight": "balanced",
+      "l2_regularization": 1.0
+    }
+  },
+  {
+    "id": "classification_hist_compact_2",
+    "task": "classification",
+    "family": "hist",
+    "feature_set": "compact",
+    "params": {
+      "max_leaf_nodes": 7,
+      "min_samples_leaf": 15,
+      "class_weight": "balanced",
+      "l2_regularization": 1.0
+    }
+  },
+  {
+    "id": "regression_ridge_context_1",
+    "task": "regression",
+    "family": "ridge",
+    "feature_set": "context",
+    "params": {
+      "alpha": 1.0
+    }
+  },
+  {
+    "id": "regression_ridge_context_2",
+    "task": "regression",
+    "family": "ridge",
+    "feature_set": "context",
+    "params": {
+      "alpha": 10.0
+    }
+  },
+  {
+    "id": "regression_ridge_context_3",
+    "task": "regression",
+    "family": "ridge",
+    "feature_set": "context",
+    "params": {
+      "alpha": 100.0
+    }
+  },
+  {
+    "id": "regression_huber_context_1",
+    "task": "regression",
+    "family": "huber",
+    "feature_set": "context",
+    "params": {
+      "alpha": 0.1,
+      "epsilon": 1.35
+    }
+  },
+  {
+    "id": "regression_forest_context_1",
+    "task": "regression",
+    "family": "forest",
+    "feature_set": "context",
+    "params": {
+      "max_depth": 3,
+      "min_samples_leaf": 5,
+      "criterion": "absolute_error"
+    }
+  },
+  {
+    "id": "regression_forest_context_2",
+    "task": "regression",
+    "family": "forest",
+    "feature_set": "context",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 10,
+      "criterion": "absolute_error"
+    }
+  },
+  {
+    "id": "regression_extra_context_1",
+    "task": "regression",
+    "family": "extra",
+    "feature_set": "context",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 5,
+      "criterion": "absolute_error"
+    }
+  },
+  {
+    "id": "regression_hist_context_1",
+    "task": "regression",
+    "family": "hist",
+    "feature_set": "context",
+    "params": {
+      "loss": "absolute_error",
+      "max_leaf_nodes": 3,
+      "min_samples_leaf": 10,
+      "l2_regularization": 1.0
+    }
+  },
+  {
+    "id": "regression_hist_context_2",
+    "task": "regression",
+    "family": "hist",
+    "feature_set": "context",
+    "params": {
+      "loss": "absolute_error",
+      "max_leaf_nodes": 7,
+      "min_samples_leaf": 15,
+      "l2_regularization": 1.0
+    }
+  },
+  {
+    "id": "classification_logistic_context_1",
+    "task": "classification",
+    "family": "logistic",
+    "feature_set": "context",
+    "params": {
+      "C": 0.1,
+      "class_weight": null
+    }
+  },
+  {
+    "id": "classification_logistic_context_2",
+    "task": "classification",
+    "family": "logistic",
+    "feature_set": "context",
+    "params": {
+      "C": 0.1,
+      "class_weight": "balanced"
+    }
+  },
+  {
+    "id": "classification_logistic_context_3",
+    "task": "classification",
+    "family": "logistic",
+    "feature_set": "context",
+    "params": {
+      "C": 1.0,
+      "class_weight": null
+    }
+  },
+  {
+    "id": "classification_logistic_context_4",
+    "task": "classification",
+    "family": "logistic",
+    "feature_set": "context",
+    "params": {
+      "C": 1.0,
+      "class_weight": "balanced"
+    }
+  },
+  {
+    "id": "classification_logistic_context_5",
+    "task": "classification",
+    "family": "logistic",
+    "feature_set": "context",
+    "params": {
+      "C": 10.0,
+      "class_weight": null
+    }
+  },
+  {
+    "id": "classification_logistic_context_6",
+    "task": "classification",
+    "family": "logistic",
+    "feature_set": "context",
+    "params": {
+      "C": 10.0,
+      "class_weight": "balanced"
+    }
+  },
+  {
+    "id": "classification_forest_context_1",
+    "task": "classification",
+    "family": "forest",
+    "feature_set": "context",
+    "params": {
+      "max_depth": 3,
+      "min_samples_leaf": 5,
+      "class_weight": null,
+      "max_features": "sqrt"
+    }
+  },
+  {
+    "id": "classification_forest_context_2",
+    "task": "classification",
+    "family": "forest",
+    "feature_set": "context",
+    "params": {
+      "max_depth": 3,
+      "min_samples_leaf": 5,
+      "class_weight": "balanced_subsample",
+      "max_features": "sqrt"
+    }
+  },
+  {
+    "id": "classification_forest_context_3",
+    "task": "classification",
+    "family": "forest",
+    "feature_set": "context",
+    "params": {
+      "max_depth": 6,
+      "min_samples_leaf": 10,
+      "class_weight": null,
+      "max_features": "sqrt"
+    }
+  },
+  {
+    "id": "classification_forest_context_4",
+    "task": "classification",
+    "family": "forest",
+    "feature_set": "context",
+    "params": {
+      "max_depth": 6,
+      "min_samples_leaf": 10,
+      "class_weight": "balanced_subsample",
+      "max_features": "sqrt"
+    }
+  },
+  {
+    "id": "classification_extra_context_1",
+    "task": "classification",
+    "family": "extra",
+    "feature_set": "context",
+    "params": {
+      "max_depth": null,
+      "min_samples_leaf": 5,
+      "class_weight": "balanced",
+      "max_features": "sqrt"
+    }
+  },
+  {
+    "id": "classification_hist_context_1",
+    "task": "classification",
+    "family": "hist",
+    "feature_set": "context",
+    "params": {
+      "max_leaf_nodes": 3,
+      "min_samples_leaf": 10,
+      "class_weight": "balanced",
+      "l2_regularization": 1.0
+    }
+  },
+  {
+    "id": "classification_hist_context_2",
+    "task": "classification",
+    "family": "hist",
+    "feature_set": "context",
+    "params": {
+      "max_leaf_nodes": 7,
+      "min_samples_leaf": 15,
+      "class_weight": "balanced",
+      "l2_regularization": 1.0
+    }
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "desktop_and_mobile_verified": true,
+  "name_enter_predict_flow": true,
+  "historical_picker": true,
+  "ambiguous_and_unknown_names": true,
+  "training_label": true,
+  "csv_download": true,
+  "actual_outcome_toggle": true,
+  "model_details_dialog": true,
+  "mobile_horizontal_overflow": false,
+  "javascript_errors": []
+}
